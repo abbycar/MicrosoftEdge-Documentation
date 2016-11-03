@@ -1,0 +1,5 @@
+---
+description: Learn how channel messaging enables code in different browsing contexts to communicate directly via ports, regardless of source domain, in a way designed to avoid cross-site scripting attacks.
+title: Message channels
+author: abbycar
+---
