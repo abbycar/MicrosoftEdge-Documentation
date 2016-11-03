@@ -1,0 +1,5 @@
+---
+description: Learn how the User Timing API enables you to accurately measure the length of AJAX requests, report on performance, and create benchmarks for JavaScript code using high precision timestamps.
+title: User Timing API
+author: erikadoyle
+---
