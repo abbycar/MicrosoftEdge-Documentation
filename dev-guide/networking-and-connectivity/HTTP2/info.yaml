@@ -1,0 +1,5 @@
+---
+description: Learn how about how HTTP/2 can do header compression and server push, utilize multiplexing, enable prioritizing while making multiple HTTP requests to a domain, and use binary protocol
+title: HTTP2
+author: erikadoyle
+---
