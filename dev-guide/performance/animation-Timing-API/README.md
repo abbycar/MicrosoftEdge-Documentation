@@ -1,8 +1,13 @@
+---
+description: Learn how to use the Animation TIming API which provides a smoother and more efficient way to create animated webpages by calling the animation frame when the system is ready to paint the frame.
+title: Animation Timing API
+author: erikadoyle
+---
+
 # Animation Timing API
 
 The [Animation Timing API](https://msdn.microsoft.com/library/hh772738(v=vs.85).aspx) deals with the control of script-based animations, specifically the [`requestAnimationFrame()`](https://msdn.microsoft.com/library/hh773174(v=vs.85).aspx) method of the [`window`](https://msdn.microsoft.com/library/ms535873(v=vs.85).aspx) object. The `requestAnimationFrame` method provides a smoother and more efficient way to create animated webpages by calling the animation frame when the system is ready to paint the frame. Prior to this API, animations drawn using [`setTimeout()`](https://msdn.microsoft.com/library/ms536753(v=vs.85).aspxd) and [`setInterval()`](https://msdn.microsoft.com/library/ms536749(v=vs.85).aspx) didn't provide web developers an efficient way to schedule graphics timers for animations. This resulted in overdrawn animations, wasted CPU cycles, and extra power usage. Further, animation frequently occurs even when a website isn't visible, particularly when the website uses pages in background tabs or when the browser is minimized.
 
-![video](../../media/animationTiming.mp4,../../media/animationTiming.webm)
 
 When an animation uses a JavaScript timer resolution of 10ms to draw animations, you get a timing mismatch as shown here.
 
@@ -154,7 +159,6 @@ div { position: absolute; left: 10px; top:100px; padding: 50px;
 
 This example is an updated version of a sample from the W3C specification, with vender prefixed elements added. The example tests for `window.performance.now`, and if it isn't supported, uses `Date.now` to get the current time. If `requestAnimationFrame` and `cancelAnimationFrame` aren't supported, then [`setTimeout`](https://msdn.microsoft.com/library/ms536753(v=vs.85).aspx) and [`clearTimeout`](https://msdn.microsoft.com/library/ms536357(v=vs.85).aspx) are used. This gives compatibility for earlier versions of the browser.
 
-![spec](Timing control for script-based animations)
 
 ## Specification
 

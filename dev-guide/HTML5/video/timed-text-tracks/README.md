@@ -1,3 +1,9 @@
+---
+description: Learn how the HTML5 track element enables you to add timed text tracks, such as closed captioning, translations, or text commentary, to HTML5 video elements.
+title: Timed text tracks
+author: libbymc
+---
+
 # Timed Text Tracks
 
 The HTML5 [`track`](https://msdn.microsoft.com/library/hh772556(v=vs.85).aspx) element enables you to add timed text tracks, such as closed captioning, translations, or text commentary, to HTML5 [`video`](https://msdn.microsoft.com/library/ff975073.aspx) elements.
@@ -161,7 +167,6 @@ In contrast to the `cues` property, which gets all cues associated with a track,
 
 ```
 
-![spec](HTMLTrackElement, TextTrack, TextTrackCue, TextTrackCueList, TextTrackList, TrackEvent)
 
 ## API Reference
 [HTML5 Audio and Video](https://msdn.microsoft.com/library/hh772500(v=vs.85).aspx)

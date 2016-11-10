@@ -1,3 +1,9 @@
+---
+description: Learn how prerender and prefetch can be used to improve your website's navigation.
+title: Page Visibility API
+author: erikadoyle
+---
+
 # Prerender and prefetch support
 
 Use [`prerender`](https://msdn.microsoft.com/library/ms534366.aspx) and [`prefetch`](https://msdn.microsoft.com/library/ms534366.aspx) in Microsoft Edge to improve your website's navigation. Taking advantage of time that a browser would normally be idle, while a user reads the current page for example, prerender specifies a webpage to be loaded (rendered) in the background and prefetch identifies resources to be downloaded in the background. Both features download content before it is utilized, therefore, resources are instantly available when needed by the user.

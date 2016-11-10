@@ -1,3 +1,9 @@
+---
+description: Find information on supported manifest keys as well as their known issues/Chrome incompatibilities.
+title: Supported manifest keys
+author: abbycar
+---
+
 # Supported manifest keys
 
 Every extension has a JSON-formatted manifest file, named manifest.json. This file provides important information for the extension ranging from its name to its permissions. Unless specified in a note below, the Microsoft Edge manifest properties follow the same implementation as Chrome.

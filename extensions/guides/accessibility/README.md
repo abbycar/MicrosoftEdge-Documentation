@@ -1,3 +1,9 @@
+---
+description: To ensure your extension’s icon is visible while in both light and dark mode, follow the accessibility guide.
+title: Accessibility
+author: abbycar
+---
+
 # Accessibility
 
 

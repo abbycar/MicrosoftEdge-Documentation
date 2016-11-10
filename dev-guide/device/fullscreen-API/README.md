@@ -1,3 +1,9 @@
+---
+description: Learn how the Fullscreen API can be used to direct a user’s attention to specific elements while you hide distracting backgrounds or other apps, presenting content in the browser’s full screen mode.
+title: Fullscreen API
+author: abbycar
+---
+
 # Fullscreen API
 
 Using the Fullscreen API, you can direct a user's attention to specific elements while you hide distracting backgrounds or other apps, presenting content in the browser's full screen (kiosk) mode.
@@ -54,8 +60,7 @@ To prevent untrusted content from opening in full-screen mode, call `requestFull
 
 Users can easily leave full-screen mode at any time by pressing the 'ESC' key. To exit full-screen mode under program control, use the `exitFullscreen` method. Unlike `requestFullscreen` which applies to an element, `exitFullscreen` applies to the document element, so it doesn't matter which element is currently open in full-screen mode. Using this example you can open an element in full-screen mode when you click it, then return the element to its original size when you click again.
 
-![codepen](https://codepen.io/MicrosoftEdgeDocumentation/pen/vGEwQr)
-
+<div class="codepen-wrap"><p data-height="300" data-theme-id="23761" data-slug-hash="vGEwQr" data-default-tab="result" data-user="MicrosoftEdgeDocumentation" data-embed-version="2" data-editable="true" class="codepen">See this example by <a href="https://codepen.io/MicrosoftEdgeDocumentation">Microsoft Edge Docs</a> on <a href="https://codepen.io/MicrosoftEdgeDocumentation/pen/vGEwQr">CodePen</a>.</p></div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>;
 Other actions can force an element out of full-screen mode, like when a user:
 -  Selects a charm.
 -  Snaps an instance of the browser to the side of the screen.
@@ -161,7 +166,6 @@ This example expands a small box to fill the full screen. It also contains the W
 
 ![codepen](https://codepen.io/MicrosoftEdgeDocumentation/pen/qZdVYy)
 
-![spec](Fullscreen)
 
 ## API Reference
 

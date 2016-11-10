@@ -1,3 +1,9 @@
+---
+description: This article covers issues that may be experienced while loading unpacked extensions.
+title: Troubleshooting
+author: abbycar
+---
+
 ## Troubleshooting
 
 If you are trying to load unpacked extensions and are experiencing issues, the info below may help:

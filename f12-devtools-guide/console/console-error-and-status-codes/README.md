@@ -1,3 +1,9 @@
+---
+description: Learn about the common console error codes, their associated messages, and their suggested fixes.
+title: Console error and status codes
+author: erikadoyle
+---
+
 # Console error and status codes
 
 Use this reference to interpret error messages shown in the  [Console](../) and the [Debugger](../../debugger/) in Microsoft Edge.

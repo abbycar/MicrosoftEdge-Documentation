@@ -1,3 +1,9 @@
+---
+description: See how Microsoft Edge provides a reading view for webpages.
+title: Reading view
+author: erikadoyle
+---
+
 # Reading view
 
 Microsoft Edge provides a *reading view* for a more streamlined, book-like reading experience of webpages without the distraction of unrelated or other secondary content on the page. Reading view can be toggled on or off from the **Reading view** (book icon) button on the **address bar** (or with **Ctrl** + **Shift** + **R**). Reading view extracts the following metadata from a page:

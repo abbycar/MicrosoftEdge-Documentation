@@ -1,3 +1,9 @@
+---
+description: Learn how the audio element can be used to embed simple sound effects, background audio, or more sophisticated audio engines to your webpage without requiring script or add-on controls.
+title: Audio
+author: libbymc
+---
+
 # HTML5 Audio
 
 You can use the `audio` element to embed simple sound effects, background audio, or more sophisticated audio engies to your webpage without requiring script or add-on controls.
@@ -81,8 +87,7 @@ The [`audio`](https://msdn.microsoft.com/library/hh772923(v=vs.85).aspx) object 
 
 Using a progress bar created with the [`canvas`](https://msdn.microsoft.com/library/ff975062(v=vs.85).aspx) element, this [example](https://codepen.io/MicrosoftEdgeDocumentation/pen/wGGGRp) uses three functions to increment the value of `currentTime` (fast forward), decrement the value of `currentTime` (rewind), and set the value of `currentTime` to zero (restart). 
 
-![codepen](https://codepen.io/MicrosoftEdgeDocumentation/pen/wGGGRp)
-
+<div class="codepen-wrap"><p data-height="300" data-theme-id="23761" data-slug-hash="wGGGRp" data-default-tab="result" data-user="MicrosoftEdgeDocumentation" data-embed-version="2" data-editable="true" class="codepen">See this example by <a href="https://codepen.io/MicrosoftEdgeDocumentation">Microsoft Edge Docs</a> on <a href="https://codepen.io/MicrosoftEdgeDocumentation/pen/wGGGRp">CodePen</a>.</p></div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>;
 ## Supported audio file formats 
 
 Below is a list of audio formats supported by Microsoft Edge.
@@ -131,7 +136,6 @@ Microsoft Edge includes support for the Dolby Audio format in HTML5 media, [Medi
 For more info and usage guidance, see [Announcing Dolby Audio for high performance audio in Microsoft Edge](http://go.microsoft.com/fwlink/p/?LinkID=615479).
 
 
-![spec](HTMLAudioElement)
 
 ## API Reference
 [HTML5 Audio and Video](https://msdn.microsoft.com/library/hh772500(v=vs.85).aspx)

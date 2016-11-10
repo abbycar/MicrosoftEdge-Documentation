@@ -1,3 +1,9 @@
+---
+description: This article contains information about the commands that interact with alert dialogs.
+title: Dialogs
+author: erikadoyle
+---
+
 # Alert Dialog Commands
 Microsoft Edge supports the following WebDriver commands for interacting with alert dialogs:
 

@@ -1,3 +1,9 @@
+---
+description: See how Flexible Box Layout can be used to lay out complex webpages more easily and make the relative position and size of elements adjust as screen and browser window sizes change.
+title: Flexbox
+author: libbymc
+---
+
 ﻿# Flexible box ("Flexbox") layout
 
 Flexible box layout (flexbox) adds to the four basic layout modes defined in [Cascading Style Sheets, Level 2 Revision 1 (CSS2.1)](http://go.microsoft.com/fwlink/p/?LinkId=142049): block layout, inline layout, table layout, and positioned layout. With Flexbox layout, you can lay out complex webpages more easily and make the relative position and size of elements adjust as screen and browser window sizes change. Flexbox can lessen the reliance on floats and table-based layouts, which are more complicated to position and size correctly.
@@ -43,19 +49,6 @@ flex-flow: <flex-direction> || <flex-wrap>
 
 When necessary, the [`order`](https://msdn.microsoft.com/library/jj127303(v=vs.85).aspx) property can visually reorder flex items. By default, flex items in a flex container are displayed in the same order as in the source document unless changed using this property.
 
-![video](../media/flexbox_order.mp4,../media/flexbox_order.webm)  
-
-## Setting flexbox alignment
-
-You can also specify the alignment of the flex container's contents along the main axis and along the cross axis (perpendicular to the main axis) after any flexible lengths and auto margins are resolved. The [`justify-content`](https://msdn.microsoft.com/library/jj127304(v=vs.85).aspx), [`align-items`](https://msdn.microsoft.com/library/jj127298(v=vs.85).aspx), [`align-self`](https://msdn.microsoft.com/library/jj127301(v=vs.85).aspx), and [`align-content`](https://msdn.microsoft.com/library/jj127302(v=vs.85).aspx) properties allow you to adjust this alignment.
-
-Using the [`justify-content`](https://msdn.microsoft.com/library/jj127304(v=vs.85).aspx) property, you can set how flex items are aligned along the main axis of the flex container after any flexible lengths and auto margins are resolved. The following picture shows the values for `justify-content` and their effects on a flex container with three flex items.
-
-``` css
-justify-content: flex-start | flex-end | center | space-between | space-around
-```
-
-![An illustration showing values for justify-content](../../media/flexbox_justify-content.png)
 
 To further adjust the alignment, you can also adjust the cross axis alignment of the flex container using the [`align-items`](https://msdn.microsoft.com/library/jj127298(v=vs.85).aspx) property. The cross axis is the axis that is perpendicular to the main axis. The following picture shows the values for `align-items` and their effects on a flex container with three flex items.
 

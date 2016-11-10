@@ -1,3 +1,9 @@
+---
+description: Guides for DOM APIs and features.
+title: DOM
+author: erikadoyle
+---
+
 # DOM features
 
 ## DOM event constructors

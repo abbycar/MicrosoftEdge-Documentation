@@ -1,3 +1,9 @@
+---
+description: Learn how to add and remove extensions, as well as move an extension’s button next to the address bar.
+title: Adding and removing extensions
+author: abbycar
+---
+
 # Adding and removing extensions for Microsoft Edge
 Once fully released, extensions will be available via the Windows Store. Until that time, you can load the extensions that you create. Continue reading for information on how to add and remove your extensions in Microsoft Edge.
 
@@ -21,14 +27,14 @@ Once fully released, extensions will be available via the Windows Store. Until t
 
 7. Navigate to your extension's folder and select the  **Select folder** button.
    ![selecting extension folder to load](../../media/sideload-select-extension.PNG)
->note If you encounter an error message when loading your extension, refer to the [troubleshooting](../../troubleshooting) page for guidance.
-
+> [!NOTE]
+> If you encounter an error message when loading your extension, refer to the [troubleshooting](../../troubleshooting) page for guidance.
 **You're all set! You should now see the extension listed in Microsoft Edge's extension pane.**
 
 ![extension in extension pane](../../media/sideload-extension-installed.PNG)
 
->note Unsigned extensions are automatically turned off on subsequent launches of Microsoft Edge. When the browser enters an idle state (after approximately 10 seconds of inactivity) you will see the following notification at the bottom of the window. ![risky notification](../../media/riskynotification.png) To turn on the unsigned extensions, click "Turn on anyway".
-
+> [!NOTE]
+> Unsigned extensions are automatically turned off on subsequent launches of Microsoft Edge. When the browser enters an idle state (after approximately 10 seconds of inactivity) you will see the following notification at the bottom of the window. ![risky notification](../../media/riskynotification.png) To turn on the unsigned extensions, click "Turn on anyway".
 
 ## Moving the extension button
 Depending on your extension's settings, it could appear in the **More (...)** menu.
@@ -51,8 +57,8 @@ You can also do this from the extensions details page by:
 
    ![show button toggle switched on](../../media/show-button-toggle.png)
 
->note You can always move the button back to the **More (...)** menu by right-clicking it and unselecting **Show next to address bar** or by going to the extension details page and toggling **Show button next to address bar** to off.
-
+> [!NOTE]
+> You can always move the button back to the **More (...)** menu by right-clicking it and unselecting **Show next to address bar** or by going to the extension details page and toggling **Show button next to address bar** to off.
 ## Removing an extension
 
 1. Open Microsoft Edge.

@@ -1,9 +1,14 @@
+---
+description: Learn how to use new and old features in F12 developer tools.
+title: F12 devtools guide
+author: erikadoyle
+---
+
 # Meet the Microsoft Edge Developer Tools
 
 Microsoft Edge introduces great new improvements to F12 developer tools, including some of the most requested features from [UserVoice](https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer).  The new tools are built in TypeScript, and are always running, so no reloads are required. In addition, F12 developer tools documentation is now fully available on [GitHub](https://github.com/MicrosoftEdge/MicrosoftEdge-Documentation). From this point on, the docs will not only be influenced by your feedback, but you're invited to contribute and help shape our documentation.
 
-![channel9](https://channel9.msdn.com/Blogs/One-Dev-Minute/Microsoft-Edge-F12-tools)
-
+[!VIDEO https://channel9.msdn.com/Blogs/One-Dev-Minute/Microsoft-Edge-F12-tools/player]
 ## The F12 tools at work
 
 There are seven distinct tools, each with their own tab in the F12 tools interface. Here you'll find an image of each tool and a quick summary of what it does, followed by lists of its main features and typical tasks.

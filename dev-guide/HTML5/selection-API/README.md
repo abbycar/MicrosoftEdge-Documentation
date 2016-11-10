@@ -1,3 +1,9 @@
+---
+description: Learn how the Selection API object represents an active selection, and how its methods can be used.
+title: Selection API
+author: abbycar
+---
+
 # Selection API
 
 The  [`selection`](https://msdn.microsoft.com/library/ff974359) object represents the active selection, which is typically a highlighted block of text or other elements in the document. The active selection can be used to complete an action issued by a user or a script.
@@ -21,8 +27,7 @@ For `setBaseAndExtent`, an *anchor* is the start of a selection, a the *focus* i
 
 In this code sample, `removeAllRanges` is used to clear the selection range on a page:
 
-![codepen](https://codepen.io/MicrosoftEdgeDocumentation/pen/WwZQmV)
-
+<div class="codepen-wrap"><p data-height="300" data-theme-id="23761" data-slug-hash="WwZQmV" data-default-tab="result" data-user="MicrosoftEdgeDocumentation" data-embed-version="2" data-editable="true" class="codepen">See this example by <a href="https://codepen.io/MicrosoftEdgeDocumentation">Microsoft Edge Docs</a> on <a href="https://codepen.io/MicrosoftEdgeDocumentation/pen/WwZQmV">CodePen</a>.</p></div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>;
 > Currently, Microsoft Edge doesn't support multiple or disjointed selections. A selection always has one [range](https://msdn.microsoft.com/library/hh772133). 
 
 ## Collapsing selections
@@ -53,7 +58,6 @@ Method | Description
 
 In the case of using the `extend` method, the *focus* of the selection can be shifted forwards or backwards. The *focus* is the where the selection ends, regardless of direction.
 
-![spec](Selection)
 
 ## Specification
 [Selection API](http://rniwa.github.io/selection-api)

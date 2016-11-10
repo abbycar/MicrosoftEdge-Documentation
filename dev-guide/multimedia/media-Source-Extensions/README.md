@@ -1,3 +1,9 @@
+---
+description: Learn how Media Source Extensions extends HTML5 video and audio elements to enable streaming without the need for plugins or special servers.
+title: Media Source Extensions
+author: libbymc
+---
+
 # Media Source Extensions (MSE)
 
 Microsoft Edge supports [MPEG-DASH](http://go.microsoft.com/fwlink/p/?LinkID=533900) media streaming through [Media Source Extensions](Http://go.microsoft.com/fwlink/p/?LinkID=301313) (MSE). MSE extends the `HTMLMediaElement` ([`video`](https://msdn.microsoft.com/library/hh772959(v=vs.85).aspx) and [`audio`](https://msdn.microsoft.com/library/hh772923(v=vs.85).aspx) elements) to allow audio and video streaming without the need for plugins or special serviers. MSE allows adapative media streaming, live streaming, splicing videos, video editing, and more. 
@@ -36,7 +42,6 @@ Here are some links to specs, libraries, and tools that can help you learn more 
 * [MP4box](http://go.microsoft.com/fwlink/p/?LinkID=389881) is a multimedia packaging tool and is part of the [GPAC nightly builds](http://go.microsoft.com/fwlink/p/?LinkID=389881). MP4Box helps you create MPEG-DASH files, as well as a whole range of conversions, multiplexing, splitting, and and other tasks. The [GPAC toolset](http://go.microsoft.com/fwlink/p/?LinkID=389882) includes MP4Box, MP4Client (a multimedia client), and server side tools. You can install just MP4Box or the whole suite of tools for processing video. 
 * [MP4box Documentation](http://go.microsoft.com/fwlink/p/?LinkID=386752) gives you the full scope of ways to use MP4Box. 
 
-![spec](Media Source Extensions)
 
 ## API Reference
 [HTML5 Audio and Video](https://msdn.microsoft.com/library/hh772500(v=vs.85).aspx)

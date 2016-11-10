@@ -1,3 +1,9 @@
+---
+description: Learn how device orientation and motion events can provide event info about the physical orientation and motion of your user’s device.
+title: Device orientation and motion events
+author: abbycar
+---
+
 # Device orientation and motion events
 
 
@@ -72,9 +78,7 @@ The Microsoft Edge implementation of this event fires whenever the host device m
 
 For mobile devices with a built-in accelerometer, try this CodePen demo and see the text change from "North!" when held straight up, or "Turn Left" if < 180, otherwise text will read "Turn Right". 
 
-![codepen](https://codepen.io/MicrosoftEdgeDocumentation/pen/RaLjNV)
-
-![spec](DeviceOrientation Event Specification)
+<div class="codepen-wrap"><p data-height="300" data-theme-id="23761" data-slug-hash="RaLjNV" data-default-tab="result" data-user="MicrosoftEdgeDocumentation" data-embed-version="2" data-editable="true" class="codepen">See this example by <a href="https://codepen.io/MicrosoftEdgeDocumentation">Microsoft Edge Docs</a> on <a href="https://codepen.io/MicrosoftEdgeDocumentation/pen/RaLjNV">CodePen</a>.</p></div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>;
 
 ## API reference
 

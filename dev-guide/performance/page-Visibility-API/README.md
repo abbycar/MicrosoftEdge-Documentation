@@ -1,3 +1,9 @@
+---
+description: Learn how to use the Page Visibility API to determine the current visibility of a document (or whether the page is in focus) and be notified when the visibility changes.
+title: Page Visibility API
+author: abbycar
+---
+
 # Page Visibility API
 
 The [Page Visibility API](https://msdn.microsoft.com/library/hh772738.aspx) provides a means for developers to determine the current visibility of a document (or whether the page is in focus) and be notified when the visibility changes. Changes in visibility could include any given webpage being in the background, on an inactive browser tab, or minimized and not visible to the user. Without knowing the visibility state of a page, a web developer must design the webpage with the assumption that it is always visible. This results in higher machine resource utilization and it prevents web developers from making runtime decisions based on whether the webpage is visible to the user. Using Page Visibility, the API can send a [`visibilitychange`](https://msdn.microsoft.com/library/hh772093.aspx) event to report when a page is minimized or moved to an inactive tab and perform or behave differently.
@@ -24,8 +30,7 @@ By using this API, web applications can choose to alter behavior based on whethe
 
 The example below logs the visibility of the current window. Go ahead and try to minimize and reopen the window to see the log in action!
 
-![codepen](https://codepen.io/MicrosoftEdgeDocumentation/pen/eZGGbX)
-
+<div class="codepen-wrap"><p data-height="300" data-theme-id="23761" data-slug-hash="eZGGbX" data-default-tab="result" data-user="MicrosoftEdgeDocumentation" data-embed-version="2" data-editable="true" class="codepen">See this example by <a href="https://codepen.io/MicrosoftEdgeDocumentation">Microsoft Edge Docs</a> on <a href="https://codepen.io/MicrosoftEdgeDocumentation/pen/eZGGbX">CodePen</a>.</p></div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>;
 Like the example above, this example uses the Page Visibility API to determine the visibility of the screen to perform an action. For this situation, if the video is playing and then the window is minimized, the video will pause.
 
 ![codepen](https://codepen.io/MicrosoftEdgeDocumentation/pen/eZGGxX)

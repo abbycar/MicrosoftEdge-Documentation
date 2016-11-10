@@ -1,3 +1,9 @@
+---
+description: Learn how CSS Transitions enable you to gradually change CSS property values over a specified time duration without need for script.
+title: Transitions
+author: libbymc
+---
+
 # Transitions
 
 [CSS transitions](https://msdn.microsoft.com/library/hh772060(v=vs.85).aspx) enable you to change CSS property values over a specified duration of time, animating the property changes, rather than having them occur immediately. CSS3 Transitions are defined by the World Wide Web Consortium (W3C) in the [CSS Transitions Module Level 3](http://go.microsoft.com/fwlink/p/?linkid=227572) specification.
@@ -18,8 +24,7 @@ button {
 }
 ```
 
-![codepen](https://codepen.io/MicrosoftEdgeDocumentation/pen/LNNNwN)(325)
-
+<div class="codepen-wrap"><p data-height="325" data-theme-id="23761" data-slug-hash="LNNNwN" data-default-tab="result" data-user="MicrosoftEdgeDocumentation" data-embed-version="2" data-editable="true" class="codepen">See this example by <a href="https://codepen.io/MicrosoftEdgeDocumentation">Microsoft Edge Docs</a> on <a href="https://codepen.io/MicrosoftEdgeDocumentation/pen/LNNNwN">CodePen</a>.</p></div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>;
 *Be aware that, when you interrupt a transition, it reverses automatically.*
 
 For a list of CSS properties that you can apply transitions to (including 2-D and 3-D transforms), see [Animation and transition properties](https://msdn.microsoft.com/library/dn254934(v=vs.85).aspx).
@@ -88,8 +93,7 @@ The [`transition`](https://msdn.microsoft.com/library/hh772284) shorthand proper
 
 See the following video and CodePen for examples of using the `transition` property.
 
-![channel9](https://channel9.msdn.com/Blogs/One-Dev-Minute/Getting-Started-with-CSS-Transitions)
-
+[!VIDEO https://channel9.msdn.com/Blogs/One-Dev-Minute/Getting-Started-with-CSS-Transitions/player]
 ![codepen](https://codepen.io/MicrosoftEdgeDocumentation/pen/pyWJEL?editors=1100)
 
 ## Transitions DOM Events
@@ -116,7 +120,6 @@ The [`transitionend`](https://msdn.microsoft.com/library/dn632682(v=vs.85).aspx)
 
 This example applies transitions to a `<div>` element, and fires the `transitionstart` and `transitionend` events to change the text in the box.
 
-![spec](CSS Transitions)
 
 ## API Reference
 

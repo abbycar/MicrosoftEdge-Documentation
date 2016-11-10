@@ -1,3 +1,9 @@
+---
+description: Guides on Microsoft Edge APIs and extensions for media.
+title: Multimedia
+author: libbymc
+---
+
 # Multimedia features
 
 ## Encrypted Media Extensions (EME)

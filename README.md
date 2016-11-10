@@ -1,3 +1,9 @@
+---
+description: Here's the info you need to develop on Microsoft Edge.
+title: Microsoft Edge documentation
+author: erikadoyle
+---
+
 # Microsoft Edge documentation
 
 This is the repository for Microsoft Edge **documentation** hosted at [https://dev.windows.com/en-us/microsoft-edge/platform/documentation/](https://dev.windows.com/en-us/microsoft-edge/platform/documentation/).
@@ -92,8 +98,8 @@ Respectively, those look like:
 You precede a single line of Markdown with the `>note.*` syntax. No closing tag is needed. See example below. 
 
 ```
->note.warning Hello.  Yes.  I am a warning note that has been automagically created. My text may wrap to more than one line when the Markdown is parsed, but I must include all my information within a single (sometimes very long line) in the Markdown itself.
-```
+> [!WARNING]
+> Hello.  Yes.  I am a warning note that has been automagically created. My text may wrap to more than one line when the Markdown is parsed, but I must include all my information within a single (sometimes very long line) in the Markdown itself.```
 
 For multi-line blockquote notes, use a > in front of each line of the notes as seen in the example below.
 

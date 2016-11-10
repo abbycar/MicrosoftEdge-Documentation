@@ -1,3 +1,9 @@
+---
+description: Guides for browser features in Microsoft Edge.
+title: Browser
+author: erikadoyle
+---
+
 # Browser features
 
 ## Reading view

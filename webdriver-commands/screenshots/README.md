@@ -1,3 +1,9 @@
+---
+description: This article contains information about the commands used for taking screenshots.
+title: Screenshots
+author: erikadoyle
+---
+
 # Screenshot Commands
 Microsoft Edge supports the following WebDriver commands for taking screenshots:
 

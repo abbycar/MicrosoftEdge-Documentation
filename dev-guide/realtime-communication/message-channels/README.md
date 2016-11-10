@@ -1,3 +1,9 @@
+---
+description: Learn how channel messaging enables code in different browsing contexts to communicate directly via ports, regardless of source domain, in a way designed to avoid cross-site scripting attacks.
+title: Message channels
+author: abbycar
+---
+
 # Message Channels
 
 Channel messaging enables code in different browsing contexts to communicate directly via ports, regardless of source domain, in a way designed to avoid cross-site scripting attacks. After the ports are created, the endpoints communicate by using a combination of the [`postMessage`](https://msdn.microsoft.com/library/jj160614.aspx) method and the [`onmessage`](http://go.microsoft.com/fwlink/p/?LinkID=128221) event.
@@ -77,7 +83,6 @@ Messages can be sent and received without the repeated origin checking that is n
 
 Channel messaging is used to coordinate lighting effects between worker threads in the [Web Worker Fountains demo](https://testdrive-archive.azurewebsites.net/Graphics/WorkerFountains/Default.html). For a full messaging demo, see the [MessageChannel](http://go.microsoft.com/fwlink/p/?LinkID=233104) object reference page.
 
-![spec](HTML5 Web Messaging)
 
 ## API Reference
 

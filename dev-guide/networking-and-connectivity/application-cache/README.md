@@ -1,3 +1,9 @@
+---
+description: Learn how to cache resources locally with the Applicatio Cache API.
+title: Application cache
+author: erikadoyle
+---
+
 # Application cache
 
 
@@ -192,7 +198,6 @@ if (window.applicationCache) {
 }
 ```
 
-![spec](ApplicationCache)
 
 ## API Reference
 [Application Cache API ("AppCache")](https://msdn.microsoft.com/library/Hh771715)

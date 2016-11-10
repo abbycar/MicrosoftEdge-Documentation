@@ -1,3 +1,9 @@
+---
+description: This article provides info on the Web Storage API, which  includes two related mechanisms for persisting client-side data in a secure manner using the Document Object Model (DOM), sessionStorage and localStorage.
+title: Web and offline storage
+author: abbycar
+---
+
 # Web and Offline Storage
 
 
@@ -115,10 +121,6 @@ Session state is released as soon as the last window to reference that data is c
 
 To delete key/value pairs from a storage list, iterate over the collection with [`removeItem`](https://msdn.microsoft.com/library/cc197047) or use [`clear`](https://msdn.microsoft.com/library/cc288131) to remove all items at once. Keep in mind that changes to a local storage area are saved to disk asynchronously.
 
-![spec](Storage) 
-
-## API reference
-[Web Storage](https://msdn.microsoft.com/library/hh781511)
 
 
 ## Related topics

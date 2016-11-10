@@ -1,3 +1,9 @@
+---
+description: Learn how to edit any JavaScript file in the debugger source viewer by enablind experiments.
+title: Memory
+author: erikadoyle
+---
+
 # F12 Experiments
 
 F12 experiments can be activated from the **Experiments** tab which is the last tab along the navigation bar along the top of F12. After enabling an experiment you’ll need to close F12 and Microsoft Edge for the change to take effect. 
@@ -6,7 +12,6 @@ F12 experiments can be activated from the **Experiments** tab which is the last 
 
 With this experiment enabled you can edit any JavaScript file in the debugger source viewer. Simply click on the viewer to place the cursor and type away.
 
-![video](../media/Edge_Experiments_edit.mp4,../media/Edge_Experiments_edit.webm)
 
 As you make edits you will notice a dirty flag, an **asterisk (*)**, in the document’s tab which implies that the document has changed but has not yet been saved.
 

@@ -1,11 +1,17 @@
+---
+description: Find information on current progress towards completing the Microsoft Edge extension API.
+title: Extension API roadmap
+author: abbycar
+---
+
 # Microsoft Edge extension API roadmap
 
 In addition to web APIs, the extension API allows extensions to achieve deeper integration with the browser host. This API gives developers access to Microsoft Edge’s browser features such as tab and window manipulation.  Check out the table below for descriptions on how these classes can empower your extensions.
 
 This table also details our current progress towards completing the Microsoft Edge extension API. Status updates will be made here as classes move through development towards completion.
 
->note Native messaging is currently in development.
-
+> [!NOTE]
+> Native messaging is currently in development.
 | Class         | Description | Status — Build Number
 |---------------|--------------|---------------------|
 bookmarks     | Used to create, organize, and manipulate bookmarks. | In development |

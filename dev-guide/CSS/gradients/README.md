@@ -1,3 +1,9 @@
+---
+description: Learn how to use CSS Gradients to make linear, circular, and elliptical gradients.
+title: Gradients
+author: libbymc
+---
+
 # Gradients
 
 Gradients are images that transition smoothly from one color to another. Microsoft Edge supports linear, circular, and elliptical Cascading Style Sheets, Level 3 (CSS3) gradients, each of which are specified by a gradient line and two or more stop points. Each stop point has its own color, and Microsoft Edge fills in the area between each set of points with a continuous color transition from one to the other.

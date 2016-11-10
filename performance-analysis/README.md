@@ -1,3 +1,9 @@
+---
+description: Use F12 developer tools to analyze general performance of websites.
+title: Performance analysis
+author: erikadoyle
+---
+
 # Performance Analysis
 
 ## New to Performance? [Start with F12.](../f12-devtools-guide)

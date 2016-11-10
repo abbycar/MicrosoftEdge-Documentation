@@ -1,3 +1,9 @@
+---
+description: Learn how to draw, render, and manipulate images and graphics on a document with the Canvas API.
+title: Canvas
+author: abbycar
+---
+
 # Canvas
 
 The [Canvas API](https://msdn.microsoft.com/library/hh771733) provides an object that is used for drawing, rendering, and manipulating images and graphics on a document. The [`canvas` object](https://msdn.microsoft.com/library/ff975062) is the JavaScript implementation of the [`<canvas>`](https://msdn.microsoft.com/library/ff975062) element. The `canvas` object provides the surface on which to apply graphics and images. It is not rendered by itself. To draw on the canvas, “contexts” are used, as specified in the [W3C HTML Canvas 2D Context spec](https://www.w3.org/TR/2dcontext/). The actual drawing is done using the [`CanvasRenderingContext2D` object](https://msdn.microsoft.com/library/ff975057), which provides the properties and methods that are used to create and manipulate graphics on a canvas object.
@@ -35,7 +41,6 @@ The following [Canvas 2D Context, Level 2](http://go.microsoft.com/fwlink/p/?Lin
 -   support for the `even-odd` fill rule value in the canvas [`fill`](https://msdn.microsoft.com/library/ff975415), [`clip`](https://msdn.microsoft.com/library/ff975408), and [`isPointInPath`](https://msdn.microsoft.com/library/ff975419) methods. In addition to the W3C standard fill rule attributes, IE11 offers [`msFillRule`](https://msdn.microsoft.com/library/dn265061), a global fill rule property. This sets the fill rule across all methods, rather than individually setting the fill rule for each.
 -   the [`setLineDash`](https://msdn.microsoft.com/library/dn265063), [`getLineDash`](https://msdn.microsoft.com/library/dn265059), and [`lineDashOffset`](https://msdn.microsoft.com/library/dn265060) methods for creating custom stroke dash patterns.
 
-![spec](HTML Canvas 2D Context)
 
 ## API Reference
 

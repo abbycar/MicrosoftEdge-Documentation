@@ -1,3 +1,9 @@
+---
+description: Learn how the File API can be used to access local files on the client machine in a secure way without the need for extensions or plugins.
+title: File API
+author: abbycar
+---
+
 # File API
 
 
@@ -18,8 +24,7 @@ For more information, see the [File Upload state (type=file)](http://www.w3.org/
 
 The following code example acquires basic file-related information such as name, type, and size.
 
-![codepen](https://codepen.io/MicrosoftEdgeDocumentation/pen/ZWXQpe?editors=1010)
-
+<div class="codepen-wrap"><p data-height="300" data-theme-id="23761" data-slug-hash="ZWXQpe?editors=1010" data-default-tab="result" data-user="MicrosoftEdgeDocumentation" data-embed-version="2" data-editable="true" class="codepen">See this example by <a href="https://codepen.io/MicrosoftEdgeDocumentation">Microsoft Edge Docs</a> on <a href="https://codepen.io/MicrosoftEdgeDocumentation/pen/ZWXQpe?editors=1010">CodePen</a>.</p></div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>;
 ## Blob constructor
 
 The [`Blob`](https://msdn.microsoft.com/library/Hh772298) constructor enables a web developer to create or manipulate a `Blob` (often equivalent to a file) directly on the client. The constructor is defined in the W3C's [File API](http://go.microsoft.com/fwlink/p/?LinkId=210224) spec.
@@ -40,7 +45,6 @@ The `MSStream` object is a Document Object Model (DOM) type that represents a st
 
 When you get `MSStream` from HTML5 API (like an [`XmlHttpRequest`](https://msdn.microsoft.com/library/ms535874) with a [`responseType`](https://msdn.microsoft.com/library/hh872882) of “`ms-stream`”, as you’d use when downloading a file or video), you can pass those results to various WinRT APIs that accept [`IInputStream`](https://msdn.microsoft.com/library/windows/apps/windows.storage.streams.iinputstream.aspx) or [`IRandomAccessStream`](https://msdn.microsoft.com/library/windows/apps/windows.storage.streams.irandomaccessstream) as input.
 
-![spec](FileAPI)
 
 ## API Reference
 

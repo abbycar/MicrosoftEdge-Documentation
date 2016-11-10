@@ -1,3 +1,9 @@
+---
+description: Guides for caching, domain info, and communication API.
+title: Networking and connectivity
+author: erikadoyle
+---
+
 # Networking and Connectivity 
 
 ## Application Cache

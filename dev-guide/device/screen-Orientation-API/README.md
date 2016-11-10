@@ -1,3 +1,9 @@
+---
+description: Learn how the Screen Orientation API enables you to prevent or override the browser from automatically reflowing your web app’s content during changes to the orientation of your user’s device.
+title: Screen Orientation API
+author: abbycar
+---
+
 # Screen Orientation API
 
 
@@ -51,7 +57,6 @@ If the lock is done on only one orientation, the screen stays on the given orien
 
 To unlock, call the [`screen.msUnlockOrientation`](https://msdn.microsoft.com/library/Dn342935) method.
 
-![spec](Screen)
 
 ## API reference
 

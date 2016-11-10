@@ -1,3 +1,9 @@
+---
+description: Learn how the Console API can be used to send meaningful information to the Console from within an application and obtain diagnostic information from within the Console tool.
+title: Console
+author: erikadoyle
+---
+
 # Using the Console API
 
 The Console API provides methods for developers to send meaningful information to the Console from within their applications and to obtain diagnostic information from within the Console tool.
@@ -70,8 +76,7 @@ To display an inspectable DOM node, send it to the console using [`console.dirxm
 
 Open this codepen sample with the F12 tool, click the "show it" button to display both objects and nodes in the console.
 
-![codepen](https://codepen.io/MicrosoftEdgeDocumentation/pen/PNEKQX?editors=1010)(325)
-
+<div class="codepen-wrap"><p data-height="325" data-theme-id="23761" data-slug-hash="PNEKQX?editors=1010" data-default-tab="result" data-user="MicrosoftEdgeDocumentation" data-embed-version="2" data-editable="true" class="codepen">See this example by <a href="https://codepen.io/MicrosoftEdgeDocumentation">Microsoft Edge Docs</a> on <a href="https://codepen.io/MicrosoftEdgeDocumentation/pen/PNEKQX?editors=1010">CodePen</a>.</p></div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>;
 Use the arrows to the left to expand objects and nodes as seen in the console image below.
 
 ![Edge Console Inspectable objects and nodes](../../media/Edge_Console2.png)

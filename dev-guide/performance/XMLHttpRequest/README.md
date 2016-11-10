@@ -1,3 +1,9 @@
+---
+description: Learn how XMLHttpRequest supports a variety of developer scenarios involving transferring data to and from a server by sending requests.
+title: XMLHttpRequest
+author: abbycar
+---
+
 # XMLHttpRequest
 
 The [XMLHttpRequest (XHR)](https://msdn.microsoft.com/library/ms535874) object supports a variety of developer scenarios involving transferring data to and from a server by sending requests. It supports any text based format, and can make both HTTP and HTTPS requests.
@@ -144,7 +150,6 @@ if( window.XMLHttpRequest ) {
 
 Networking performance is improved by caching resources downloaded via CORS-enabled XHR operations in the same manner as it would if they had been downloaded directly.
 
-![spec](XMLHttpRequest)
 
 ## API Reference
 

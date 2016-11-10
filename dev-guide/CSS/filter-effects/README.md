@@ -1,3 +1,9 @@
+---
+description: See how CSS Filter Effects allow you to manipulate graphics directly in the browser with blur effects, brightness adjustements, and more.
+title: Filter effects
+author: libbymc
+---
+
 # CSS Filter effects
 
 CSS filters allow you to manipulate graphics, similar to what you might do with a photo editing application directly in the browser.

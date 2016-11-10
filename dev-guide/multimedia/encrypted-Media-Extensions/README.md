@@ -1,3 +1,9 @@
+---
+description: Learn how Encrypted Media Extensions extends the video and audio elements to enable Digital Rights Management (DRM) protected content without using plug-ins.
+title: Encrypted Media Extensions
+author: libbymc
+---
+
 # Encrypted Media Extensions
 
 Encrypted Media Extensions (EME) extends the video and audio elements to enable Digital Rights Management (DRM) protected content without using plug-ins. 
@@ -88,7 +94,6 @@ xhr.send(challenge);
 ```
 Something else to notice is the way the license URL is used between prefixed EME and unprefixed EME.  In prefixed EME, the license server URL is passed to the [`onmskeymessage`](https://msdn.microsoft.com/library/dn255026(v=vs.85).aspx) event. In unprefixed EME, the website needs to supply the license server URL directly.
 
-![spec](Encrypted Media Extensions)
 
 ## API Reference 
 [HTML5 Audio and Video](https://msdn.microsoft.com/library/hh772500(v=vs.85).aspx)

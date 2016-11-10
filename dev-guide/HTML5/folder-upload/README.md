@@ -1,3 +1,9 @@
+---
+description: Learn how to add support for folder uploading to your website.
+title: Folder upload
+author: erikadoyle
+---
+
 # Folder upload
 
 Microsoft Edge supports uploading files, folders, and combinations of files and folders using APIs that are interoperable with Chrome.
@@ -14,9 +20,7 @@ Microsoft Edge supports uploading files, folders, and combinations of files and 
 This snippet demonstrates how to differentiate between the files and folders of an item
 that's been selected for upload.
 
-![codepen](https://codepen.io/MicrosoftEdgeDocumentation/pen/wWwBqa?editors=1010)
-
-![spec](FileSystemAPI)
+<div class="codepen-wrap"><p data-height="300" data-theme-id="23761" data-slug-hash="wWwBqa?editors=1010" data-default-tab="result" data-user="MicrosoftEdgeDocumentation" data-embed-version="2" data-editable="true" class="codepen">See this example by <a href="https://codepen.io/MicrosoftEdgeDocumentation">Microsoft Edge Docs</a> on <a href="https://codepen.io/MicrosoftEdgeDocumentation/pen/wWwBqa?editors=1010">CodePen</a>.</p></div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>;
 
 ## API Reference
 

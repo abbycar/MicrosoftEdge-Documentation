@@ -1,3 +1,9 @@
+---
+description: Learn how the Web Speech API can be used to support speech synthesis.
+title: Web Speech API
+author: libbymc
+---
+
 # Web Speech API: Speech Synthesis
 
 The [Web Speech API](https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html) is a JavaScript API made up of two parts: speech recognition and speech synthesis (or text to speech). At this time Microsoft Edge supports only speech synthesis. Speech synthesis involves the conversion of text to speech that a user hears through their speakers. 
@@ -58,8 +64,8 @@ myUtterance.volume = .5; // accepted values: 0-1, default value: 1
 speechSynthesis.speak(myUtterance);
 ```
 
->note In Microsoft Edge, the value for `pitch` will always be 1.0. 
-
+> [!NOTE]
+> In Microsoft Edge, the value for `pitch` will always be 1.0. 
 Alternatively, you can allow users to input values for the `volume`, `rate`, and `pitch` properties using the following lines of code:
 
 ```html
@@ -114,7 +120,6 @@ utterance.voice = speechSynthesis.getVoices()[parseInt(document.getElementById("
 
 See the full example of a speech synthesizer on [Test Drive](https://developer.microsoft.com/en-us/microsoft-edge/testdrive/demos/speechsynthesis/). 
 
-![spec](Web Speech API)
 
 ## API Reference
 

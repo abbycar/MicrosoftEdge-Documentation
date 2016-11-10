@@ -1,3 +1,9 @@
+---
+description: Microsoft Edge extension developer guides about topics such as porting Chrome extensions to Microsoft Edge and debugging extensions.
+title: Guides
+author: abbycar
+---
+
 #  Guides
 
 ## Accessibility

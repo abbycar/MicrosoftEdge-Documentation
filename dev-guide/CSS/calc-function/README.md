@@ -1,3 +1,9 @@
+---
+description: Learn how the calc function can be used to do simple math right in native CSS.
+title: Calc function
+author: libbymc
+---
+
 # The calc() function
 
 The `calc()` function can be used wherever length values are allowed -- it's a way to do simple math right in the native CSS. The expression within the parentheses is computed at the same time as 'em' lengths are computed. The `calc()` function supports the following arithmetic operators:
@@ -46,7 +52,6 @@ To position an element halfway down the height of the viewport of a screen, use 
 }
 ```
 
-![video](../../media/calc_verticalCenter.mp4,../../media/calc_verticalCenter.webm)
 
 ## Demo
 

@@ -1,3 +1,9 @@
+---
+description: Learn how the Geolocation API can be used determine latitude and longitude on the computer or device running the browser.
+title: Geolocation API
+author: abbycar
+---
+
 # The Geolocation API
 
 This topic provides an introduction to the Geolocation API, explains how to determine if Geolocation is supported, and discusses how user privacy is protected.
@@ -75,7 +81,6 @@ Developers of web applications that collect location data should consider the fo
 -   If location information is stored on a web server, make sure to protect location information from unauthorized access, and allow users to update and delete this information.
 -   Disclose the fact that the application is collecting location data. This disclosure must include an explanation of any exceptions to the guidelines listed above.
 
-![spec](Geolocation API Specification)
 
 ## API Reference
 

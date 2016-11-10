@@ -1,3 +1,9 @@
+---
+description: Learn how CSS Transforms enable you to rotate, scale, move, skew, and translate page elements in 2D and 3D space.
+title: Transforms
+author: libbymc
+---
+
 # Transforms
 
 Microsoft Edge supports the CSS3 [`transform`](https://msdn.microsoft.com/library/jj127312(v=vs.85).aspx) property for 2D or 3D transformation of an element, allowing the element to be visually manipulated, including rotating, scaling, moving, skewing, or translating. 
@@ -34,7 +40,6 @@ The [`perspective`](https://msdn.microsoft.com/library/jj200271(v=vs.85).aspx) f
 
 The units of <*length*> are the same as supplied to any of the translation functions—that is, 1px in the *z*-direction is the same distance as 1px in the *x*- or *y*-directions.
 
-![video](../../media/CSStransform_perspective.mp4,../../media/CSStransform_perspective.webm)
 
 > NOTE: The perspective property doesn't affect how the element is rendered; it simply enables a 3D-space for child elements. This is the main difference between the `transform: perspective()` function and the `perspective` property. The first gives element depth while the later creates a 3D-space shared by all its transformed children.
 

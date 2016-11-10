@@ -1,3 +1,9 @@
+---
+description: Guides for graphics features in Microsoft Edge.
+title: Graphics
+author: abbycar
+---
+
 # Graphics features
 
 ## Canvas

@@ -1,3 +1,9 @@
+---
+description: Learn how to use the Resource Timing API, which allows web applications to access network timing information regarding how long it takes for resources to load in a document.
+title: Resource Timing API
+author: erikadoyle
+---
+
 # Resource Timing API
 
 The [*Resource Timing API*](https://www.w3.org/TR/resource-timing/) allows web applications to access network timing information regarding how long it takes for resources to load in a document (such as images, CSS files, Javascript files, etc). These timing metrics are helpful to measure user latency, crucial for benchmarking, and toward optimizing a web application's performance. 
@@ -76,7 +82,6 @@ console.debug("Test1 time: " + (test1 - startTime));
 console.debug("Test2 time: " + (test2 - test1));
 ```
 
-![spec](Resource Timing)
 
 ## API Reference
 

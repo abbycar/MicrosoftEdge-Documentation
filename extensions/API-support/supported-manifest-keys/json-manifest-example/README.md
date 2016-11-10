@@ -1,3 +1,9 @@
+---
+description: Example of a Microsoft Edge JSON manifest.
+title: JSON manifest example
+author: abbycar
+---
+
 # JSON manifest file example
 
 The following snippet provides an example of a Microsoft Edge JSON manifest file.

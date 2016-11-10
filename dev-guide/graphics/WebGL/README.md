@@ -1,3 +1,9 @@
+---
+description: Learn how WebGL can be used to create dynamic 2D and 3D graphics for games and interactive content that harness the power of modern GPUs.
+title: WebGL
+author: abbycar
+---
+
 # WebGL
 
 
@@ -19,7 +25,6 @@ WebGL can range from simple to complex. However, most programs perform the follo
 The GPU is optimized for these types of operations which enable WebGL programs to perform at a high level.
 
 
-![spec](WebGL)
 ## API reference
 
 [WebGL](https://msdn.microsoft.com/library/dn302469(v=vs.85).aspx)

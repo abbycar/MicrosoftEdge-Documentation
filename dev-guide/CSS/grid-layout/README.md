@@ -1,3 +1,4 @@
+
 # Grid layout
 
 
@@ -17,8 +18,8 @@ The basic building block of Grid Layout is the Grid element, which is declared b
 ```
 
 
->note.warning Because of the preliminary status of the Grid Layout draft, all properties in this section must be used with the Microsoft-specific vendor prefix, "-ms-", in order to work correctly.
-
+> [!WARNING]
+> Because of the preliminary status of the Grid Layout draft, all properties in this section must be used with the Microsoft-specific vendor prefix, "-ms-", in order to work correctly.
 ## Tracks (Columns and Rows)
 
 After creating the Grid element, apply sizes to your columns and rows by using the following properties:
@@ -137,8 +138,7 @@ Now, apply these selectors to the following markup:
 
 The results can be seen in the following CodePen. Feel free to play around with the items!
 
-![codepen](https://codepen.io/MicrosoftEdgeDocumentation/pen/JKWgoK)
-
+<div class="codepen-wrap"><p data-height="300" data-theme-id="23761" data-slug-hash="JKWgoK" data-default-tab="result" data-user="MicrosoftEdgeDocumentation" data-embed-version="2" data-editable="true" class="codepen">See this example by <a href="https://codepen.io/MicrosoftEdgeDocumentation">Microsoft Edge Docs</a> on <a href="https://codepen.io/MicrosoftEdgeDocumentation/pen/JKWgoK">CodePen</a>.</p></div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>;
 ### Aligning Grid items
 
 You can position Grid items along any of the edges of the cells formed by the columns and rows using the following properties:

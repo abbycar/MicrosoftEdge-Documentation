@@ -1,3 +1,9 @@
+---
+description: Building websites that are accessible to people with disabilities requires semantic information about the user interface. This article walks through how best practices and Accessible Rich Internet Applications (ARIA) can come together to create an accessible website.
+title: Build
+author: libbymc
+---
+
 # Building Accessible Websites 
 The web is filled with dynamic and complex websites, applications, and user interfaces built using a combination of HTML, CSS, and JavaScript.  However, when designed and built without accessibility in mind, these complex websites are difficult to use by people who rely on [assistive technologies](http://webaim.org/articles/motor/assistive) to browse the web. Building websites that are accessible to people with disabilities requires semantic information about the user interface. This allows for assistive technologies, like screen readers, to convey the necessary information to help people with a range of abilities use the website. 
 

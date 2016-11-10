@@ -1,3 +1,9 @@
+---
+description: Learn how the Web Audio API can be used to process and synthesize audio in web applications.
+title: Web Audio
+author: libbymc
+---
+
 #  Web Audio
 
 Microsoft Edge for Windows 10 introduced support for the [W3C Web Audio API](http://go.microsoft.com/fwlink/p/?LinkID=512167) specification. Web Audio is a high-level JavaScript API for processing and synthesizing audio in web applications to provide rich audio and music experiences.
@@ -157,7 +163,6 @@ var drawFreq = function() {
 
 Recorder features use the *recorder.js* open source sample written by Matt Diamond, and used previously in other Web Audio based recorder demos.  Live audio in the demo uses the [`MediaStreamAudioSource`](https://msdn.microsoft.com/library/dn954879(v=vs.85).aspx), but recorded audio is played using the [`MediaElementAudioSource`](https://msdn.microsoft.com/library/dn954876(v=vs.85).aspx).  Gapless looping can be tested by activating the loop control during playback.
 
-![spec](Web Audio API)
 
 ## API Reference
 [Web Audio API](https://msdn.microsoft.com/library/dn954912.aspx)

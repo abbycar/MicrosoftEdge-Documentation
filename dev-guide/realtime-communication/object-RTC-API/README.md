@@ -1,3 +1,9 @@
+---
+description: Learn how Object Real-Time Communications (ORTC) enables media (audio and/or video) to be streamed (sent and received) in real-time directly between web browsers, mobile devices, or servers.
+title: Object RTC API
+author: abbycar
+---
+
 # Object RTC API
 
 Object Real-Time Communications (ORTC) enables media (audio and/or video) to be streamed (sent and received) in real-time directly between web browsers, mobile devices, and servers via native Javascript APIs.
@@ -212,7 +218,6 @@ A few limitations in the Microsoft Edge implementation should be noted:
 
 Microsoft Edge implementation is still early, expect the feature set to continue to grow in the coming months. The goal for Microsoft Edge implementation is interoperability across the web today as well as with the real-time communications industry in the long term.
 
-![spec](Object RTC (ORTC) API for WebRTC)
 
 ## API reference
 

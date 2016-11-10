@@ -1,3 +1,9 @@
+---
+description: Learn how Media Queries enable you to scope a stylesheet to a set of precise device capabilities.
+title: Media Queries
+author: libbymc
+---
+
 # Media Queries 
 
 Media Queries enable you to scope a stylesheet to a set of precise device capabilities. Through media query listeners, you can also use script to react to changes in the media or environment in which your page is running.
@@ -91,7 +97,6 @@ Microsoft Edge supports a variety of media features.  See the table below for su
 [-webkit-device-pixel-ratio](https://msdn.microsoft.com/library/dn760733(v=vs.85).aspx) | Describes the resolution in physical pixels per CSS pixel.
 [width](https://msdn.microsoft.com/library/hh772741(v=vs.85).aspx) | Describes the width of the targeted display area of the output device.
  
-![spec](MediaQueryList)
 
 ## API Reference
 [Media Queries ](https://msdn.microsoft.com/library/hh772370(v=vs.85).aspx)

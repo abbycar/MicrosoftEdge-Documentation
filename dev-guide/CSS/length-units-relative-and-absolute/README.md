@@ -1,3 +1,9 @@
+---
+description: Learn how the relative and absolute units of measurement in CSS.
+title: Length units relative and absolute
+author: libbymc
+---
+
 # Relative and absolute length units
 
 Measurements and positions in CSS properties are indicated in length units. Relative units specify a length in relation to another property, and scale better from one output device to another (such as from a monitor to a printer) and in comparison to other page elements. Absolute units specify an exact measurement, such as inches or centimeters, and are useful when you know the physical properties of the output device.

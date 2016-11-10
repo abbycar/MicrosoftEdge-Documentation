@@ -1,3 +1,9 @@
+---
+description: Learn how Media Query Listeners enable evaluating a media query at runtime using JavaScript and subscribing listeners to changes in the media query’s evaluation.
+title: Media query listeners
+author: libbymc
+---
+
 # Media query listeners
 
 Media query listeners enable evaluating a media query at runtime using JavaScript and subscribing listeners to changes in the media query's evaluation.
@@ -48,7 +54,6 @@ function sizeChange(mql) {
 ```
 The listener invokes the callback function whenever the state of the media actually changes. If the window is resized to be smaller than the specified min-height attribute value, the callback function is invoked. It is invoked again when the window becomes taller than the min-height. The `MediaQueryList` object is passed as a parameter to the callback function.
 
-![spec](MediaQueryListListener)
 
 ## API Reference 
 [Media Query Listeners](https://msdn.microsoft.com/library/hh772369(v=vs.85).aspx)

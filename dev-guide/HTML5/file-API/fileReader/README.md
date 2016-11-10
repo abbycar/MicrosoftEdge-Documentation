@@ -1,3 +1,9 @@
+---
+description: Learn how the FileReader object ca be used to catch errors, know when a load is complete, and monitor the read progress of files.
+title: FileReader
+author: abbycar
+---
+
 # FileReader
 
 The [`FileReader`](https://msdn.microsoft.com/library/hh772310) object enables asynchronous reads on individual [`File`](https://msdn.microsoft.com/library/hh772315) or [`Blob`](https://msdn.microsoft.com/library/hh772298) objects by firing progress events as the read occurs to event handler methods attached to the `FileReader` object. Because of the asynchronous reading, it is possible to catch errors, know when a load is complete, and monitor the read progress.
@@ -18,8 +24,7 @@ A drag and drop(dnd) feature is an easy to use method for gathering local files 
 See this example for how to select text files and display their contents using [`FileReader`](https://msdn.microsoft.com/library/hh772310). 
 Using Windows Explorer (or similar), select one or more text files (directories are not allowed), and then drag them to the drop box below. The contents of the selected text files will be displayed in alerts:
 
-![codepen](https://codepen.io/MicrosoftEdgeDocumentation/pen/KzzNaZ)(325)
-
+<div class="codepen-wrap"><p data-height="325" data-theme-id="23761" data-slug-hash="KzzNaZ" data-default-tab="result" data-user="MicrosoftEdgeDocumentation" data-embed-version="2" data-editable="true" class="codepen">See this example by <a href="https://codepen.io/MicrosoftEdgeDocumentation">Microsoft Edge Docs</a> on <a href="https://codepen.io/MicrosoftEdgeDocumentation/pen/KzzNaZ">CodePen</a>.</p></div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>;
 
 
 

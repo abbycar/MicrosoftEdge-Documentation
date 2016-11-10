@@ -1,3 +1,9 @@
+---
+description: Learn how to create a tag cloud using the Indexed Database (IndexedDB) API.
+title: How to create create a tag cloud using IndexedDB
+author: abbycar
+---
+
 # How to create a tag cloud using IndexedDB
 
 Many websites organize their content using keywords, also known as tags. In addition, some sites create tag clouds that list the tags used in their site's content. Frequently-used tags are generally highlighted in some way, such as a different color or a larger font. When the user clicks a tag in the cloud, the site displays a list of the content associated with the tag. As a result, tag clouds provide a convenient mechanism for searching a site's content.

@@ -1,3 +1,9 @@
+---
+description: Guides about security policies, protocols, and API within Microsoft Edge.
+title: Security
+author: abbycar
+---
+
 # Security features
 
 ## Content Security Policy (CSP)

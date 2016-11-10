@@ -1,3 +1,9 @@
+---
+description: Guides about real-time communication features in Microsoft Edge.
+title: Realtime communication
+author: abbycar
+---
+
 # Real-time communication features
 
 ## Message channels

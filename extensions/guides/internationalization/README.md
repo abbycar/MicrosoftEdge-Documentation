@@ -1,3 +1,9 @@
+---
+description: Make your extension accessible for different languages and test your language strings with the internationalization guide.
+title: Internationalization
+author: abbycar
+---
+
 # Internationalization
 
 In order to make your extension accessible to a variety of different people, it is important to develop with other countries in mind. Microsoft Edge extensions allows you to add different language strings to your extensions so that their language can easily be changed.
@@ -25,4 +31,4 @@ By using the [NavigatorLanguage.language](https://developer.mozilla.org/en-US/do
 
 Click the button in the CodePen below to see the display language of your browser.
 
-![codepen](https://codepen.io/MicrosoftEdgeDocumentation/pen/VaRWwR)
+<div class="codepen-wrap"><p data-height="300" data-theme-id="23761" data-slug-hash="VaRWwR" data-default-tab="result" data-user="MicrosoftEdgeDocumentation" data-embed-version="2" data-editable="true" class="codepen">See this example by <a href="https://codepen.io/MicrosoftEdgeDocumentation">Microsoft Edge Docs</a> on <a href="https://codepen.io/MicrosoftEdgeDocumentation/pen/VaRWwR">CodePen</a>.</p></div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>;

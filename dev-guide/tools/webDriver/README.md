@@ -1,3 +1,9 @@
+---
+description: This article provides info on how to get started with WebDriver in Microsoft Edge.
+title: WebDriver
+author: erikadoyle
+---
+
 # WebDriver
 The W3C [WebDriver](http://www.w3.org/TR/webdriver/) API is a platform and language-neutral interface and wire protocol allowing programs or scripts to control the behavior of a web browser. 
 
@@ -12,8 +18,8 @@ The Microsoft Edge implementation of WebDriver supports both the W3C [WebDriver]
 * Download the appropriate [Microsoft WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) server for your build of Windows.
 * Download the WebDriver language binding of your choice. Currently the [Selenium C#, Java and JavaScript language bindings](http://docs.seleniumhq.org/download/) are supported.
 
->note You can find help, report issues, and file feature requests at [Microsoft Edge Feedback & Support](https://developer.microsoft.com/en-us/microsoft-edge/support/).
-
+> [!NOTE]
+> You can find help, report issues, and file feature requests at [Microsoft Edge Feedback & Support](https://developer.microsoft.com/en-us/microsoft-edge/support/).
 ## Using WebDriver
 To get started using WebDriver with Microsoft Edge, check out these samples:
 

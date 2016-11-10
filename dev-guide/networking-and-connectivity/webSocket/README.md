@@ -1,3 +1,9 @@
+---
+description: Learn how the WebSocket API provides a protocol for two-way communication between browser and server.
+title: WebSocket
+author: erikadoyle
+---
+
 # The WebSocket API
 
 
@@ -128,7 +134,6 @@ Here are the objects, methods, and properties related to WebSockets.
 | [protocol](https://msdn.microsoft.com/library/hh772760)             | property | Reports the protocol the server selected.                               |
 | [readyState](https://msdn.microsoft.com/library/hh772762)         | property | Reports the state of the websocket connection.                          |
 | [url](https://msdn.microsoft.com/library/hh772768)                       | property | Reports the current URL of the socket.                                  |
-![spec](The WebSocket API)
 
 ## API reference
 
@@ -138,4 +143,3 @@ Here are the objects, methods, and properties related to WebSockets.
 
 [The WebSocket API](https://html.spec.whatwg.org/multipage/comms.html#network)
 
-![spec](Sockets)

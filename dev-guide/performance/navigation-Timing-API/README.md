@@ -1,3 +1,9 @@
+---
+description: The Navigation Timing API makes it easy to measure the real-world speed and performance of websites, and locate problem areas that need tuning.
+title: Navigation Timing API
+author: erikadoyle
+---
+
 # Navigation Timing API
 
 The [Navigation Timing API](https://msdn.microsoft.com/library/hh772738.aspx) makes it easy to measure the real-world speed and performance of websites and locate problem areas that need tuning. For example, navigation timing can help you locate latency problems by helping you precisely monitor customer webpage navigation and track the timing of user activities. You can then more easily identify performance bottlenecks and find effective solutions to reduce latency and improve your website's speed and efficiency. The old system of measuring performance couldn't provide the complete end-to-end latency picture that navigation timing enables.
@@ -108,7 +114,6 @@ Navigation timing exposes the following properties:
 | [unloadEventEnd](https://msdn.microsoft.com/library/ff974731(v=vs.85).aspx) | Time after the previous document is unloaded. 
 | [unloadEventStart](https://msdn.microsoft.com/library/ff974732(v=vs.85).aspx) | Time just before the unload event is fired. 
 
-![spec](Navigation Timing)
 
 ## Specification
 

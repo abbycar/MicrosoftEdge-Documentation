@@ -1,3 +1,9 @@
+---
+description: See how CSS Animations can be used to create visually appealing rich applications with smooth, fluid, animated experiences.
+title: Animations
+author: libbymc
+---
+
 # Animations
 
 CSS Animations enable you to create visually appealing rich applications with smooth, fluid, animated experiences. The animation property is a shorthand CSS property that includes [`animation-name`](https://msdn.microsoft.com/library/hh772236.aspx), [`animation-duration`](https://msdn.microsoft.com/library/hh772219.aspx), [`animation-timing-function`](https://msdn.microsoft.com/library/hh772240.aspx), [`animation-delay`](https://msdn.microsoft.com/library/hh772215.aspx), [`animation-iteration-count`](https://msdn.microsoft.com/library/hh772233.aspx), [`animation-direction`](https://msdn.microsoft.com/library/hh772217.aspx), [`animation-fill-mode`](https://msdn.microsoft.com/library/hh772232.aspx) and [`animation-play-state`](https://msdn.microsoft.com/library/hh772238.aspx). CSS Animations are defined by the World Wide Web Consortium (W3C) in the [CSS Animations](http://go.microsoft.com/fwlink/p/?LinkID=223144) specification.
@@ -221,9 +227,7 @@ The [`animationiteration`](https://msdn.microsoft.com/library/dn632680(v=vs.85).
 
 This example animates a `<div>` element, and fires the `animationstart`, `animationend`, and `animationiteration` events to change the text in the box. 
 
-![codepen](https://codepen.io/MicrosoftEdgeDocumentation/pen/oxpmgy?editors=1100)
-
-![spec](CSS Animations)
+<div class="codepen-wrap"><p data-height="300" data-theme-id="23761" data-slug-hash="oxpmgy?editors=1100" data-default-tab="result" data-user="MicrosoftEdgeDocumentation" data-embed-version="2" data-editable="true" class="codepen">See this example by <a href="https://codepen.io/MicrosoftEdgeDocumentation">Microsoft Edge Docs</a> on <a href="https://codepen.io/MicrosoftEdgeDocumentation/pen/oxpmgy?editors=1100">CodePen</a>.</p></div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>;
 
 ## API Reference
 

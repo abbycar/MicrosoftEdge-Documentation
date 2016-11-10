@@ -1,3 +1,9 @@
+---
+description: Learn how to ue the Console tool to view errors and other messages, send debug output, inspect JavaScript objects and XML nodes, and to run JavaScript in the context of the selected window or frame.
+title: Using the Console API
+author: erikadoyle
+---
+
 # Console Tool
 
 Use the **Console** tool to view errors and other messages, send debug output, inspect JavaScript objects and XML nodes, and to run JavaScript in the context of the selected window or frame.
@@ -6,7 +12,6 @@ Use the **Console** tool to view errors and other messages, send debug output, i
 
 The primary use for the **Console** tool is to communicate into and out of running webpages.
 
-![video](../media/Edge_Console.mp4,../media/Edge_Console.webm)
 
 *In the image above, as the JavaScript command to reload the page is entered in, the IntelliSense auto code completion pops up. Once the reload method is selected, the page reloads and the console sends JavaScript debugging messages out.*
 
@@ -21,7 +26,6 @@ The Console has three categories:
    - **Warning:** Possible errors in your webpage that don't necessarily break it, but may cause unexpected behavior.
    - **Information:** Non-critical information you might want to know.
 
-![video](../media/Edge_Console_messages.mp4,../media/Edge_Console_messages.webm)
 
 These messages can be filtered out of the Console output. The icons for each message type at the top of the Console pane act as toggles. Click one to remove its associated message type, then again to return it. You can also right-click in the Console output and find check boxes for each type in the context menu.
 
@@ -32,14 +36,12 @@ When the **Clear on navigate** icon is highlighted, the console clears every tim
 ### Selecting your execution target
 The **Console** has a **Target** drop-down menu just above the **Console** output pane. If the webpage you're viewing has an [iframe element]() in it, select the iframe from the **Target** menu to run **Console** commands solely in the scope of the iframe. If your webpage has no iframes, the only selection will be "_top."
 
-![video](../media/Edge_Console_toggles.mp4,../media/Edge_Console_toggles.webm)
 
 *In the image above, the Target iframe is selected, then the page reloads to output only Error messages, the file name is clicked to follow the error to the script file where it is located in the Debugger. Returning to the Console, the Error Code itself is clicked, opening the documentation page for that error code.*
 
 ### Sending JavaScript into the Console
 The console not only displays output from code, but provides an interface to execute code as well. Just enter any valid JavaScript at the bottom of the Console, in the command line pane.
 
-![video](../media/Edge_Console_command.mp4,../media/Edge_Console_command.webm)
 
 Generally, all script entered in the command line executes in the [global scope](https://msdn.microsoft.com/library/bzt2dkta.aspx) of the currently selected window. However, if your script is currently paused (for instance, because you set a breakpoint), script executes in the [local scope](https://msdn.microsoft.com/library/bzt2dkta.aspx) of the current function within the call stack.
 

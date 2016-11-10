@@ -1,3 +1,9 @@
+---
+description: Learn how the User Timing API enables you to accurately measure the length of AJAX requests, report on performance, and create benchmarks for JavaScript code using high precision timestamps.
+title: User Timing API
+author: erikadoyle
+---
+
 # User Timing API
 
 The [*User Timing API*](http://www.w3.org/TR/user-timing/) enables developers to accurately measure the length of [AJAX](https://msdn.microsoft.com/library/cc891506(v=vs.85).aspx) requests, report on performance, and create benchmarks for JavaScript code using high precision timestamps. With the *User Timing API*, you can insert API calls at different places in your Javascript and then extract a detailed trail of timing data to track where time is being spent.
@@ -67,7 +73,6 @@ In this example, the [`measure`](https://msdn.microsoft.com/library/jj585594(v=v
 [![User Timing API Demo](../../media/userTimingAPI_image.PNG)](https://testdrive-archive.azurewebsites.net/Performance/performanceTiming/Default.html)
 
 
-![spec](User Timing)
 
 
 ## API reference

@@ -1,3 +1,9 @@
+---
+description: Learn how to save files of arbitrary size locally by using the Indexed Database API (often abbreviated IndexedDB or IDB). 
+title: Saving large files locally
+author: abbycar
+---
+
 # Saving files locally using IndexedDB
 
 
@@ -9,8 +15,7 @@ This page demonstrates how to save files of arbitrary size locally by using the 
 
 Indexed Database API is relatively complex. To help mitigate some of this complexity, the example below provides a skeletal framework from which to build from.
 
-![codepen](https://codepen.io/MicrosoftEdgeDocumentation/pen/EKKejm)(325)
-
+<div class="codepen-wrap"><p data-height="325" data-theme-id="23761" data-slug-hash="EKKejm" data-default-tab="result" data-user="MicrosoftEdgeDocumentation" data-embed-version="2" data-editable="true" class="codepen">See this example by <a href="https://codepen.io/MicrosoftEdgeDocumentation">Microsoft Edge Docs</a> on <a href="https://codepen.io/MicrosoftEdgeDocumentation/pen/EKKejm">CodePen</a>.</p></div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>;
 Let's take a closer look at the code:
 
 We first build a simple database user interface (UI) composed of a message display area (`<div id="messages">`) and four buttons that allow us to perform basic database operations:

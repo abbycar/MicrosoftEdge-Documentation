@@ -1,3 +1,9 @@
+---
+description: Learn how HTTP Strict Transport Security (HSTS) can ensure that users connect to secure sites in a secure way to help prevent a variety of attack scenarios.
+title: Meta referrer
+author: abbycar
+---
+
 # HTTP Strict Transport Security (HSTS)
 
 HTTP Strict Transport Security (HSTS) is a [IETF standard-compliant](https://tools.ietf.org/html/rfc6797) security feature in the header to ensure that users connect to secure sites in a secure way, helping to prevent a number of attack scenarios.

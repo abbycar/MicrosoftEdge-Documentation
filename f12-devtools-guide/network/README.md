@@ -1,3 +1,9 @@
+---
+description: Learn how to use the Network tool to view communication between the browser and server(s), inspect request and reply headers, see response codes, and debug AJAX.
+title: Network
+author: erikadoyle
+---
+
 # Network
 
 Use the Network tool to view communication between the browser and server(s), inspect request and reply headers, see response codes, and debug AJAX.
@@ -22,8 +28,8 @@ From left to right, the tools are:
   - **Clear cache** removes saved files from the browser's cache. Browsers commonly save page elements to disk and use them again for faster reloads. When you're trying to get the true measure of a page's load time, clearing the cache makes sure all elements are being downloaded from the network.
 
   - **Clear cookies** ensures that all cookies are removed, so that you get the experience of loading the page for the first time.
->note.warning This will clear *all* cookies associated with Edge.
-
+> [!WARNING]
+> This will clear *all* cookies associated with Edge.
   - **Clear entries on navigate** is a toggle switch with on and off states. When in the off state, network traffic for a window or tab is recorded continuously as the browser moves from page to page. When in the on state, recorded traffic is cleared each time you navigate to a new page. This is turned on by default.
 
   - **Clear session** clears all recorded network traffic from the tool.

@@ -1,3 +1,9 @@
+---
+description: See how Microsoft Edge brings enhanced scaling for high DPI screens with properties like devicePixelRatio.
+title: High DPI support
+author: abbycar
+---
+
 # High DPI support
 
 Microsoft Edge brings enhanced scaling for high DPI screens and small slates, ensuring the consistency of your website’s text, touch targets, and layout across Windows 10 devices.
@@ -15,7 +21,6 @@ Windows 10 consumers and OEMs  (Original Equipment Manufacturers) get more flexi
 
 With Microsoft Edge all zooming is now handled with optical zoom, making the experience across zooming scenarios (such as the [Zoom menu](http://go.microsoft.com/fwlink/p/?LinkId=614840), [Pinch zoom](https://msdn.microsoft.com/library/windows/desktop/Dn742468#inter_touch_image5), [Keyboard / mouse shortcuts](http://go.microsoft.com/fwlink/p/?LinkId=619896), [`@-ms-viewport`](https://msdn.microsoft.com/library/Hh869615), and [`msContentZoomFactor`](http://msdn.microsoft.com/library/ie/hh772066)) much simpler and more predictable.
 
-![spec](Window)
 
 ## API reference
 [devicePixelRatio](https://msdn.microsoft.com/library/dn255104)

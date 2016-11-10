@@ -1,3 +1,9 @@
+---
+description: Here's the info you need to develop on Microsoft Edge.
+title: Microsoft Edge documentation
+author: erikadoyle
+---
+
 # Contributing to Microsoft Edge documentation
 
 We welcome your contributions to the [Microsoft Edge developer guide](https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/f12-devtools-guide/), [(opensource content)](./dev-guide), and [F12 tool documentation](https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/f12-devtools-guide/), [(opensource content)](./f12-devtools-guide)! You will need a GitHub user account to contribute to the documentation. Currently the GitHub directory structure parallels the table of contents on the site. There are several ways you can contribute to the docs:

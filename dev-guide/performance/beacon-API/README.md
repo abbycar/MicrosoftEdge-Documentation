@@ -1,3 +1,9 @@
+---
+description: Learn how to use the Beacon API to efficiently send beacons of critical information to a server.
+title: Beacon API
+author: abbycar
+---
+
 # Beacon API
 
 Beacons(one-way requests) are used for sending reports on events, state updates, and analytics to servers. Beacons are also responsible for sending critical application and measurement information. Because beacons should not compete with higher priority tasks such as fetching resources and running animations, web developers are forced to use performance costly methods to deliver this critical information.
@@ -69,7 +75,6 @@ function sendXhr() {
 
 To see this code in action with a Node server, head over to [GitHub](https://github.com/MicrosoftEdge/Demos/tree/master/beacon) and download the project.
 
-![spec](NavigatorBeacon)
 
 ## API reference
 [Navigator.sendBeacon](https://msdn.microsoft.com/library/mt668926)

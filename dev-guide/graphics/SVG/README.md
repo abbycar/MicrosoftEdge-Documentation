@@ -1,3 +1,9 @@
+---
+description: Learn how the Scalable Vector Graphics language can be used to describe two-dimensional vector and mixed vector/raster graphics in an XML format.
+title: SVG
+author: abbycar
+---
+
 # SVG
 
 Scalable Vector Graphics (SVG), an XML markup language for describing two-dimensional vector graphics, offer a powerful way to add high-fidelity, easily scalable visuals—from small and simple to large and complex— to a website without the need for a plug-in or separate viewer. In addition, SVG images offer unique opportunities for interactivity and animation.
@@ -61,7 +67,6 @@ svg {
     animation: example 3s alternate infinite;
 }
 ```
-![video](../../media/svgKeyframe1.mp4,../../media/svgKeyframe1.webm)
 
 Utilzing more steps in the Keyframe.
 
@@ -80,7 +85,6 @@ svg {
     animation: example 3s alternate infinite;
 }
 ```
-![video](../../media/svgKeyframe2.mp4,../../media/svgKeyframe2.webm)
 
 ## Example CSS transition on an SVG elements
 
@@ -99,13 +103,11 @@ rect:hover {
   fill: blue;
 }
 ```
-![video](../../media/SVG_cssTransition.mp4,../../media/SVG_cssTransition.webm)
 
 ## foreignObject
 Microsoft Edge now supports the [`foreignObject`](https://msdn.microsoft.com/library/dn806280(v=vs.85).aspx) element, allowing developers to use an HTML and CSS layout within a fixed size SVG element. With `foreignObject` content from a different (foreign) XML namespace can be inserted into the SVG namespace. In the example below, an HTML [**div**](https://msdn.microsoft.com/library/ms535240(v=vs.85).aspx) element is inserted between a circle and rectangle drawn in SVG.
 
-![codepen](https://codepen.io/MicrosoftEdgeDocumentation/pen/ONxPZV)
-
+<div class="codepen-wrap"><p data-height="300" data-theme-id="23761" data-slug-hash="ONxPZV" data-default-tab="result" data-user="MicrosoftEdgeDocumentation" data-embed-version="2" data-editable="true" class="codepen">See this example by <a href="https://codepen.io/MicrosoftEdgeDocumentation">Microsoft Edge Docs</a> on <a href="https://codepen.io/MicrosoftEdgeDocumentation/pen/ONxPZV">CodePen</a>.</p></div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>;
 For more information on `foreignObject` properties, go to the [`foreignObject` API reference page](https://msdn.microsoft.com/library/dn806280.aspx).
 
 ## feBlend
@@ -156,7 +158,6 @@ Microsoft Edge supports the following SVG implementation:
 		<embed id="Smiley" src="smiley.svg" type="image/svg+xml">
 		```
 
-![spec](Scalable Vector Graphics (SVG) 1.1 (Second Edition))
 
 ## API reference
 
