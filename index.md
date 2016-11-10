@@ -8,7 +8,7 @@ author: erikadoyle
 
 This is the repository for Microsoft Edge **documentation** hosted at [https://dev.windows.com/en-us/microsoft-edge/platform/documentation/](https://dev.windows.com/en-us/microsoft-edge/platform/documentation/).
 
-Over the coming months, we will add new sections and content to enhance the documentation experience. If you would like to see new coverage or have feedback, please consider [**contributing**](/CONTRIBUTING.md).  You can edit the existing content, add new content, or simply create new [issues](https://github.com/MicrosoftEdge/MicrosoftEdge-Documentation/issues). We’ll take a look at your suggestions and will work together to incorporate them into the docs. 
+Over the coming months, we will add new sections and content to enhance the documentation experience. If you would like to see new coverage or have feedback, please consider [**contributing**](/CONTRIBUTING.md).  You can edit the existing content, add new content, or simply create new [issues](https://github.com/MicrosoftEdge/MicrosoftEdge-Documentation/issues). We’ll take a look at your suggestions and will work together to incorporate them into the docs.
 
 Find the data for the [`Status`](https://dev.windows.com/en-us/microsoft-edge/platform/status/) page at: https://github.com/MicrosoftEdge/Status. The `Status` page provides the latest implementation status and future plans for web platform features in Microsoft Edge.
 
@@ -95,7 +95,7 @@ Respectively, those look like:
 
 ### How they work
 
-You precede a single line of Markdown with the `>note.*` syntax. No closing tag is needed. See example below. 
+You precede a single line of Markdown with the `>note.*` syntax. No closing tag is needed. See example below.
 
 ```
 > [!WARNING]
