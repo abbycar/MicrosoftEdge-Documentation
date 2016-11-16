@@ -47,16 +47,16 @@ Microsoft Edge supports many of the latest accessibility features available to w
 
 ## Resources
 
-#### [Accessibility: Towards a more inclusive web with Microsoft Edge and Windows 10](https://blogs.windows.com/msedgedev/2015/09/25/accessibility-towards-a-more-inclusive-web-with-microsoft-edge-and-windows-10/)
+### [Accessibility: Towards a more inclusive web with Microsoft Edge and Windows 10](https://blogs.windows.com/msedgedev/2015/09/25/accessibility-towards-a-more-inclusive-web-with-microsoft-edge-and-windows-10/)
 A blog post on Microsoft's commitment to accessibility as a core part of software design.
 
-#### [Building a more accessible web platform](https://blogs.windows.com/msedgedev/2016/04/20/building-a-more-accessible-web-platform/)
+### [Building a more accessible web platform](https://blogs.windows.com/msedgedev/2016/04/20/building-a-more-accessible-web-platform/)
 A blog post on accessibility improvements in Microsoft Edge.
 
-#### [Microsoft Windows UI Automation Blog](https://blogs.msdn.microsoft.com/winuiautomation/)
+### [Microsoft Windows UI Automation Blog](https://blogs.msdn.microsoft.com/winuiautomation/)
 The Microsoft Windows UI Automation blog covers topics related to the Windows Automation API.
 
-#### [Web Accessibility Initiative (WAI)](http://www.w3.org/WAI/)
+### [Web Accessibility Initiative (WAI)](http://www.w3.org/WAI/)
 The W3C’s Web Accessibility Initiative (WAI) is an effort to help improve the accessibility of the web. Their site provides a variety of resources for [Getting Started with Web Accessibility](https://www.w3.org/WAI/gettingstarted/Overview.html), [Designing for Inclusion](https://www.w3.org/WAI/users/Overview.html), [tutorials and presentations](https://www.w3.org/WAI/train.html), and more. 
 
 
