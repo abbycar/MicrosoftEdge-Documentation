@@ -21,10 +21,10 @@ The following video goes through a buggy Microsoft Edge extension, walking thoug
 To start debugging the background script of your extension:
 
 1. Click on **More (...)** followed by **Extensions** to go into the extension pane.  
- ![more button](../../media/morebutton.PNG)
+ ![more button](../media/morebutton.png)
 2. Click on the extension that you want to debug.
 3. Click on the **Background page** link to bring up F12 for the background process.  
- ![selected extension view of options with inspect link](../../media/debug-inspect.png)
+ ![selected extension view of options with inspect link](../media/debug-inspect.png)
 4. Select the **Debugger** tab in F12.
 5. Navigate to and select your extension's background script.
 6. Place breakpoints for debugging by clicking to the left of the source code line number.  
