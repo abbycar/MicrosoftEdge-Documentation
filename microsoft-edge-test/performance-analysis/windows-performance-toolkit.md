@@ -7,7 +7,7 @@ author: erikadoyle
 # Investigating website performance with Windows Performance Toolkit
 
 Here's how to get started using the Windows Performance Toolkit to analyze your website. First you'll want to download the [Windows 10 Assessment and Deployment Kit (ADK)](https://msdn.microsoft.com/en-us/windows/hardware/dn913721.aspx), and select the *Windows Performance Toolkit* option during installation:
-![ADK Installation Options](../media/ADK-InstallOptions.PNG)
+![ADK Installation Options](./media/adk-installoptions.png)
 
 ## 1. Record a performance trace
 Next, set up your user scenario and prepare to [gather a trace using Windows Performance Recorder](1-recording-a-trace).

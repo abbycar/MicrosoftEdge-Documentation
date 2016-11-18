@@ -27,7 +27,7 @@ foo.beginPath();
 foo.ellipse(100, 70, 50, 85, 55 * Math.PI/180, 0, 2 * Math.PI);
 foo.stroke();
 ```
-![Example of Canvas Ellipse method](../../media/ellipse.PNG)
+![Example of Canvas Ellipse method](../media/ellipse.png)
 
 Canvas enables drawing scenarios that include rectangles, paths, lines, fills, arcs, and Bézier and quadratic curves. In addition, the Canvas API supports animations, photo compositions, and real-time video rendering. The [`<canvas>` element](https://msdn.microsoft.com/library/ff975062) is also used by [WebGL](../WebGL) to do hardware-accelerated 3D graphics on web pages. The `<canvas>` element has only two attributes, [`width`](https://msdn.microsoft.com/library/ff974792) and [`height`](https://msdn.microsoft.com/library/ff974791) attributes. Both are optional and set using DOM properties with default values for width and height set to 300 and 150 pixels, respectively. The default color is transparent black, but `<canvas>` can be styled just like any normal image (margin, border, background, etc). Styling does not affect the actual drawing on the canvas.
 

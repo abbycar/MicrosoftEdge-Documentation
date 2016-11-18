@@ -21,7 +21,7 @@ Z (Up) | Perpendicular to the ground plane and positive upwards.
 
 These X, Y, and Z axes correspond to the [`beta`](https://msdn.microsoft.com/library/dn322038), [`gamma`](https://msdn.microsoft.com/library/dn322039), and [`alpha`](https://msdn.microsoft.com/library/dn322037) properties of the `DeviceOrientationEvent`, respectively.
 
-![Diagram showing the alpha, beta, and gamma angles of rotation returned in the deviceorientation event related to 3D X, Y, and Z axes: alpha = rotate around the Z axis, beta = X axis, and gamma = Y axis.](../../media/deviceorientation.png)
+![Diagram showing the alpha, beta, and gamma angles of rotation returned in the deviceorientation event related to 3D X, Y, and Z axes: alpha = rotate around the Z axis, beta = X axis, and gamma = Y axis.](../media/deviceorientation.png)
 
 The following code snippet shows how to use the [`deviceorientation`](https://msdn.microsoft.com/library/Dn322042) event to guide the user to point their device northward.
 

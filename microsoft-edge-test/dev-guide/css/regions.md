@@ -17,7 +17,7 @@ To implement CSS Regions, you first need an HTML file to serve as your content s
 
 You then need an HTML document to serve as the host for the content stream. This host document, or master page, is responsible for sizing and positioning the CSS regions, as well as defining the flow identifier into which the content stream will flow. In the following diagram, the master page is represented by the file "master.html".
 
-![A diagram showing a conceptual “equation”: A master.html file, with multiple frames, plus a content.html file with an HTML content stream equals a master.html file with its frames filled with content from the stream.](../../media/ie10devguide_ppb4_2css_image1.png)
+![A diagram showing a conceptual “equation”: A master.html file, with multiple frames, plus a content.html file with an HTML content stream equals a master.html file with its frames filled with content from the stream.](../media/ie10devguide_ppb4_2css_image1.png)
 When the master page is fully rendered, it will contain connected regions that have the contents of the stream within them. It's important to remember that this fragmentation is purely presentational, and does not affect the DOM structure of the content stream document.
 
 ### Creating a data source
@@ -121,7 +121,7 @@ You can use source order-independent layout features to create more complex layo
 
 This makes the content flow as indicated in the following diagram. The arrows indicate the direction of content flow.
 
-![A diagram showing content flow from frame to frame within a Grid layout.](../../media/ie10devguide_ppb4_2css_image2.png)
+![A diagram showing content flow from frame to frame within a Grid layout.](../media/ie10devguide_ppb4_2css_image2.png)
 
 Let's swap the order of the first two frames and the last two frames:
 
@@ -136,7 +136,7 @@ Let's swap the order of the first two frames and the last two frames:
 
 This changes the flow as shown in this revised diagram:
 
-![A diagram showing content flow from frame to frame within a Grid layout with frames that have been switched around. The content still flows sequentially, even though each frame is in a different location within the Grid.](../../media/ie10devguide_ppb4_2css_image3.png)
+![A diagram showing content flow from frame to frame within a Grid layout with frames that have been switched around. The content still flows sequentially, even though each frame is in a different location within the Grid.](../media/ie10devguide_ppb4_2css_image3.png)
 
 This enables you to visually specify the layout of your page without drastically modifying the markup of the template, and without disrupting the DOM of the source content.
 

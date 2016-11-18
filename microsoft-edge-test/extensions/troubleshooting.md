@@ -38,6 +38,6 @@ Until extensions are available via the Windows Store, this button *should* be vi
 1. In the address bar type **"about:flags"** and press the **"Enter"** key.
 2. Under the heading **"Developer settings"** make sure the checkbox next to **"Enable extension developer features"** is selected.
 
-   ![about flags](../media/aboutflags.PNG)  
+   ![about flags](./media/aboutflags.png)  
 
 3. Close and re-open Microsoft Edge and check to see if the **"Load extension"** button is now visible.

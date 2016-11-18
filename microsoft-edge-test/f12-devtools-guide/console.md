@@ -49,7 +49,7 @@ The console not only displays output from code, but provides an interface to exe
 
 Generally, all script entered in the command line executes in the [global scope](https://msdn.microsoft.com/library/bzt2dkta.aspx) of the currently selected window. However, if your script is currently paused (for instance, because you set a breakpoint), script executes in the [local scope](https://msdn.microsoft.com/library/bzt2dkta.aspx) of the current function within the call stack.
 
-![F12 Console Command Line local scope](../media/Edge_Console_local_scope.png)
+![F12 Console Command Line local scope](./media/edge_console_local_scope.png)
 
 If your webpage is built with a **[frameset](https://msdn.microsoft.com/library/ms535251.aspx)** or **[iframes](https://msdn.microsoft.com/library/ms535258.aspx)**, those frames load their own documents in their own windows.
 
@@ -80,7 +80,7 @@ Console selectors provide simple shorthands for quickly selecting elements in yo
 
 Sending in single line commands is useful, but some tasks require executing longer scripts. Click the double up-arrow symbol to expand the command line. In multiline mode, enter as many lines as you need, then click the green arrow symbol to execute it in the console.
 
-![F12 Console Multiline Command Line](../media/f12blueconsolecommandmultiple.png)
+![F12 Console Multiline Command Line](./media/f12blueconsolecommandmultiple.png)
 
 ## Related topics
 

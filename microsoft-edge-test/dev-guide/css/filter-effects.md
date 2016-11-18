@@ -10,7 +10,7 @@ CSS filters allow you to manipulate graphics, similar to what you might do with 
 
 To use CSS filter effects, apply the [filter](https://msdn.microsoft.com/library/Dn858632) property to a visible element, like the image below, on your web page.
 
-![An image of dog with no filter](../../media/filter_effects.png)
+![An image of dog with no filter](../media/filter_effects.png)
 
 
 
@@ -41,7 +41,7 @@ Setting a blur on the image above would result in the following:
 }
 ```
 
-![An image of a dog with a blur filter](../../media/filter_effects_blur.png)
+![An image of a dog with a blur filter](../media/filter_effects_blur.png)
 
 ### Brightness filter
 The `brightness` filter applies a linear multiplier to the element making the element look brighter or darker. Setting the value to 100% will leave the element unchanged and setting the value to 0% will make the element completely black. You can specify a value greater than 100% to make the image look brighter.
@@ -54,7 +54,7 @@ Applying the `brightness` [filter](https://msdn.microsoft.com/library/Dn858632) 
 }
 ```
 
-![An image of a dog with the brightness filter ](../../media/filter_effects_brightness.png)
+![An image of a dog with the brightness filter ](../media/filter_effects_brightness.png)
 
 ### Grayscale filter
 The `grayscale` filter converts the element to grayscale. Setting the value to 100% makes the element completely grayscale, while setting the value to 0% will leave the element unchanged.
@@ -67,7 +67,7 @@ Applying the `grayscale` [filter](https://msdn.microsoft.com/library/Dn858632) t
 }
 ```
 
-![An image of a dog with the grayscale filter](../../media/filter_effects_grayscale.png)
+![An image of a dog with the grayscale filter](../media/filter_effects_grayscale.png)
 
 ### Invert filter
 The `invert` filter inverts the samples in the element. The value that you specify defines the proportion of the conversion. Setting the value to 100% completely inverts the image, while setting the value to 0% leaves the element unchanged. You can specify a value greater than 100%. An increment between 0 and 1 can also be used, with 0 being no inversion and 1 being complete inversion.
@@ -80,7 +80,7 @@ Applying the `invert` [filter](https://msdn.microsoft.com/library/Dn858632) to t
 }
 ```
 
-![An image of a dog with the invert filter ](../../media/filter_effects_invert.png)
+![An image of a dog with the invert filter ](../media/filter_effects_invert.png)
 
 ### Using multiple filters
 
@@ -93,7 +93,7 @@ You can add multiple filter effects to an element by adding a space between the 
 }
 ```
 
-![An image of a dog with mulitple filter effects](../../media/filter_effects_mulitple.png)
+![An image of a dog with mulitple filter effects](../media/filter_effects_mulitple.png)
 
 ## API Reference
 

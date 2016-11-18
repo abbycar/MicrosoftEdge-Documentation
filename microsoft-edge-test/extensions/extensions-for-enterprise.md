@@ -38,14 +38,14 @@ To turn on the extension, open the **More (...)** menu, select **"Extensions"** 
 
 The second difference affects how sideloaded extensions appear in the browser. For example, both the "You have a new extension" notification and the list of installed extensions include an additional warning stating that the extension is from an unknown source.
 
-![sideload warning 1](../media/sideload-permissionflyout.PNG)
+![sideload warning 1](./media/sideload-permissionflyout.png)
 
-![sideload warning 2](../media/sideload-l1warning.PNG)
+![sideload warning 2](./media/sideload-l1warning.png)
 
 The third and final difference affects how sideloaded extensions behave on browser startup. Sideloaded extensions on devices that are either domain-joined or MDM enabled will behave like extensions from the Windows Store. However, sideloaded extensions on devices that are not domain-joined or MDM enabled will be turned off during browser startup and require the user to take explicit action.
 
 Shortly after browser startup (after ~10 seconds of inactivity) the following notification will appear near the bottom of the window.
 
-![sideload notification](../media/sideload-scareUI.PNG)
+![sideload notification](./media/sideload-scareui.png)
 
 Each time Microsoft Edge is launched, users will need to select "Turn on anyway" in order to use the extension.

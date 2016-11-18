@@ -13,37 +13,37 @@ Once fully released, extensions will be available via the Windows Store. Until t
 
 2. Select the **Enable extension developer features** checkbox.
 
-   ![about:flags turn on developer features](../../media/sideload-aboutflags.png)
+   ![about:flags turn on developer features](../media/sideload-aboutflags.png)
 
 3. Select **More (...)** to open the menu.
 
-   ![more button](../../media/morebutton.PNG)  
+   ![more button](../media/morebutton.png)  
 
 4. Select **Extensions** from the menu.
 
 5. Select the **Load extension** button.
 
-   ![selecting load extension](../../media/sideload-load-extension.PNG)
+   ![selecting load extension](../media/sideload-load-extension.png)
 
 7. Navigate to your extension's folder and select the  **Select folder** button.
-   ![selecting extension folder to load](../../media/sideload-select-extension.PNG)
+   ![selecting extension folder to load](../media/sideload-select-extension.png)
 > [!NOTE]
 > If you encounter an error message when loading your extension, refer to the [troubleshooting](../../troubleshooting) page for guidance.
 
 
 **You're all set! You should now see the extension listed in Microsoft Edge's extension pane.**
 
-![extension in extension pane](../../media/sideload-extension-installed.PNG)
+![extension in extension pane](../media/sideload-extension-installed.png)
 
 > [!NOTE]
-> Unsigned extensions are automatically turned off on subsequent launches of Microsoft Edge. When the browser enters an idle state (after approximately 10 seconds of inactivity) you will see the following notification at the bottom of the window. ![risky notification](../../media/riskynotification.png) To turn on the unsigned extensions, click "Turn on anyway".
+> Unsigned extensions are automatically turned off on subsequent launches of Microsoft Edge. When the browser enters an idle state (after approximately 10 seconds of inactivity) you will see the following notification at the bottom of the window. ![risky notification](../media/riskynotification.png) To turn on the unsigned extensions, click "Turn on anyway".
 
 
 
 ## Moving the extension button
 Depending on your extension's settings, it could appear in the **More (...)** menu.
 
-   ![actions menu](../../media/browseraction.PNG)  
+   ![actions menu](../media/browseraction.png)  
 
 
 If you want to move the button out of this menu for easier access:
@@ -52,14 +52,14 @@ If you want to move the button out of this menu for easier access:
 
 2. Select **Show button next to address bar**.
 
-   ![actions menu](../../media/browseraction_contextmenu.png)  
+   ![actions menu](../media/browseraction_contextmenu.png)  
 
 You can also do this from the extensions details page by:
 
 1. Click on the extension button.
 2. Toggle **Show button next to address bar** to on.
 
-   ![show button toggle switched on](../../media/show-button-toggle.png)
+   ![show button toggle switched on](../media/show-button-toggle.png)
 
 > [!NOTE]
 > You can always move the button back to the **More (...)** menu by right-clicking it and unselecting **Show next to address bar** or by going to the extension details page and toggling **Show button next to address bar** to off.
@@ -75,6 +75,6 @@ You can also do this from the extensions details page by:
 
 4. Right-click the extension you want to remove and select **Remove**, or select the extension and click the **Remove** button.
 
-   ![actions menu](../../media/remove.png)  
+   ![actions menu](../media/remove.png)  
 
 **The extension should disappear from the list in Microsoft Edge.**

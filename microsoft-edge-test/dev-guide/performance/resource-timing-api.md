@@ -19,7 +19,7 @@ The Resource Timing API is exposed through the [`performance`](https://msdn.micr
 ```JS
 window.performance.getEntriesByType("resource")
 ```
-![PerformanceResourceTiming Example](../../media/PerformanceResourceTiming.PNG)
+![PerformanceResourceTiming Example](../media/performanceresourcetiming.png)
 
 *The image above represents a resource from exposing `performance` on the [Resource Timing API W3C Specification](http://www.w3.org/TR/resource-timing/).*
 
@@ -43,7 +43,7 @@ requestStart | The time immediately before the browser starts requesting the res
 responseStart | The start time of the fetch initiating the redirect. When HTTP redirects are present, the starting time of the fetch that initiates the redirect is returned.
 responseEnd | The time immediately after receiving the last byte of the response of the last redirect. When HTTP redirects are present, the time immediately after receiving the last redirect is returned. (If timing allow check algorithm does not pass for a redirected resource, zero is returned.)
 
-![Resource Timing API Timeline](../../media/ResourceTimingAPItimeline.PNG)
+![Resource Timing API Timeline](../media/resourcetimingapitimeline.png)
 
 ## High Resolution Timestamps
 

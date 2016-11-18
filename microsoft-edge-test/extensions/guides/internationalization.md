@@ -19,7 +19,7 @@ Follow the steps below to change the Windows display language:
 
 1.	Open the Settings app.
 
-   ![settings application](../../media/loc-settings.png)
+   ![settings application](../media/loc-settings.png)
 2.	Select "Time & language".
 3.	Select "Region & language".
 4.	Select "+ Add a language" to add the language to the list of possible languages.

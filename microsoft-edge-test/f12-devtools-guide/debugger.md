@@ -27,7 +27,7 @@ Load the problematic webpage in Microsoft Edge and open F12 developer tools by p
 ### The Debugger tool layout
 The default layout of the **Debugger tool** shows three panes with adjustable widths and/or heights.
 
-![Edge Debugger](../media/Edge_Debugger.png)
+![Edge Debugger](./media/edge_debugger.png)
 
   - The *script* pane (left) shows the source of the webpage's HTML and JavaScript in a tabbed interface. The script pane's scroll bar area also highlights the location of breakpoints and matches for search terms.
 
@@ -54,7 +54,7 @@ The **Debugger tool** debugs without requiring a page refresh, preserving state.
 ### Controlling session flow
 After the **Debugger tool** reaches a breakpoint and you're ready to move on from it, you can use the execution control icons to decide what to do next.
 
-![Edge Debugger Execution Control Icons](../media/gdr_f12_DebuggerIcons.png)
+![Edge Debugger Execution Control Icons](./media/gdr_f12_debuggericons.png)
 
 From left to right, the icons are:
 
@@ -66,7 +66,7 @@ From left to right, the icons are:
   - **Break on new worker** (CTRL + SHIFT + W): Breaks on the creation of a new web worker.
   - **Exception control** (CTRL+ SHIFT + E):
 
-![Edge Debugger Execution Control Icons](../media/F12BlueDebuggerUnhandledException.png)
+![Edge Debugger Execution Control Icons](./media/f12bluedebuggerunhandledexception.png)
 
 By default this ignores exceptions and they're just logged to the [**Console tool**](../console/). You can choose to break on all exceptions, or just those not being handled by try... catch exception handlers in your code.
 
@@ -121,11 +121,11 @@ A number of compilers and compressors now provide source maps; intermediate file
 //# sourceMappingURL=myfile.min.js.map
 ```
 
-When you open a file with **Debugger tool** that has this kind of comment, the tool looks for the map file. If found, the last [toolbar](../debugger#controlling-session-flow) icon on the right ![Edge Debugger Execution Control Icons](../media/gdr_f12_SourceMapsIcon.png) is enabled as a toggle. When the icon is toggled on and the source file is where the map indicates, your source code is displayed instead of the compiled/compressed JavaScript or CSS. If the source file cannot be found, the **Debugger tool** displays an error message.
+When you open a file with **Debugger tool** that has this kind of comment, the tool looks for the map file. If found, the last [toolbar](../debugger#controlling-session-flow) icon on the right ![Edge Debugger Execution Control Icons](./media/gdr_f12_sourcemapsicon.png) is enabled as a toggle. When the icon is toggled on and the source file is where the map indicates, your source code is displayed instead of the compiled/compressed JavaScript or CSS. If the source file cannot be found, the **Debugger tool** displays an error message.
 
 If the map isn't found automatically, you can choose a source map for a file. Right click the file's tab to find this option. This is useful for code where comments like the one with the source map's location have been stripped out.
 
-![Edge Debugger Source Map](../media/sourcemapdesignate.png)
+![Edge Debugger Source Map](./media/sourcemapdesignate.png)
 
 The **Debugger tool** won't display an error if the map is not found. In many cases people download compressed or compiled libraries, such as jQuery, and don't plan to or want to debug them. If the map file is not where the comment says it will be, the comment is ignored and the feature is not enabled
 
@@ -147,16 +147,16 @@ To set one, right-click a statement and click **Insert tracepoint** from the con
 
   - **Event Breakpoints and Tracepoints** work like the breakpoints and tracepoints above, but instead of being triggered when a specific block of code is executed, they are triggered by specific events. Each has an optional conditional filter to help you narrow down their scope to the specific instance of an event you want to inspect. They can be added using the **Add event breakpoint** and **Add event tracepoint** icons highlighted in the image below.
 
-![Add event breakpoint](../media/eventpoints.png)
+![Add event breakpoint](./media/eventpoints.png)
 
   - **XHR Breakpoints** set a breakpoint that breaks whenever an XHR request has been fulfilled and use the **Watches** pane to inspect the XHR object that received the response.
 
-![Edge Debugger XHR Breakpoints](../media/Edge_Debugger_breakpoints.png)
+![Edge Debugger XHR Breakpoints](./media/edge_debugger_breakpoints.png)
 
 ### The Breakpoints pane
 Besides appearing next to statements in the script pane, the full collection of breakpoints show in the **Breakpoints** pane.
 
-![Breakpoints Pane](../media/F12BlueDebuggerBreakpoints.png)
+![Breakpoints Pane](./media/f12bluedebuggerbreakpoints.png)
 
 You can manage multiple points in the **Breakpoints** pane. Right-click anywhere in it to get context menu options to delete all points or toggle them on or off. The options also appear as icons in the upper-right of the pane, and to the left and right of individual breakpoints. Right-clicking any individual point presents a **Condition** or **Trace message** option in the context menu to let you change the message or make the breakpoint conditional.
 
@@ -169,7 +169,7 @@ Multiple breakpoints can be selected using `CTRL + CLICK, SHIFT + CLICK, or CTRL
 ## Inspecting objects and variables
 After you've set your breakpoints and stepped into your code, the Debugger tool gives you several ways to see what's going on.
 
-![Edge Debugger Inspector](../media/Edge_Debugger_inspect.png)
+![Edge Debugger Inspector](./media/edge_debugger_inspect.png)
 
   - In the *script* pane, when the debugger is paused on a statement, hover your mouse over any variable, function, or object to see more info in an overlay. Move your mouse down into the overlay to expand and inspect objects much like you can if you log them to the [**Console**](../console/) with the [**dirxml()**](https://msdn.microsoft.com/library/dn265067.aspx) method.
 Click **Add watch** at the bottom of the overlay to add the variable or object to the **Watches** pane.
@@ -182,7 +182,7 @@ Click **Add watch** at the bottom of the overlay to add the variable or object t
 
   - To help you trace where a function was called when it's been called asynchronously, the **Callstack** pane displays a call's asynchronous roots.
 
-![Edge Debugger Call Stack](../media/async.png)
+![Edge Debugger Call Stack](./media/async.png)
 
 The image above shows a very simple asynchronous call, created by running the following code in the console.
 
@@ -209,7 +209,7 @@ It will call the function, `break on debugger`, and you can step into it to see 
 ## Managing multiple scripts
 The *script* pane in the **Debugger tool** provides a tabbed interface where you can select open files by clicking their tabs and quickly navigate through open tabs using `CTRL + TAB`.
 
-![Edge Debugger Script Pane](../media/gdr_f12_DebuggerFileOpen.png)
+![Edge Debugger Script Pane](./media/gdr_f12_debuggerfileopen.png)
 
 Open files by clicking the folder icon or pressing `CTRL + O` to open the file list. In the file list, documents are grouped into nodes under the primary document of the frame or window in which they're running. Hover over an individual file to show the file's full URI.
 
