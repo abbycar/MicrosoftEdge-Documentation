@@ -1,0 +1,69 @@
+{
+
+    "build": {
+
+        "content": [
+
+            {
+
+                "files": [
+
+                    "**/*.md"
+
+                ],
+
+                "exclude": [
+
+                    "**/obj/**",
+
+                    "microsoft-edge-test/**",
+
+                    "**/includes/**"
+
+                ]
+
+            }
+
+        ],
+
+        "resource": [
+
+            {
+
+                "files": [
+
+                    "**/*.png",
+
+                    "**/*.jpg"
+
+                ],
+
+                "exclude": [
+
+                    "**/obj/**",
+
+                    "microsoft-edge-test/**",
+
+                    "**/includes/**"
+
+                ]
+
+            }
+
+        ],
+
+        "overwrite": [],
+
+        "externalReference": [],
+
+        "globalMetadata": {},
+
+        "fileMetadata": {},
+
+        "template": [],
+
+        "dest": "microsoft-edge-test"
+
+    }
+
+}
