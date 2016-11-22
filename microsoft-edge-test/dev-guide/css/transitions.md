@@ -1,9 +1,4 @@
----
-description: Learn how CSS Transitions enable you to gradually change CSS property values over a specified time duration without need for script.
-title: Transitions
-author: libbymc
----
-
+undefined
 # Transitions
 
 [CSS transitions](https://msdn.microsoft.com/library/hh772060(v=vs.85).aspx) enable you to change CSS property values over a specified duration of time, animating the property changes, rather than having them occur immediately. CSS3 Transitions are defined by the World Wide Web Consortium (W3C) in the [CSS Transitions Module Level 3](http://go.microsoft.com/fwlink/p/?linkid=227572) specification.

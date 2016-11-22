@@ -1,9 +1,4 @@
----
-description: Learn how Encrypted Media Extensions extends the video and audio elements to enable Digital Rights Management (DRM) protected content without using plug-ins.
-title: Encrypted Media Extensions
-author: libbymc
----
-
+undefined
 # Encrypted Media Extensions
 
 Encrypted Media Extensions (EME) extends the video and audio elements to enable Digital Rights Management (DRM) protected content without using plug-ins. 

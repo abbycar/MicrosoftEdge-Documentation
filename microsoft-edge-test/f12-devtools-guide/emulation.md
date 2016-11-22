@@ -1,9 +1,4 @@
----
-description: Learn how to use the Emulation tool to test how webpages work with different browser profiles, user agents, screen sizes and resolutions, and GPS location coordinates.
-title: Emulation
-author: erikadoyle
----
-
+undefined
 # Emulation
 
 Use the Emulation tool to test how webpages work with different browser profiles, user agents, screen sizes and resolutions, and GPS location coordinates.

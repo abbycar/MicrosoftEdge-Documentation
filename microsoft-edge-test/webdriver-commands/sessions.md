@@ -1,9 +1,4 @@
----
-description: This article contains information about session-related commands.
-title: Sessions
-author: erikadoyle
----
-
+undefined
 # Session Commands
 Microsoft Edge supports the following session-related WebDriver commands:
 

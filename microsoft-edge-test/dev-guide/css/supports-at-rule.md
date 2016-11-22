@@ -1,9 +1,4 @@
----
-description: Learn how @supports and CSS.supports can be used to detect browser support for a given style directive.
-title: Support at rule
-author: libbymc
----
-
+undefined
 # @supports and the window.CSS.supports() API
 
 Microsoft Edge (build 10240+) now has support for [@supports](https://msdn.microsoft.com/library/dn894031.aspx) (CSS) and [CSS.supports](https://msdn.microsoft.com/library/dn894031.aspx) (JavaScript API) to detect browser support for a given style directive. Previous to the @supports conditional rule, CSS feature detection was only available through Javascript, using libraries such as [Modernizr](https://modernizr.com/).

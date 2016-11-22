@@ -1,9 +1,4 @@
----
-description: Learn aboute how the Content Security Policy enables web developers to control the resources that a particular page can fetch or execute with the aim of preventing cross-site scripting (XSS), clickjacking, and other code injection attacks seeking to execute malicious content.
-title: Content Security Policy
-author: abbycar
----
-
+undefined
 # Content Security Policy
 
 

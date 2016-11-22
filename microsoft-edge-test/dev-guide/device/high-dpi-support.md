@@ -1,9 +1,4 @@
----
-description: See how Microsoft Edge brings enhanced scaling for high DPI screens with properties like devicePixelRatio.
-title: High DPI support
-author: abbycar
----
-
+undefined
 # High DPI support
 
 Microsoft Edge brings enhanced scaling for high DPI screens and small slates, ensuring the consistency of your website’s text, touch targets, and layout across Windows 10 devices.

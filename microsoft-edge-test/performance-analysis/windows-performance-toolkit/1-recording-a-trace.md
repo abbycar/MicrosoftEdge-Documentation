@@ -1,9 +1,4 @@
----
-description: Learn how to profile your web scenario with the Windows Performance Recorder.
-title: 2 recording a trace
-author: erikadoyle
----
-
+undefined
 # Recording a trace
 
 Here's how to profile your web scenario with the *Windows Performance Recorder (WPR)*.

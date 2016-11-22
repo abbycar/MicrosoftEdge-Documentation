@@ -1,9 +1,4 @@
----
-description: Learn how to ue the Console tool to view errors and other messages, send debug output, inspect JavaScript objects and XML nodes, and to run JavaScript in the context of the selected window or frame.
-title: Using the Console API
-author: erikadoyle
----
-
+undefined
 # Console Tool
 
 Use the **Console** tool to view errors and other messages, send debug output, inspect JavaScript objects and XML nodes, and to run JavaScript in the context of the selected window or frame.
@@ -18,12 +13,12 @@ The primary use for the **Console** tool is to communicate into and out of runni
 
    - **In:** Run JavaScript to view and change values in running webpages, add functions to running code, and run debug code on the fly, all while taking advantage of the Microsoft Edge [IntelliSense](https://msdn.microsoft.com/library/hcw1s69b.aspx) auto code completion.
 
-   - **Out:** Microsoft Edge and JavaScript code deliver status, error, and debug messages to developers, including inspectable JavaScript objects and DOM Nodes. For more on how to send debug information and other messages to the console from your code, read up on [Using the Console API](./using-the-console-api/).
+   - **Out:** Microsoft Edge and JavaScript code deliver status, error, and debug messages to developers, including inspectable JavaScript objects and DOM Nodes. For more on how to send debug information and other messages to the console from your code, read up on [Using the Console API](./console/using-the-console-api.md).
 
 ### Messages Microsoft Edge sends to the console
 
 The Console has three categories:
-   - **Error:** Critical errors that cause code not to run. For more info, see a list of [error codes](./console-error-and-status-codes) used in the console.
+   - **Error:** Critical errors that cause code not to run. For more info, see a list of [error codes](./console/console-error-and-status-codes.md) used in the console.
    - **Warning:** Possible errors in your webpage that don't necessarily break it, but may cause unexpected behavior.
    - **Information:** Non-critical information you might want to know.
 
@@ -86,5 +81,5 @@ Sending in single line commands is useful, but some tasks require executing long
 
 [Microsoft Edge Developer Tools on Twitter: Find helpful F12 hints and news updates](https://twitter.com/EdgeDevTools)
 
-[Using the Console API](./using-the-console-api/)
+[Using the Console API](./console/using-the-console-api.md)
 

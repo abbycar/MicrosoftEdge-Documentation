@@ -1,9 +1,4 @@
----
-description: If you are a search provider, see how to ensure that Microsoft Edge supports your service.
-title: Search provider discovery
-author: erikadoyle
----
-
+undefined
 # Search provider discovery
 
 

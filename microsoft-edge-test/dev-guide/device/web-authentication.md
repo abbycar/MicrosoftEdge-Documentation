@@ -1,9 +1,4 @@
----
-description: Learn how the Web Authentication API can be used to enable web applications to use Windows Hello biometrics for user authentication.
-title: Web authentication
-author: erikadoyle
----
-
+undefined
 # Web authentication and Windows Hello
 
 The Web Authentication (formerly *FIDO 2.0* ) API in Microsoft Edge enables web applications to use [Windows Hello](http://go.microsoft.com/fwlink/p/?LinkID=624961) biometrics for user authentication so that you and your users can avoid all the hassles and risks of password management, including password guessing, phishing, and keylogging attacks. The current Microsoft Edge (*ms-* prefixed) implementation is based on an earlier draft of the Web Authentication specification and is likely to change in the future. **This topic will show you how to try out Windows Hello authentication with Microsoft Edge while also future-proofing your code against browser updates.**

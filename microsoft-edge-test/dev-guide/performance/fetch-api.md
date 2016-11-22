@@ -1,9 +1,4 @@
----
-description: Learn how to the Fetch API, which is XMLHttpRequest's modern-day replacement.
-title: Fetch API
-author: abbycar
----
-
+undefined
 # Fetch API
 
 The [Fetch API](https://msdn.microsoft.com/library/mt718765) utilizes the [`fetch`](https://msdn.microsoft.com/library/mt718769) method for fetching resources. In the past this was achieved with `XMLHttpRequest`. Not only is fetch simpler to use, it also provides lower level access to requests and responses.

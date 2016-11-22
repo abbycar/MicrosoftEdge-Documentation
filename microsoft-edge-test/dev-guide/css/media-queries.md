@@ -1,9 +1,4 @@
----
-description: Learn how Media Queries enable you to scope a stylesheet to a set of precise device capabilities.
-title: Media Queries
-author: libbymc
----
-
+undefined
 # Media Queries 
 
 Media Queries enable you to scope a stylesheet to a set of precise device capabilities. Through media query listeners, you can also use script to react to changes in the media or environment in which your page is running.

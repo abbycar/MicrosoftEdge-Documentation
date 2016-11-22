@@ -1,9 +1,4 @@
----
-description: Learn how the Xpath API can be used to locate and process elements in an eml document.
-title: Xpath
-author: abbycar
----
-
+undefined
 # XPath API
 
 

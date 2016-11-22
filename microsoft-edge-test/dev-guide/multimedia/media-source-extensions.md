@@ -1,9 +1,4 @@
----
-description: Learn how Media Source Extensions extends HTML5 video and audio elements to enable streaming without the need for plugins or special servers.
-title: Media Source Extensions
-author: libbymc
----
-
+undefined
 # Media Source Extensions (MSE)
 
 Microsoft Edge supports [MPEG-DASH](http://go.microsoft.com/fwlink/p/?LinkID=533900) media streaming through [Media Source Extensions](Http://go.microsoft.com/fwlink/p/?LinkID=301313) (MSE). MSE extends the `HTMLMediaElement` ([`video`](https://msdn.microsoft.com/library/hh772959(v=vs.85).aspx) and [`audio`](https://msdn.microsoft.com/library/hh772923(v=vs.85).aspx) elements) to allow audio and video streaming without the need for plugins or special serviers. MSE allows adapative media streaming, live streaming, splicing videos, video editing, and more. 

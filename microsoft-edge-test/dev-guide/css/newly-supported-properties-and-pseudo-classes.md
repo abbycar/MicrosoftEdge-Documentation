@@ -1,9 +1,4 @@
----
-description: Check out the latest CSS properties and pseudo-classes in Microsoft Edge.
-title: Newly supported CSS properties and pseudo-classes
-author: libbymc
----
-
+undefined
 # Newly supported CSS properties and pseudo-classes
 
 Microsoft Edge includes support for the following CSS properties and pseudo-classes.

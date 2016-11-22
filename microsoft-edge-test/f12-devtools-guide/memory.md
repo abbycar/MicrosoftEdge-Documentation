@@ -1,9 +1,4 @@
----
-description: Learn how use the Memory tool to diagnose memory issues that can impact the speed and stability of webpages.
-title: Memory
-author: erikadoyle
----
-
+undefined
 # Memory
 
 Use the Memory tool to diagnose memory issues that can impact the speed and stability of webpages.

@@ -1,9 +1,4 @@
----
-description: Learn how the Web Audio API can be used to process and synthesize audio in web applications.
-title: Web Audio
-author: libbymc
----
-
+undefined
 #  Web Audio
 
 Microsoft Edge for Windows 10 introduced support for the [W3C Web Audio API](http://go.microsoft.com/fwlink/p/?LinkID=512167) specification. Web Audio is a high-level JavaScript API for processing and synthesizing audio in web applications to provide rich audio and music experiences.

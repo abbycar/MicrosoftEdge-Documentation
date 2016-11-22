@@ -1,9 +1,4 @@
----
-description: Creating an inclusive design makes technology usable by all people no matter their age, education, geographic location, language, or disability. This article contains resources for inclusive design tools and best practices.
-title: Design
-author: libbymc
----
-
+undefined
 # Designing Accessible Websites 
 
 Creating an inclusive design makes technology usable by all people no matter their age, education, geographic location, language, or disability. People using technology and browsing the web have a wide range of abilities and preferences. As you design your website, keep in mind the following key accessibility scenarios:

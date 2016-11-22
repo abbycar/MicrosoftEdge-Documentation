@@ -1,9 +1,4 @@
----
-description: Learn how the Gamepag API can enable web-based games to take advantage of the specialized input functionality of gamepad devices.
-title: Gamepad API
-author: erikadoyle
----
-
+undefined
 # Gamepad API
 
 

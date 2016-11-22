@@ -1,9 +1,4 @@
----
-description: Learn how the File API can be used to access local files on the client machine in a secure way without the need for extensions or plugins.
-title: File API
-author: abbycar
----
-
+undefined
 # File API
 
 
@@ -30,13 +25,13 @@ The following code example acquires basic file-related information such as name,
 
 The [`Blob`](https://msdn.microsoft.com/library/Hh772298) constructor enables a web developer to create or manipulate a `Blob` (often equivalent to a file) directly on the client. The constructor is defined in the W3C's [File API](http://go.microsoft.com/fwlink/p/?LinkId=210224) spec.
 
-Check out the [Blob](./blob/) Dev Guide entry for more details.
+Check out the [Blob](./file-api/blob.md) Dev Guide entry for more details.
 
 ## FileReader object
 
 The  [`FileReader`](https://msdn.microsoft.com/library/hh772310) object lets you asynchronously read individual  `File`  or  `Blob`  objects by firing progress events as the read occurs to event handler methods attached to the  `FileReader`  object. Because of the asynchronous reading, it is possible to catch errors, know when a load is complete, and monitor the read progress.
 
-For more details check out the [FileReader](./fileReader/) Dev Guide entry!
+For more details check out the [FileReader](./file-api/fileReader.md) Dev Guide entry!
 
 ## Streams
 

@@ -1,9 +1,4 @@
----
-description: Learn how to use the Page Visibility API to determine the current visibility of a document (or whether the page is in focus) and be notified when the visibility changes.
-title: Page Visibility API
-author: abbycar
----
-
+undefined
 # Page Visibility API
 
 The [Page Visibility API](https://msdn.microsoft.com/library/hh772738.aspx) provides a means for developers to determine the current visibility of a document (or whether the page is in focus) and be notified when the visibility changes. Changes in visibility could include any given webpage being in the background, on an inactive browser tab, or minimized and not visible to the user. Without knowing the visibility state of a page, a web developer must design the webpage with the assumption that it is always visible. This results in higher machine resource utilization and it prevents web developers from making runtime decisions based on whether the webpage is visible to the user. Using Page Visibility, the API can send a [`visibilitychange`](https://msdn.microsoft.com/library/hh772093.aspx) event to report when a page is minimized or moved to an inactive tab and perform or behave differently.

@@ -1,9 +1,4 @@
----
-description: Learn how to build, design, and test accessible websites within Microsoft Edge.
-title: Accessibility
-author: libbymc
----
-
+undefined
 # Accessibility 
 *"[T]he impact of disability is radically changed on the Web because the Web removes barriers to communication and interaction that many people face in the physical world." [(W3C - Accessibility)](https://www.w3.org/standards/webdesign/accessibility)*
 
@@ -11,7 +6,7 @@ The [World Health Organization](http://www.who.int/topics/disabilities/en/) defi
 
 Designing websites and other technologies for inclusion creates an experience enjoyable by every person. Inclusive design and web accessibility empowers and assists everyone to use the web. 
 
-Here are some best practices, code samples, and further resources for you to learn more about [Designing](./design), [Building](./build), and [Testing](./test) accessible websites in Microsoft Edge.
+Here are some best practices, code samples, and further resources for you to learn more about [Designing](./accessibility/design.md), [Building](./accessibility/build.md), and [Testing](./accessibility/test.md) accessible websites in Microsoft Edge.
 
 ## Accessibility in Microsoft Edge
 

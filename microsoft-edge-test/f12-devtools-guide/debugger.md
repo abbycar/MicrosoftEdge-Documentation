@@ -1,9 +1,4 @@
----
-description: Learn how to use the Debugger tool to navigate your code as it runs, set watches and breakpoints, view call stacks, and improve the readability of compiled/minified JavaScript.
-title: Debugger
-author: erikadoyle
----
-
+undefined
 # Debugger
 
 Use the **Debugger tool** to navigate your code as it runs, set watches and breakpoints, view call stacks, and improve the readability of compiled/minified JavaScript.
@@ -252,6 +247,6 @@ Because of the additional overhead needed to run the Debugger and Performance to
 
 [Microsoft Edge Developer Tools on Twitter: Find helpful F12 hints and news updates](https://twitter.com/EdgeDevTools)
 
-[Edit CSS in the Debugger](/edit-css-in-debugger)
+[Edit CSS in the Debugger](debugger/edit-css-in-debugger.md)
 
-[Webstorage in the Debugger](/webstorage-in-debugger)
+[Webstorage in the Debugger](debugger/webstorage-in-debugger.md)

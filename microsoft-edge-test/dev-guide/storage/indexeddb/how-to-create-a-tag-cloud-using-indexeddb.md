@@ -1,9 +1,4 @@
----
-description: Learn how to create a tag cloud using the Indexed Database (IndexedDB) API.
-title: How to create create a tag cloud using IndexedDB
-author: abbycar
----
-
+undefined
 # How to create a tag cloud using IndexedDB
 
 Many websites organize their content using keywords, also known as tags. In addition, some sites create tag clouds that list the tags used in their site's content. Frequently-used tags are generally highlighted in some way, such as a different color or a larger font. When the user clicks a tag in the cloud, the site displays a list of the content associated with the tag. As a result, tag clouds provide a convenient mechanism for searching a site's content.
@@ -231,7 +226,7 @@ Additional handlers for different request results are also defined. If an error 
 
 The [**upgradeneeded**](https://msdn.microsoft.com/library/Hh772611) event allows you to create database objects, such as object stores and indexes; it's triggered when you open a database with a higher version number than the one previously used to open the database. If the database doesn't exist, it's created and then opened. As with the success handler, the event object passed to the **upgradeneeded** event also includes a handle to the database in the **target.result** property. The anonymous function in this example passes that handle to a function called `createDatabaseObjects.`
 
-You can only create object stores and indexes in the context of an [**upgradeneeded**](https://msdn.microsoft.com/library/Hh772611) event, which occurs in the context of a "version change" transaction. A *transaction* is a group of operations that must all succeed or they all fail. For more info, see [Managing data with transactions](managing_data_with_transactions.md).
+You can only create object stores and indexes in the context of an [**upgradeneeded**](https://msdn.microsoft.com/library/Hh772611) event, which occurs in the context of a "version change" transaction. A *transaction* is a group of operations that must all succeed or they all fail. For more info, see [Managing data with transactions](how-to-create-a-tag-cloud-using-indexeddb/managing_data_with_transactions.md).
 
 
 You'll also notice that the **upgradeneeded** event doesn't refer to the global variable when calling the function. Because the **upgradeneeded** event fires before the **success** event, the global variable has not yet been assigned the database handle. Attempting to access the global variable would generate an exception and prevent the database from being created or opened.

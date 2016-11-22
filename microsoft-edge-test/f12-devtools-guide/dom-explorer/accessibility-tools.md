@@ -1,9 +1,4 @@
----
-description: Learn how to use the accessibility tools within the DOM Explorer tool to help you verify and test the accessibility of your website.
-title: Accessibility tools
-author: erikadoyle
----
-
+undefined
 # Accessibility Tools
 
 The new accessibility tools within the **DOM Explorer** tool are designed to help you verify and test the accessibility of your website. 

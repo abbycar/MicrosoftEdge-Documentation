@@ -1,9 +1,4 @@
----
-description: This article provides info on how to get started with WebDriver in Microsoft Edge.
-title: WebDriver
-author: erikadoyle
----
-
+undefined
 # WebDriver
 The W3C [WebDriver](http://www.w3.org/TR/webdriver/) API is a platform and language-neutral interface and wire protocol allowing programs or scripts to control the behavior of a web browser. 
 

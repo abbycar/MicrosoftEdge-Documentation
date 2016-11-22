@@ -1,9 +1,4 @@
----
-description: Learn how to use the Beacon API to efficiently send beacons of critical information to a server.
-title: Beacon API
-author: abbycar
----
-
+undefined
 # Beacon API
 
 Beacons(one-way requests) are used for sending reports on events, state updates, and analytics to servers. Beacons are also responsible for sending critical application and measurement information. Because beacons should not compete with higher priority tasks such as fetching resources and running animations, web developers are forced to use performance costly methods to deliver this critical information.

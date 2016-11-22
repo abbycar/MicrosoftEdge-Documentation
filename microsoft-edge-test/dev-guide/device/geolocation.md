@@ -1,9 +1,4 @@
----
-description: Learn how the Geolocation API can be used determine latitude and longitude on the computer or device running the browser.
-title: Geolocation API
-author: abbycar
----
-
+undefined
 # The Geolocation API
 
 This topic provides an introduction to the Geolocation API, explains how to determine if Geolocation is supported, and discusses how user privacy is protected.

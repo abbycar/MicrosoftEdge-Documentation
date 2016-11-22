@@ -1,9 +1,4 @@
----
-description: Learn how to use the Debugger tool to edit your page styles by enabling CSS files to be accessed in the file picker.
-title: Edit CSS in Debugger
-author: erikadoyle
----
-
+undefined
 # Editing CSS in the Debugger
 
 The [**Debugger tool**](../) enables you to edit your page styles by enabling CSS files to be accessed in the file picker by clicking the folder icon or pressing CTRL + O.

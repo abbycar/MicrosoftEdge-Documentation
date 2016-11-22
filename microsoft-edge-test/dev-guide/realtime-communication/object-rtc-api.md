@@ -1,9 +1,4 @@
----
-description: Learn how Object Real-Time Communications (ORTC) enables media (audio and/or video) to be streamed (sent and received) in real-time directly between web browsers, mobile devices, or servers.
-title: Object RTC API
-author: abbycar
----
-
+undefined
 # Object RTC API
 
 Object Real-Time Communications (ORTC) enables media (audio and/or video) to be streamed (sent and received) in real-time directly between web browsers, mobile devices, and servers via native Javascript APIs.

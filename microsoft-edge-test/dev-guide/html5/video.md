@@ -1,9 +1,4 @@
----
-description: Learn how you can use HTML5 video to embed a full featured video player on your webpage without requiring a third-party plug-in or JavaScript.
-title: Video
-author: libbymc
----
-
+undefined
 # HTML5 Video
 
 Using HTML5 [`video`](https://msdn.microsoft.com/library/hh772959(v=vs.85).aspx), you can embed a full featured video player on your webpage without requiring a third-party plug-in or JavaScript.

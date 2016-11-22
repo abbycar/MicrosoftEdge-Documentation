@@ -1,9 +1,4 @@
----
-description: Learn how Pointer Events can be used to create a seamless user experience across user input methods by writing to a single set of events that work across hardware capabilities.
-title: Pointer events
-author: abbycar
----
-
+undefined
 # Pointer Events
 
 [Pointer Events](https://www.w3.org/TR/pointerevents/) are a unified [pointer input API](https://msdn.microsoft.com/library/hh772103(v=vs.85).aspx) modeled after traditional mouse events, except they use the abstract concept of a pointer to apply across all user input modalities, including mouse, touch, and pen. Use pointer events to create a seamless user experience across user input methods by writing to a single set of events that work across hardware capabilities.

@@ -1,9 +1,4 @@
----
-description: Learn how the DOM4 event constructor pattern can be used to easily create synthetic events.
-title: DOM event constructors
-author: erikadoyle
----
-
+undefined
 # DOM Event Constructors
 
 As of Microsoft Edge (build 10240+), the `createEvent()`/`initEvent()` constructor pattern for [synthetic events](https://msdn.microsoft.com/library/dn905219.aspx) is deprecated and has been replaced by the [DOM L4 event constructor pattern](http://www.w3.org/TR/dom/#interface-event). This change makes it much simpler to create synthetic events with fewer steps and significantly more readable code.

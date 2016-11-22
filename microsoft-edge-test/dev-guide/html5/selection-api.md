@@ -1,9 +1,4 @@
----
-description: Learn how the Selection API object represents an active selection, and how its methods can be used.
-title: Selection API
-author: abbycar
----
-
+undefined
 # Selection API
 
 The  [`selection`](https://msdn.microsoft.com/library/ff974359) object represents the active selection, which is typically a highlighted block of text or other elements in the document. The active selection can be used to complete an action issued by a user or a script.

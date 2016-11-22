@@ -1,9 +1,4 @@
----
-description: Learn how to use the Debugger tool to view cookies and session/local storage data.
-title: Web storage in Debugger
-author: erikadoyle
----
-
+undefined
 # Viewing and editing web storage in the Debugger
 
 Key/value pairs can be saved and retrieved in the Edge browser's web storage in three ways:

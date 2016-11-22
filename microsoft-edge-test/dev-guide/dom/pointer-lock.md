@@ -1,9 +1,4 @@
----
-description: Learn how the Pointer Lock API can access raw mouse movement, locking the target of mouse events to a single element.
-title: Pointer lock
-author: abbycar
----
-
+undefined
 # Pointer Lock (Mouse Lock)
 
 Microsoft Edge (build 10532+) now supports the Pointer Lock API (previously called Mouse Lock) for access to raw mouse movement, locking the target of mouse events to a single element, eliminating limits of how far mouse movement can go in a single direction, and removing the cursor from view. Accessing mouse movement data enables the ignoring of boundaries resulting from screen edges where the cursor can't go beyond, providing proper control for first person or real time strategy games by locking the mouse to a specific HTML element. With the mouse locked, the pointer can be moved all around, and it will never leave the focus of the element, a requirement for many games and 3D model views.

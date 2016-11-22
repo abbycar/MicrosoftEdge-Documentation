@@ -1,9 +1,4 @@
----
-description: Learn how to use new and old features in F12 developer tools.
-title: F12 devtools guide
-author: erikadoyle
----
-
+undefined
 # Meet the Microsoft Edge Developer Tools
 
 Microsoft Edge introduces great new improvements to F12 developer tools, including some of the most requested features from [UserVoice](https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer).  The new tools are built in TypeScript, and are always running, so no reloads are required. In addition, F12 developer tools documentation is now fully available on [GitHub](https://github.com/MicrosoftEdge/MicrosoftEdge-Documentation). From this point on, the docs will not only be influenced by your feedback, but you're invited to contribute and help shape our documentation.
@@ -14,12 +9,12 @@ Microsoft Edge introduces great new improvements to F12 developer tools, includi
 
 There are seven distinct tools, each with their own tab in the F12 tools interface. Here you'll find an image of each tool and a quick summary of what it does, followed by lists of its main features and typical tasks.
 
-> Visit the [Settings](./settings/) page for more information about how to adjust Developer Settings in Microsoft Edge.
+> Visit the [Settings](./f12-devtools-guide/settings.md) page for more information about how to adjust Developer Settings in Microsoft Edge.
 
 ## The DOM Explorer tool (CTRL+1)
 
-[The DOM Explorer tool](./dom-explorer/) shows the structure of your webpage as it's being rendered in the browser and makes it possible to edit your HTML and styles in a live page. You can do this without having to edit and reload your sources, so you can quickly solve display issues or experiment with new ideas.
-![Edge DOM Explorer](./media/Edge_DOMExplorer.png)
+[The DOM Explorer tool](./f12-devtools-guide/dom-explorer.md) shows the structure of your webpage as it's being rendered in the browser and makes it possible to edit your HTML and styles in a live page. You can do this without having to edit and reload your sources, so you can quickly solve display issues or experiment with new ideas.
+![Edge DOM Explorer](./f12-devtools-guide/media/Edge_DOMExplorer.png)
 
 **Features** in the DOM Explorer tool include:
  - IntelliSense autocompletion suggestions when editing HTML attributes and CSS properties.		+|IntelliSense autocompletion suggestions when editing HTML attributes and CSS properties.|
@@ -31,21 +26,21 @@ There are seven distinct tools, each with their own tab in the F12 tools interfa
  - Figuring out which CSS styles and media queries are being applied to an element.
  - Testing a series of different colors for an element to see which looks best.
 
-[Learn more about the DOM Explorer tool.](./dom-explorer/)
+[Learn more about the DOM Explorer tool.](./f12-devtools-guide/dom-explorer.md)
 
 ## The Console tool (CTRL+2)
-![Edge Console Tool](./media/Edge_Console.png)
+![Edge Console Tool](./f12-devtools-guide/media/Edge_Console.png)
 
-The [Console tool](./console/) provides a way to interact with your running code:
+The [Console tool](./f12-devtools-guide/console.md) provides a way to interact with your running code:
 
   - change variable values or inject code into a live site with the Console's command line.
-  - use the [Console Debugging API](./console/using-the-console-api/) to send out debug information.
+  - use the [Console Debugging API](./f12-devtools-guide/console/using-the-console-api.md) to send out debug information.
   - see browser error messages and status codes.
 
-**Features** in the [Console tool](./console/) include:
+**Features** in the [Console tool](./f12-devtools-guide/console.md) include:
 
   - Open the Console at the bottom of any other tool with the Console button or CTRL + `.
-  - [Console Debugging API](./console/using-the-console-api/) methods for timing, counting, grouping, and more.
+  - [Console Debugging API](./f12-devtools-guide/console/using-the-console-api.md) methods for timing, counting, grouping, and more.
   - IntelliSense autocompletion suggestions on the command line speed up input, reduce typos, and help you discover aspects of JavaScript APIs.
 
 **Development and debugging tasks it makes easier:**
@@ -54,14 +49,14 @@ The [Console tool](./console/) provides a way to interact with your running code
   - timing code execution down to the statement with new timing methods.
   - changing the value of a variable in running code without reloading.
 
-[Learn more about the Console tool.](./console/)
+[Learn more about the Console tool.](./f12-devtools-guide/console.md)
 
 ## The Debugger tool (CTRL+3)
-![Edge Debugger Tool](./media/Edge_Debugger.png)
+![Edge Debugger Tool](./f12-devtools-guide/media/Edge_Debugger.png)
 
-You use the [Debugger tool](./debugger/) to examine what your code is doing, when it's doing it, and how it's doing it. Pause code in mid-execution, step through it line-by-line, and watch the state of variables and objects at each step.
+You use the [Debugger tool](./f12-devtools-guide/debugger.md) to examine what your code is doing, when it's doing it, and how it's doing it. Pause code in mid-execution, step through it line-by-line, and watch the state of variables and objects at each step.
 
-**Features** in the [Debugger tool](./debugger/) include:
+**Features** in the [Debugger tool](./f12-devtools-guide/debugger.md) include:
 
   - No-refresh debugging. Set your breakpoints and go without reloading and losing state.
   - Tabbed document interface for easier management of multiple scripts.
@@ -73,24 +68,24 @@ You use the [Debugger tool](./debugger/) to examine what your code is doing, whe
   - Making compressed or minified code more readable using source maps.
   - Monitoring web worker creation and execution.
   - 
-[Learn more about the Debugger tool.](./debugger/)
+[Learn more about the Debugger tool.](./f12-devtools-guide/debugger.md)
 
 ## The Network tool (CTRL+4)
-![Edge Network Tool](./media/Edge_Network_details.png)
+![Edge Network Tool](./f12-devtools-guide/media/Edge_Network_details.png)
 
-The [Network tool](./network/) gives you the fine details of any network requests involved in the loading and operation of your webpages.
+The [Network tool](./f12-devtools-guide/network.md) gives you the fine details of any network requests involved in the loading and operation of your webpages.
 
 **Development and debugging tasks it makes easier:**
   - Viewing the amount of bandwidth your page consumes across resources.
   - Debugging AJAX requests by viewing request and response headers and bodies.
   - Identifying network requests that slow the loading of your webpages.
 
-[Learn more about the Network tool.](./network/)
+[Learn more about the Network tool.](./f12-devtools-guide/network.md)
 
 ## The Performance Tool (CTRL+5)
-![Edge Performance Tool](./media/Edge_Performance.png)
+![Edge Performance Tool](./f12-devtools-guide/media/Edge_Performance.png)
 
-The [Performance tool](./performance/) helps you dig into what is happening when your page slows down. Using it to profile specific points of slowness shows the operations that are causing them. In Microsoft Edge, the Performance tool combines the previous **UI Responsiveness** and **Profiler** tools to create an end-to-end view of your scripting and painting performance.
+The [Performance tool](./f12-devtools-guide/performance.md) helps you dig into what is happening when your page slows down. Using it to profile specific points of slowness shows the operations that are causing them. In Microsoft Edge, the Performance tool combines the previous **UI Responsiveness** and **Profiler** tools to create an end-to-end view of your scripting and painting performance.
 
 Some interesting features are:
 
@@ -103,12 +98,12 @@ Some interesting features are:
   - Testing code optimizations.
   - Speeding up your webpages.
 
-[Learn more about the Performance tool.](./performance/) 
+[Learn more about the Performance tool.](./f12-devtools-guide/performance.md) 
 
 ## The Memory tool (CTRL+6)
-![Edge Memory Tool](./media/Edge_Memory.png)
+![Edge Memory Tool](./f12-devtools-guide/media/Edge_Memory.png)
 
-When a webpage starts out fast and slows down after you use it for a while, the culprit is usually a memory leak. The [Memory tool](./memory/) tracks the memory use of your webpage, helping you identify where memory use is growing, why it's growing, and how to fix it.
+When a webpage starts out fast and slows down after you use it for a while, the culprit is usually a memory leak. The [Memory tool](./f12-devtools-guide/memory.md) tracks the memory use of your webpage, helping you identify where memory use is growing, why it's growing, and how to fix it.
 
 Some interesting features are:
 
@@ -122,12 +117,12 @@ Some interesting features are:
   - Identifying points of memory growth.
   - Measuring the memory use of objects.
 
-[Learn more about the Memory tool.](./memory/)
+[Learn more about the Memory tool.](./f12-devtools-guide/memory.md)
 
 ## The Emulation tool (CTRL+7)
-![Edge Emulation Tool](./media/Edge_Emulation.png)
+![Edge Emulation Tool](./f12-devtools-guide/media/Edge_Emulation.png)
 
-The [Emulation](./emulation/) helps you test how your webpages run on different screen sizes and hardware features, and how they respond to different user agent strings.
+The [Emulation](./f12-devtools-guide/emulation.md) helps you test how your webpages run on different screen sizes and hardware features, and how they respond to different user agent strings.
 
 Some interesting features are:
 
@@ -139,4 +134,4 @@ Some interesting features are:
   - Testing responsive designs on multiple screen types.
   - Testing location-aware features for a mobile site.
 
-[Learn more about the Emulation tool.](./emulation/)
+[Learn more about the Emulation tool.](./f12-devtools-guide/emulation.md)

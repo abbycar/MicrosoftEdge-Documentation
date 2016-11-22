@@ -1,9 +1,4 @@
----
-description: Learn how to add and remove extensions, as well as move an extension’s button next to the address bar.
-title: Adding and removing extensions
-author: abbycar
----
-
+undefined
 # Adding and removing extensions for Microsoft Edge
 Once fully released, extensions will be available via the Windows Store. Until that time, you can load the extensions that you create. Continue reading for information on how to add and remove your extensions in Microsoft Edge.
 

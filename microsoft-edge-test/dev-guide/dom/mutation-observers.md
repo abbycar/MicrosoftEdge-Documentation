@@ -1,9 +1,4 @@
----
-description: Learn how the Mutation Observers API can efficiently detect and react to changes in the DOM, such as addition or removal of child nodes, attribute changes, or a change in a child text node value.
-title: Mutation observers
-author: erikadoyle
----
-
+undefined
 # Mutation observers
 
 The [MutationObserver](https://msdn.microsoft.com/library/dn254985.aspx) API efficiently detects and reacts to changes in the DOM. Many apps and sites build their own custom controls with HTML and JavaScript. These controls are not intrinsic like the ones provided by the [`input`](https://msdn.microsoft.com/library/ms535260.aspx) element. To work well with the rest of the web platform, these controls must be able to adapt to content changes, respond to events, and handle user interaction. Apps and sites need to monitor the DOM for mutations and respond accordingly.

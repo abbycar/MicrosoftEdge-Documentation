@@ -1,9 +1,4 @@
----
-description: This article contains information about the commands used for navigation.
-title: Navigation
-author: erikadoyle
----
-
+undefined
 # Navigation Commands
 Microsoft Edge supports the following WebDriver commands for navigation:
 

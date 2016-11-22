@@ -1,9 +1,4 @@
----
-description: Learn how the Fullscreen API can be used to direct a user’s attention to specific elements while you hide distracting backgrounds or other apps, presenting content in the browser’s full screen mode.
-title: Fullscreen API
-author: abbycar
----
-
+undefined
 # Fullscreen API
 
 Using the Fullscreen API, you can direct a user's attention to specific elements while you hide distracting backgrounds or other apps, presenting content in the browser's full screen (kiosk) mode.

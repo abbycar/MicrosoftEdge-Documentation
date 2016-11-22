@@ -1,9 +1,4 @@
----
-description: Learn how to use the DOM Explorer tool to see the state of your webpage’s Document Object Model (DOM), examine HTML structure and CSS styles, and test changes to solve display issues.
-title: DOM explorer
-author: erikadoyle
----
-
+undefined
 # DOM Explorer
 
 Use the DOM Explorer tool to see the state of your webpage's DOM (Document Object Model), examine HTML structure and CSS styles, and test changes to solve display issues.

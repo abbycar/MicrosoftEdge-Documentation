@@ -1,9 +1,4 @@
----
-description: Learn how the Screen Orientation API enables you to prevent or override the browser from automatically reflowing your web app’s content during changes to the orientation of your user’s device.
-title: Screen Orientation API
-author: abbycar
----
-
+undefined
 # Screen Orientation API
 
 

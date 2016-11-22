@@ -1,9 +1,4 @@
----
-description: Learn how the Streams API can be used to create, process, and consume streams of data. 
-title: Streams API
-author: abbycar
----
-
+undefined
 # Streams API
 
 Streams are used to create, process, and consume streams of data. Streams provide the benefit of not having to read all the data into memory, and instead allow for incremental reading of one chunk (a single piece of data) at a time.

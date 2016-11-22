@@ -1,9 +1,4 @@
----
-description: Learn how to use the Animation TIming API which provides a smoother and more efficient way to create animated webpages by calling the animation frame when the system is ready to paint the frame.
-title: Animation Timing API
-author: erikadoyle
----
-
+undefined
 # Animation Timing API
 
 The [Animation Timing API](https://msdn.microsoft.com/library/hh772738(v=vs.85).aspx) deals with the control of script-based animations, specifically the [`requestAnimationFrame()`](https://msdn.microsoft.com/library/hh773174(v=vs.85).aspx) method of the [`window`](https://msdn.microsoft.com/library/ms535873(v=vs.85).aspx) object. The `requestAnimationFrame` method provides a smoother and more efficient way to create animated webpages by calling the animation frame when the system is ready to paint the frame. Prior to this API, animations drawn using [`setTimeout()`](https://msdn.microsoft.com/library/ms536753(v=vs.85).aspxd) and [`setInterval()`](https://msdn.microsoft.com/library/ms536749(v=vs.85).aspx) didn't provide web developers an efficient way to schedule graphics timers for animations. This resulted in overdrawn animations, wasted CPU cycles, and extra power usage. Further, animation frequently occurs even when a website isn't visible, particularly when the website uses pages in background tabs or when the browser is minimized.

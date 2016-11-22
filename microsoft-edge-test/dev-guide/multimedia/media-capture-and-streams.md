@@ -1,9 +1,4 @@
----
-description: Learn how the Media Capture and Streams API allows webpages to access media capture devices like webcams or microphones with permission from the user.
-title: Media Capture and Streams
-author: libbymc
----
-
+undefined
 # Media capture and streams
 
 

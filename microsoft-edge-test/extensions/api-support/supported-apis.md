@@ -1,9 +1,4 @@
----
-description: Find information on current and future APIs as well their known issues/Chrome incompatibilities.
-title: Supported APIs
-author: abbycar
----
-
+undefined
 #  Supported APIs
 
 The following is a detailed list of API members that are supported. Development of the extension platform is ongoing, so check back frequently for updates!
