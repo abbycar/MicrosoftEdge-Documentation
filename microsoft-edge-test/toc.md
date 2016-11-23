@@ -1,7 +1,7 @@
 # [Microsoft Edge Documentation](home.md)
 ## [Accessibility](accessibility.md)
-### [Build](accessibility/build.md)
 ### [Design](accessibility/design.md)
+### [Build](accessibility/build.md)
 ### [Test](accessibility/test.md)
 ## [Dev guide](dev-guide.md)
 ### [CSS](dev-guide/CSS.md)
