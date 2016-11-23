@@ -1,4 +1,9 @@
-undefined
+---
+description: This article provides info on the Web Storage API, which  includes two related mechanisms for persisting client-side data in a secure manner using the Document Object Model (DOM), sessionStorage and localStorage.
+title: Web and offline storage
+author: abbycar
+---
+
 # Web and Offline Storage
 
 

@@ -1,4 +1,9 @@
-undefined
+---
+description: Find information on current and future APIs and manifest keys.
+title: API support
+author: abbycar
+---
+
 #  API support
 
 ## Extension API roadmap

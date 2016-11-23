@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how device orientation and motion events can provide event info about the physical orientation and motion of your user’s device.
+title: Device orientation and motion events
+author: abbycar
+---
+
 # Device orientation and motion events
 
 

@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how channel messaging enables code in different browsing contexts to communicate directly via ports, regardless of source domain, in a way designed to avoid cross-site scripting attacks.
+title: Message channels
+author: abbycar
+---
+
 # Message Channels
 
 Channel messaging enables code in different browsing contexts to communicate directly via ports, regardless of source domain, in a way designed to avoid cross-site scripting attacks. After the ports are created, the endpoints communicate by using a combination of the [`postMessage`](https://msdn.microsoft.com/library/jj160614.aspx) method and the [`onmessage`](http://go.microsoft.com/fwlink/p/?LinkID=128221) event.

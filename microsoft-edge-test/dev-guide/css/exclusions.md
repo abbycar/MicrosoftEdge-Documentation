@@ -1,4 +1,9 @@
-undefined
+---
+description: See how CSS Exclusions define how inline content flow around elements, extending the content wrapping ability of floats to any block-level element.
+title: Exclusions
+author: libbymc
+---
+
 # CSS Exclusions
 
 [CSS Exclusions](https://msdn.microsoft.com/library/hh772711?f=255&MSPPError=-2147217396) define how inline content flow around elements, extending the content wrapping ability of floats to any block-level element. CSS Exclusions include the following properties:

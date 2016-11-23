@@ -1,4 +1,9 @@
-undefined
+---
+description: This article provides info on the Indexed Database API (IndexedDB), which enables you to store structured data.
+title: IndexedDB
+author: abbycar
+---
+
 # IndexedDB
 
 Microsoft Edge includes support for the [Indexed Database API (`IndexedDB`)](https://msdn.microsoft.com/library/hh772651). `IndexedDB` enables you to store structured data. Unlike cookies and DOM Storage, `IndexedDB` provides features that enable you to group, iterate, search, and filter JavaScript objects.

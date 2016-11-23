@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how to ue the Console tool to view errors and other messages, send debug output, inspect JavaScript objects and XML nodes, and to run JavaScript in the context of the selected window or frame.
+title: Using the Console API
+author: erikadoyle
+---
+
 # Console Tool
 
 Use the **Console** tool to view errors and other messages, send debug output, inspect JavaScript objects and XML nodes, and to run JavaScript in the context of the selected window or frame.

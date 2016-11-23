@@ -1,4 +1,9 @@
-undefined
+---
+description: This guide provides an overview of the developer features and standards included in Microsoft Edge.
+title: Dev guide
+author: erikadoyle
+---
+
 # Microsoft Edge Developer Guide
 This guide provides an overview of the developer features and standards included in Microsoft Edge.
 

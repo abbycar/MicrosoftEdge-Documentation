@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how to build, design, and test accessible websites within Microsoft Edge.
+title: Accessibility
+author: libbymc
+---
+
 # Accessibility 
 *"[T]he impact of disability is radically changed on the Web because the Web removes barriers to communication and interaction that many people face in the physical world." [(W3C - Accessibility)](https://www.w3.org/standards/webdesign/accessibility)*
 

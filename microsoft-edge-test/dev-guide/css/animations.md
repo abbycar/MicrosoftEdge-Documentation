@@ -1,4 +1,9 @@
-undefined
+---
+description: See how CSS Animations can be used to create visually appealing rich applications with smooth, fluid, animated experiences.
+title: Animations
+author: libbymc
+---
+
 # Animations
 
 CSS Animations enable you to create visually appealing rich applications with smooth, fluid, animated experiences. The animation property is a shorthand CSS property that includes [`animation-name`](https://msdn.microsoft.com/library/hh772236.aspx), [`animation-duration`](https://msdn.microsoft.com/library/hh772219.aspx), [`animation-timing-function`](https://msdn.microsoft.com/library/hh772240.aspx), [`animation-delay`](https://msdn.microsoft.com/library/hh772215.aspx), [`animation-iteration-count`](https://msdn.microsoft.com/library/hh772233.aspx), [`animation-direction`](https://msdn.microsoft.com/library/hh772217.aspx), [`animation-fill-mode`](https://msdn.microsoft.com/library/hh772232.aspx) and [`animation-play-state`](https://msdn.microsoft.com/library/hh772238.aspx). CSS Animations are defined by the World Wide Web Consortium (W3C) in the [CSS Animations](http://go.microsoft.com/fwlink/p/?LinkID=223144) specification.

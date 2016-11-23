@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how XMLHttpRequest supports a variety of developer scenarios involving transferring data to and from a server by sending requests.
+title: XMLHttpRequest
+author: abbycar
+---
+
 # XMLHttpRequest
 
 The [XMLHttpRequest (XHR)](https://msdn.microsoft.com/library/ms535874) object supports a variety of developer scenarios involving transferring data to and from a server by sending requests. It supports any text based format, and can make both HTTP and HTTPS requests.

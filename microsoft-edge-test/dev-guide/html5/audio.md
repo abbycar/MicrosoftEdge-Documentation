@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how the audio element can be used to embed simple sound effects, background audio, or more sophisticated audio engines to your webpage without requiring script or add-on controls.
+title: Audio
+author: libbymc
+---
+
 # HTML5 Audio
 
 You can use the `audio` element to embed simple sound effects, background audio, or more sophisticated audio engies to your webpage without requiring script or add-on controls.

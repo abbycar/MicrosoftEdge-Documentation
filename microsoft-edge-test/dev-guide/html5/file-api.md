@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how the File API can be used to access local files on the client machine in a secure way without the need for extensions or plugins.
+title: File API
+author: abbycar
+---
+
 # File API
 
 

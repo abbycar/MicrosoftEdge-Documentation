@@ -1,4 +1,9 @@
-undefined
+---
+description: This article contains information about the commands used for script execution.
+title: Script execution
+author: erikadoyle
+---
+
 # Script Execution Commands
 Microsoft Edge supports the following WebDriver commands for script execution:
 

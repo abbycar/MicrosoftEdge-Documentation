@@ -1,4 +1,9 @@
-undefined
+---
+description: This article contains information about server-related commands.
+title: Server
+author: erikadoyle
+---
+
 # Server Commands
 Microsoft Edge supports the following server-related WebDriver commands:
 

@@ -1,4 +1,9 @@
-undefined
+---
+description: See how the blob constructor allows you to easily create and manipulate a blob (typically equivalent to a file) directly on the client.
+title: Blob
+author: abbycar
+---
+
 # Blob
 
 The [`Blob`](https://msdn.microsoft.com/library/hh772298) constructor allows you to easily create and manipulate a blob (typically equivalent to a file) directly on the client.

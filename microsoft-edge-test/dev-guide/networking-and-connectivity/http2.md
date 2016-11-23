@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how about how HTTP/2 can do header compression and server push, utilize multiplexing, enable prioritizing while making multiple HTTP requests to a domain, and use binary protocol
+title: HTTP2
+author: erikadoyle
+---
+
 # HTTP/2
 
 HTTP/2, the first significant rework of the Hypertext Transfer Protocol since 1999, improves web performance, enabling a more efficient use of network resources and reducing the perception of latency. HTTP/2 introduces header compression (eliminating entire roundtrips of unnecessary network latency), Server Push (an unsolicited push of representations from servers to clients), utilizes multiplexing (allowing multiple concurrent exchanges on the same connection), enables prioritizing while making multiple HTTP requests to a domain, and uses binary protocol (whereas HTTP/1.1 uses text protocol). HTTP/2 does not require any changes to the way that existing web applications work, but adds new features that new applications can take advantage of for increased speed.

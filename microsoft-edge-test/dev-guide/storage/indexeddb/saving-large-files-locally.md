@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how to save files of arbitrary size locally by using the Indexed Database API (often abbreviated IndexedDB or IDB). 
+title: Saving large files locally
+author: abbycar
+---
+
 # Saving files locally using IndexedDB
 
 

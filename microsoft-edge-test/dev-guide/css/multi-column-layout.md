@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how multi-column Layout can make content flow into multiple columns, which retain a gap and an optional rule between them.
+title: Multi-column Layout
+author: libbymc
+---
+
 # Multi-column layout
 
 The [Multi-column Layout](https://msdn.microsoft.com/library/Hh771877) allows content to flow into multiple columns, which retain a gap and an optional rule between them. It also makes it possible to vary the number of columns based on the size of the browser window. [CSS Multi-column Layout Module](http://go.microsoft.com/fwlink/p/?LinkId=215567) is a World Wide Web Consortium (W3C) Candidate Recommendation.

@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how Touch Events allow you to interpret user interaction with a touch screen via finger, stylus, or trackpad, including multi-touch interactions for complex gestures.
+title: Touch events
+author: abbycar
+---
+
 # Touch events
 
 Microsoft Edge implements touch event interfaces to enable the ability to interpret touch interaction. Interactions can be made with touch screens via finger or stylus, or trackpads. These interfaces can even support multi-touch interactions so that applications can take advantage of more complex gestures.

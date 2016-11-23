@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how to specify what information about a webpage should be passed in the HTTP header to any request sent from the page. 
+title: Meta referrer
+author: libbymc
+---
+
 # Meta referrer
 
 Microsoft Edge offers a meta [referrer](https://msdn.microsoft.com/library/ms534365(v=vs.85).aspx), `<meta name="referrer">`, to specify what information about a webpage should be passed in the HTTP header to any request sent from the page.  Traffic remains encrypted and all the benefits of HTTPS remain, but the passing of referral data can be controlled between HTTPS and HTTP sites.

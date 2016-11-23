@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how to draw, render, and manipulate images and graphics on a document with the Canvas API.
+title: Canvas
+author: abbycar
+---
+
 # Canvas
 
 The [Canvas API](https://msdn.microsoft.com/library/hh771733) provides an object that is used for drawing, rendering, and manipulating images and graphics on a document. The [`canvas` object](https://msdn.microsoft.com/library/ff975062) is the JavaScript implementation of the [`<canvas>`](https://msdn.microsoft.com/library/ff975062) element. The `canvas` object provides the surface on which to apply graphics and images. It is not rendered by itself. To draw on the canvas, “contexts” are used, as specified in the [W3C HTML Canvas 2D Context spec](https://www.w3.org/TR/2dcontext/). The actual drawing is done using the [`CanvasRenderingContext2D` object](https://msdn.microsoft.com/library/ff975057), which provides the properties and methods that are used to create and manipulate graphics on a canvas object.

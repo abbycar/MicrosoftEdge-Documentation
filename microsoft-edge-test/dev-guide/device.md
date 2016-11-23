@@ -1,4 +1,9 @@
-undefined
+---
+description: Guides for device APIs and features in Microsoft Edge.
+title: Device
+author: erikadoyle
+---
+
 # Device features
 
 ## Device orientation and motion events

@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how the Console API can be used to send meaningful information to the Console from within an application and obtain diagnostic information from within the Console tool.
+title: Console
+author: erikadoyle
+---
+
 # Using the Console API
 
 The Console API provides methods for developers to send meaningful information to the Console from within their applications and to obtain diagnostic information from within the Console tool.

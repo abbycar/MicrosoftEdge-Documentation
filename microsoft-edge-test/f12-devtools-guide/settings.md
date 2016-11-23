@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how to change the settings of Edge Developer Tools.
+title: Settings
+author: erikadoyle
+---
+
 # Settings for the Edge Developer Tools
 
 ## about:flags

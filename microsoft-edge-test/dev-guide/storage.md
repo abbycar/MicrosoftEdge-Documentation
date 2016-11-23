@@ -1,4 +1,9 @@
-undefined
+---
+description: Guides about storing structued data and storage mechanisms.
+title: Storage
+author: abbycar
+---
+
 # Storage features
 
 ## Indexed Database(IndexedDB)

@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn aboute Web Cryptography API updates in Microsoft Edge.
+title: Web Cryptography API
+author: libbymc
+---
+
 # Web Cryptography API
 
 The [Web Cryptography API](http://go.microsoft.com/fwlink/p/?linkid=301307) provides basic cryptographic operations in web applications, such as hashing, signature generation and verification, and encryption and decryption.  The [Web Cryptography API](http://go.microsoft.com/fwlink/p/?linkid=301307)  allows a number of important security scenarios for web apps. These range from robust user/service authentication, document and code signing, and the confidentiality and integrity of communications all without requiring a secure connection (through SSL or similar protocol).

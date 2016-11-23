@@ -1,4 +1,9 @@
-undefined
+---
+description: This article contains information about window-related commands.
+title: Window
+author: erikadoyle
+---
+
 # Window Commands
 Microsoft Edge supports the following window-related WebDriver commands:
 

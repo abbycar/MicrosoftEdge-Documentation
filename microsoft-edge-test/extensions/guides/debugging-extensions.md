@@ -1,4 +1,9 @@
-undefined
+---
+description: With F12 Developer Tools, learn how to debug an extension's background script, content scripts, and extension pages.
+title: Debugging extensions
+author: abbycar
+---
+
 # Debugging extensions
 
 You can debug your extensions in Microsoft Edge by using F12 Developer Tools.

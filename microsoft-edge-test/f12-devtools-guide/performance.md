@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how to use the Performance tool to profile your webpage’s frame rate and JavaScript execution times.
+title: Performance
+author: erikadoyle
+---
+
 # Performance
 
 Using the **Performance** tool, profile your webpage's frame rate with the Timeline and JavaScript execution times with the JavaScript call stacks. The reports on different types of CPU usage and JavaScript execution profiling help you analyze UI performance problems.

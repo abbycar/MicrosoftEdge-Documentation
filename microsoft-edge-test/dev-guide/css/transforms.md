@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how CSS Transforms enable you to rotate, scale, move, skew, and translate page elements in 2D and 3D space.
+title: Transforms
+author: libbymc
+---
+
 # Transforms
 
 Microsoft Edge supports the CSS3 [`transform`](https://msdn.microsoft.com/library/jj127312(v=vs.85).aspx) property for 2D or 3D transformation of an element, allowing the element to be visually manipulated, including rotating, scaling, moving, skewing, or translating. 

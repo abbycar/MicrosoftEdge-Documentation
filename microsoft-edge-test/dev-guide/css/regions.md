@@ -1,4 +1,9 @@
-undefined
+---
+description: See how CSS Regions can be used to achieve more flexible, magazine-like, content flow through specified regions of the page (for example, flowing text along the contour of a mountain).
+title: Regions
+author: libbymc
+---
+
 # Regions
 
 CSS Regions is a layout feature used to achieve more flexible, Magazine-like, content flow through specified regions of the page (for example, flowing text along the contour of a mountain). A single HTML content stream of text and images can be segmented into multiple empty containers defined in a standard HTML template. HTML templates are documents that are mostly empty of original content, but are instead composed primarily of empty containers that are sized and positioned to give incoming content a specific layout.

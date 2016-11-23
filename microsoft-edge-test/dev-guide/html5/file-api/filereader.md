@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how the FileReader object ca be used to catch errors, know when a load is complete, and monitor the read progress of files.
+title: FileReader
+author: abbycar
+---
+
 # FileReader
 
 The [`FileReader`](https://msdn.microsoft.com/library/hh772310) object enables asynchronous reads on individual [`File`](https://msdn.microsoft.com/library/hh772315) or [`Blob`](https://msdn.microsoft.com/library/hh772298) objects by firing progress events as the read occurs to event handler methods attached to the `FileReader` object. Because of the asynchronous reading, it is possible to catch errors, know when a load is complete, and monitor the read progress.

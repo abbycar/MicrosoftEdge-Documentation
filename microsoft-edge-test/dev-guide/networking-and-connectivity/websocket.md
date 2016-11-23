@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how the WebSocket API provides a protocol for two-way communication between browser and server.
+title: WebSocket
+author: erikadoyle
+---
+
 # The WebSocket API
 
 

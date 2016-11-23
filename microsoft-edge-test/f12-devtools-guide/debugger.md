@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how to use the Debugger tool to navigate your code as it runs, set watches and breakpoints, view call stacks, and improve the readability of compiled/minified JavaScript.
+title: Debugger
+author: erikadoyle
+---
+
 # Debugger
 
 Use the **Debugger tool** to navigate your code as it runs, set watches and breakpoints, view call stacks, and improve the readability of compiled/minified JavaScript.

@@ -1,4 +1,9 @@
-undefined
+---
+description: Accessibility testing is a form of usability testing to verify your website is usable by all people. This article provides tools and testing procedures to evaluate a website's accessibility.
+title: Test
+author: libbymc
+---
+
 # Accessibility Testing
 Accessibility testing is a form of usability testing to verify your website is usable by all people. Check out the W3C’s [Accessibility Testing](https://www.w3.org/wiki/Accessibility_testing) page for information on when testing should be done, testing requirements, who should test your site, etc. 
 

@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how to analyze your web scenario performance data using the Windows Performance Analyzer.
+title: 2 analyzing a trace
+author: erikadoyle
+---
+
 # Analyzing a trace
 
 Here's how to analyze your web scenario performance data using the *Windows Performance Analyzer (WPA)*.

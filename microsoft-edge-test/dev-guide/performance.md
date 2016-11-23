@@ -1,4 +1,9 @@
-undefined
+---
+description: Guides for perfromance APIs and features within Microsoft Edge.
+title: Performance
+author: erikadoyle
+---
+
 # Performance features
 
 ## Animation Timing API

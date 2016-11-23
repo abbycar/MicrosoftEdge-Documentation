@@ -1,4 +1,9 @@
-undefined
+---
+description: This article contains information about the commands used for simulating user input.
+title: Input
+author: erikadoyle
+---
+
 # Input Commands
 Microsoft Edge supports the following WebDriver commands for simulating user input:
 

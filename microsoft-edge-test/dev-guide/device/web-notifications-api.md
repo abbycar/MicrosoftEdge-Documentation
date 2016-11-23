@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how the Web Notifications API can be used to let websites send users notifications outside the context of the Microsoft Edge browser.
+title: Web Notifications API
+author: abbycar
+---
+
 # Web Notifications API
 
 The Web Notifications API allows websites to send users notifications outside the context of a webpage within the Microsoft Edge browser. An example of this feature in action would be with a messaging application like Skype. When a user would receive a new message, a notification would appear on their desktop, alerting them of the message. Web Notifications are fully integrated with the Notification Platform and the Action Center within Windows 10. 

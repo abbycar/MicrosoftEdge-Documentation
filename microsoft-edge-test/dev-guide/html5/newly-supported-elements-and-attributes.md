@@ -1,4 +1,9 @@
-undefined
+---
+description: Check out the newly supported HTML5 elements and attributes.
+title: Newly supported elements and attributes
+author: libbymc
+---
+
 # Newly supported HTML elements and attributes
 
 Microsoft Edge for Windows 10 adds supports for new HTML features per the World Wide Web Consortium (W3C) specifications for [HTML5](http://go.microsoft.com/fwlink/p/?LinkId=203771) and [HTML 5.1](http://go.microsoft.com/fwlink/p/?LinkId=506795). Below are lists of the new attributes and elements recently supported by Microsoft Edge. 

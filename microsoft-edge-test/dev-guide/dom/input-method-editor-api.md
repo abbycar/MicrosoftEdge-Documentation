@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how the Input Method Editor API provides composition information for auto-complete or search suggestions, and enables you to avoid user interface collisions.
+title: Input Method Editor API
+author: abbycar
+---
+
 # Input Method Editor API
 
 

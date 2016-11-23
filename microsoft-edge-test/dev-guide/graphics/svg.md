@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how the Scalable Vector Graphics language can be used to describe two-dimensional vector and mixed vector/raster graphics in an XML format.
+title: SVG
+author: abbycar
+---
+
 # SVG
 
 Scalable Vector Graphics (SVG), an XML markup language for describing two-dimensional vector graphics, offer a powerful way to add high-fidelity, easily scalable visuals—from small and simple to large and complex— to a website without the need for a plug-in or separate viewer. In addition, SVG images offer unique opportunities for interactivity and animation.

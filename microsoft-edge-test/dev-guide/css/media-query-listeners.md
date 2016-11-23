@@ -1,4 +1,9 @@
-undefined
+---
+description: Learn how Media Query Listeners enable evaluating a media query at runtime using JavaScript and subscribing listeners to changes in the media query’s evaluation.
+title: Media query listeners
+author: libbymc
+---
+
 # Media query listeners
 
 Media query listeners enable evaluating a media query at runtime using JavaScript and subscribing listeners to changes in the media query's evaluation.

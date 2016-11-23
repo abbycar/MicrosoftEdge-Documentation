@@ -1,4 +1,9 @@
-undefined
+---
+description: This article contains information about the commands used for inspecting elements.
+title: Element inspection
+author: erikadoyle
+---
+
 # Element Inspection Commands
 Microsoft Edge supports the following WebDriver commands for inspecting elements:
 

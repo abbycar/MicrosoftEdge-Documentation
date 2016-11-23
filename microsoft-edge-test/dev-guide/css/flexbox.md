@@ -1,4 +1,9 @@
-undefined
+---
+description: See how Flexible Box Layout can be used to lay out complex webpages more easily and make the relative position and size of elements adjust as screen and browser window sizes change.
+title: Flexbox
+author: libbymc
+---
+
 ﻿# Flexible box ("Flexbox") layout
 
 Flexible box layout (flexbox) adds to the four basic layout modes defined in [Cascading Style Sheets, Level 2 Revision 1 (CSS2.1)](http://go.microsoft.com/fwlink/p/?LinkId=142049): block layout, inline layout, table layout, and positioned layout. With Flexbox layout, you can lay out complex webpages more easily and make the relative position and size of elements adjust as screen and browser window sizes change. Flexbox can lessen the reliance on floats and table-based layouts, which are more complicated to position and size correctly.
