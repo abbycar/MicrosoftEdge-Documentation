@@ -13,13 +13,13 @@ Load your symbols by selecting **Trace** > **Load Symbols** from the menu. The s
 
 You can load symbols significantly faster by restricting the loading to Microsoft Edge and the web apps host. Select **Trace** > **Configure Symbols** and restrict the **Load Settings** to only *MicrosoftEdgeCP.exe* and *WWAHost.exe*.
 
-![Symbol Restrictions](../media/wpa-symbolrestrictions.png)
+![Symbol Restrictions](./../media/wpa-symbolrestrictions.png)
 
  After symbols begin loading, apply the *Html Analysis Profile* (**Profiles** > **Apply...** > **Browse Catalog...** > **HtmlResponsivenessAnalysis.wpaProfile**)
 
   The profile will load several graphs and tables to for your analysis. For nearly all web site investigations, we recommend starting with this profile.
 
-![Big Picture](../media/wpa-bigpicture.png)
+![Big Picture](./../media/wpa-bigpicture.png)
 
 ## 3. Zoom to remove trace rundown
 You can focus in on your analysis by removing the empty trailing *Trace Rundown* sections of your graphs. From any of the graphs currently showing:
@@ -29,7 +29,7 @@ You can focus in on your analysis by removing the empty trailing *Trace Rundown*
 
  The zoom will apply to all graphs and charts on the active tab.
 
-![Post Zoom](../media/wpa-postzoom.png)
+![Post Zoom](./../media/wpa-postzoom.png)
 
 #### The Html Responsiveness Analysis Profile
 The *Html Responsiveness* analysis profile provides four tabs:
@@ -50,10 +50,10 @@ Bottom up DOM call analysis can be useful for identifying the JavaScript respons
 
 Start by looking at *CPU Usage (Sampled) Breakdown by Process, Thread, Activity, Stack*. Click on any cell in **Stack** column. Press *Ctrl+F* and search for *ExternalFunctionThunk*. **NOTE:** This only works if you have successfully loaded symbols.
 
-![Search For ExternalFunctionThunk](../media/wpa-externalfunctionthunk.png)
+![Search For ExternalFunctionThunk](./../media/wpa-externalfunctionthunk.png)
 
 Investigate any lines with *ExternalFunctionThunk*. This is the interface from the Chakra JavaScript engine to the Microsoft Edge engine. It shows where code bridges from the browser to JavaScript execution. Right-click on the line and select **View Callees** > **By Module** to see a weighted list of longest running browser engine functions.
 
-![View Callees](../media/wpa-viewcallees.png)
+![View Callees](./../media/wpa-viewcallees.png)
 
 To identify all the JavaScript calling a specific API, right-click on it and select **View Callers** > **By Function** and expand the tree to view and compare the relative weights.

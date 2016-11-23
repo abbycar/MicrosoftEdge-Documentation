@@ -75,7 +75,7 @@ Open this codepen sample with the F12 tool, click the "show it" button to displa
 
 Use the arrows to the left to expand objects and nodes as seen in the console image below.
 
-![Edge Console Inspectable objects and nodes](../media/edge_console2.png)
+![Edge Console Inspectable objects and nodes](./../media/edge_console2.png)
 
 Right-clicking DOM nodes provide an **Evaluate as Object** option in the context menu. If you select that option, you send the node to the console as an object. Similarly, JavaScript objects that represent DOM nodes offer an **Evaluate as HTML** option in their context menus.
 

@@ -7,7 +7,7 @@ Using the **Performance** tool, profile your webpage's frame rate with the Timel
 
 Whether it's a jittery animation or user interface elements that respond slowly, a user's experience on your site is diminished when the UI isn't smooth and responsive. The new **Performance** profiler helps you see what's happening behind the scenes when your pages are slowing down. This info can give clues to improve speed.
 
-![Edge F12 Tools Performance](./media/edge_performance.png)
+![Edge F12 Tools Performance](./media/Edge_Performance.png)
 
 ### Recording a profiling session
 
@@ -15,7 +15,7 @@ When you first load the **Performance** tool, you'll see an instruction to **sta
 
 During profiling, perform the fewest actions you need to capture the slowness you're trying to analyze. Extra interactions with the page produce extra data, which clutters results. 
 
-If you need accurate page load times in the report, visit the [**Network tool**](../network/) and use its **clear browser cache** option before profiling. Using the **Network tool** ensures you're loading all page resources from the network, and then reloads the page as soon as you start profiling.
+If you need accurate page load times in the report, visit the [**Network tool**](./network.md) and use its **clear browser cache** option before profiling. Using the **Network tool** ensures you're loading all page resources from the network, and then reloads the page as soon as you start profiling.
 
 The **Performance** tool automatically marks **app lifecycle events**, such as [**DOMContentLoaded**](https://msdn.microsoft.com/library/hh869434.aspx). Use the [`performance.mark()`](https://msdn.microsoft.com/library/jj585593.aspx) method to set custom **user marks** from within your code.
 
@@ -27,7 +27,7 @@ Perhaps you don't have time to dig into the information now or want to look at t
 
 ### The ruler
 
-![Edge F12 Tools Ruler](./media/f12blueresponsivenessruler.png)
+![Edge F12 Tools Ruler](./media/F12BlueResponsivenessRuler.png)
 
 The ruler displays the amount of time the session ran as well as **app lifecycle events** and **user marks**. Hovering over events and marks displays their labels and helps orient yourself within a session. 
 
@@ -39,11 +39,11 @@ User marks can be given labels by using a string for the argument of the `perfor
 performance.measure("box cycler","Begin Rotation","End Rotation");
 ```
 
-![Edge F12 Tools Performance Measure](./media/edge_performance_measure.png)
+![Edge F12 Tools Performance Measure](./media/Edge_Performance_measure.png)
 
 ### The timeline
 
-![Edge F12 Tools Performance Measure](./media/gdr_f12_responsivenesstimeline.png)
+![Edge F12 Tools Performance Measure](./media/gdr_f12_ResponsivenessTimeline.png)
 
 The **timeline** shows two different measures: 
 
@@ -55,7 +55,7 @@ Click and drag horizontally across an area on the **timeline** to highlight it. 
 
 ### The timeline details
 
-![Edge F12 Tools Performance Timeline Details](./media/gdr_f12_responsivenesstimelinedetails.png)
+![Edge F12 Tools Performance Timeline Details](./media/gdr_f12_ResponsivenessTimelineDetails.png)
 
 The **Timeline details** look deeper into the recorded events, breaking down the categories into their component events. This info provides details about the DOM elements they impact or the code they cause to run.
 
@@ -65,11 +65,11 @@ The **event type filter** offers filters for **background activity**, **network 
 
 In the image below, at the bottom of the dialog, a time filter is shown as set to filter out all events taking less than 1 millisecond, and a text box at the top is set to filter by text in the event's name.
 
-![Edge F12 Tools Performance Timeline Filter](./media/edge_performance_filters.png)
+![Edge F12 Tools Performance Timeline Filter](./media/Edge_Performance_filters.png)
 
 To the left of the updated filters button is the **Group top level events by frames** button, or **frame grouping**. This creates a set of pseudo-events based on the measured frame rate and groups events under them. When you're trying to determine why you're dropping frames in an animation, this helps break units of work by frame and identify where frames are taking longer to execute than others.
 
-![Edge F12 Tools Performance Timeline Grouping](./media/edge_performance_grouping.png)
+![Edge F12 Tools Performance Timeline Grouping](./media/Edge_Performance_grouping.png)
 
 For a quick overview of events that contributed to the inclusive duration, the event details pane shows a circular chart using the same color coding as the timeline. Because the colors represent categories of events, the chart might contain multiple segments in the same color. Placing your mouse over a segment shows a tooltip with its event label.
 
@@ -81,21 +81,21 @@ Right-click events to see a context menu with three options:
 
   - **Clear selection** zooms out again.
 
-  - **View Source** is only enabled for **Scripting** events. It switches to the [**Debugger**](../debugger/), opens the file containing the code that generated the event, and moves the cursor to the point in the code where the event was generated.
+  - **View Source** is only enabled for **Scripting** events. It switches to the [**Debugger**](./debugger.md), opens the file containing the code that generated the event, and moves the cursor to the point in the code where the event was generated.
 
 ### The details of the details
 
 Each element in the **Timeline details** shows different info, depending on its type.
 
-![Edge F12 Tools Performance Timer Details](./media/f12blueresponsivenesstimerdetails.png)
+![Edge F12 Tools Performance Timer Details](./media/F12BlueResponsivenessTimerDetails.png)
 
-This timer was invoked by a [`setTimeout()`](https://msdn.microsoft.com/library/ms536753.aspx) which called the **autoNextSlide** function in **script.jsx**. When you click the file name, it opens in the [**Debugger tool**](../debugger/) and navigates to the function for inspection.
+This timer was invoked by a [`setTimeout()`](https://msdn.microsoft.com/library/ms536753.aspx) which called the **autoNextSlide** function in **script.jsx**. When you click the file name, it opens in the [**Debugger tool**](./debugger.md) and navigates to the function for inspection.
 
 The circular chart at the bottom shows that while **Scripting** made up a large part of the event's time, **Styling** took up a fair portion. Expanding the timer's event in the **Timeline details** shows more about the different **Styling** operations that contributed to the time it required.
 
 When you select a portion of the timeline, that selection's summary information is presented in the event details pane like a timeline event until you select an event from the **Timeline details**.
 
-![Edge F12 Tools Performance Selection Summary](./media/edge_performance_selectionsummary.png)
+![Edge F12 Tools Performance Selection Summary](./media/Edge_Performance_selectionSummary.png)
 
 ## Event categories and definitions
 The Responsiveness tool uses 7 main event categories on the timeline. These break down into a selection of events in **Timeline details**.
@@ -135,7 +135,7 @@ For a more specific demonstration of using the Performance tool, check out our d
 ## JavaScript Call Stacks
 If you remember the F12 tools in Internet Explorer 11, you'll remember the **JavaScript profiler** tool. In Microsoft Edge, it's combined with the prior **UI responsiveness** tool to make the **Performance** tool. We found that the information for both tools was often needed together, so now whenever a **Performance** report is generated, the JavaScript call stack is timed and that profiling information is presented in the **JavaScript call stacks** tab.
 
-![Edge F12 Tools Performance Timeline Grouping](./media/edge_performance_callstacks.png)
+![Edge F12 Tools Performance Timeline Grouping](./media/Edge_Performance_callstacks.png)
 
 The image above shows the initial load of the Microsoft homepage, a little navigation around it, and the JavaScript functions that were invoked. 
 

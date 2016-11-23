@@ -5,7 +5,7 @@ undefined
 
 The CSS transitions include: [`transition`](https://msdn.microsoft.com/library/hh772284(v=vs.85).aspx), [`transition-property`](https://msdn.microsoft.com/library/hh772287(v=vs.85).aspx), [`transition-duration`](https://msdn.microsoft.com/library/hh772286(v=vs.85).aspx), [`transition-timing-function`](https://msdn.microsoft.com/library/hh772288(v=vs.85).aspx), and [`transition-delay`](https://msdn.microsoft.com/library/hh772285(v=vs.85).aspx) and may be enabled by changes of state via pseudo-classes like `:hover` or `:active` or dynamically set using JavaScript. This topic provides an overview of the properties that make up CSS3 Transitions, and shows you a simple example of transitions in use.
 
-CSS Transitions are now supported for use on [SVG elements](../../graphics/SVG) in Microsoft Edge.
+CSS Transitions are now supported for use on [SVG elements](./../graphics/SVG.md) in Microsoft Edge.
 
 ## The transition-property property
 

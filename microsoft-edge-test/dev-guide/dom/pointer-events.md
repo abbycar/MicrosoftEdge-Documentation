@@ -67,7 +67,7 @@ var touchPoints = navigator.maxTouchPoints;
 
 ## Controlling for default touch handling
 
-A default handling for common touch interactions, including panning for scrollable regions, pinch zooming, and HTML5 drag and drop support for touch is activated by a user interaction sequence of press, hold, and drag. Use the [`touch-action`](https://msdn.microsoft.com/library/windows/apps/Hh767313.aspx) CSS property to specify if and how a given page region can be manipulated by touch input and default touch handling behaviors. (For more on `touch-action` support in Microsoft Edge, see ['Newly supported CSS properties and pseudo-classes'](../../css/newly-supported-properties-and-pseudo-classes)).
+A default handling for common touch interactions, including panning for scrollable regions, pinch zooming, and HTML5 drag and drop support for touch is activated by a user interaction sequence of press, hold, and drag. Use the [`touch-action`](https://msdn.microsoft.com/library/windows/apps/Hh767313.aspx) CSS property to specify if and how a given page region can be manipulated by touch input and default touch handling behaviors. (For more on `touch-action` support in Microsoft Edge, see ['Newly supported CSS properties and pseudo-classes'](./../css/newly-supported-properties-and-pseudo-classes.md)).
 
 The following style rule disables all default touch handling and directs all pointer events to JavaScript code:
 

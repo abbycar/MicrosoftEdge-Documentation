@@ -35,7 +35,7 @@ After creating the Grid element, apply sizes to your columns and rows by using t
 
 You can size columns and rows (referred to as *tracks*) using any of the following:
 
-* [standard length units](../length-units-relative-and-absolute) or a percentage of the object's width (for columns) or height (for rows)
+* [standard length units](./length-units-relative-and-absolute.md) or a percentage of the object's width (for columns) or height (for rows)
 * the `auto` keyword, indicating the width of the column or height of the row is sized based on the items inside of it
 * the `min-content` keyword, indicating the minimum width or height of any child elements is used as the width or height
 * the `max-content` keyword, indicating the maximum width or height of any child elements used as the width or height

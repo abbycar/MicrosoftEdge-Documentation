@@ -17,7 +17,7 @@ If your problem is high memory usage from the start, but not memory growth, take
 
 After you've started profiling and taken some snapshots, you'll see a summary of the session that looks similar to this:
 
-![Edge Memory Tool](./media/edge_memory.png)
+![Edge Memory Tool](./media/Edge_Memory.png)
 
 When you begin recording a session, the **Total memory** timeline shows the memory use by the current browser tab's processes as a graph over time. 
 
@@ -45,7 +45,7 @@ In the set of snapshots above, it shows that each time we ran the process we sus
 
 Click one of the measurement numbers on a snapshot to see details of that measurement. The image below shows the view when you click on the memory issues number in a snapshot.
 
-![Edge Memory Tool Details](./media/edge_memory_details.png)
+![Edge Memory Tool Details](./media/Edge_Memory_details.png)
 
 In the view above, you see the **Dominators** view of the snapshot's details, sorted so the issues are displayed first. 
 
@@ -75,15 +75,15 @@ You can change settings for the detailed display using a drop-down menu in the u
 
 **Circular references**: In its simplest form, a circular reference happens when one object refers to another object that refers back to it, creating a loop. In more complex forms, the circular reference path can go through many objects. The **Memory** tool performs automatic filtering of circular references, indicating where they occur and trimming them. This makes it easier to dig deeper into object roots without getting lost in circular paths.
 
-When an object representing a function is displayed in the **Memory** tool, it is linked to its location in the source code and the color is changed to blue. Clicking on the function name or clicking its line and pressing ENTER switches you to the [**Debugger**](../debugger/) and focuses on that function's location in the corresponding script.
+When an object representing a function is displayed in the **Memory** tool, it is linked to its location in the source code and the color is changed to blue. Clicking on the function name or clicking its line and pressing ENTER switches you to the [**Debugger**](./debugger.md) and focuses on that function's location in the corresponding script.
 
-**Note**   The **Memory** tool displays function names as they exist in memory. If you're using JavaScript that's been compressed or compiled from another language, and you have a **source map**, you could click on a function named `t` in the **Memory** tool, but find the [**Debugger**](../debugger/) tool focused on a function named `setOrigination`. If this happens and it bothers you, try toggling off **source map** support for that file in the Debugger.
+**Note**   The **Memory** tool displays function names as they exist in memory. If you're using JavaScript that's been compressed or compiled from another language, and you have a **source map**, you could click on a function named `t` in the **Memory** tool, but find the [**Debugger**](./debugger.md) tool focused on a function named `setOrigination`. If this happens and it bothers you, try toggling off **source map** support for that file in the Debugger.
 
 ### The comparison view
 
 In snapshots where a change in memory use or object count is shown, click the amount of the change to see a comparison between that snapshot and the snapshot before it. 
 
-![Edge Memory Tool Comparison View](./media/edge_memory_compare.png)
+![Edge Memory Tool Comparison View](./media/Edge_Memory_compare.png)
 
 The comparison view works like the snapshot details view, except :
 

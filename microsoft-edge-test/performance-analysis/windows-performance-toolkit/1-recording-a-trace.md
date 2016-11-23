@@ -9,7 +9,7 @@ Shut down as many running programs as possible to avoid noise in the trace that 
 ## 2. Launch Windows Performance Recorder (WPR) and select options
 Launch the Windows Performance Recorder and ensure that **More options** toggle is expanded. Select the *Edge Browser* and *HTML Responsiveness* scenario analysis checkboxes.
 
-![Windows Performance Record Options](../media/wprui-options.png)
+![Windows Performance Record Options](./../media/wprui-options.png)
 
 #### Tips and tricks for gathering traces
 - Try to keep background activity to an absolute required minimum. Background processes may skew both perceived performance and actual performance characteristics and affect the results. Ideally there are no other running applications beside browser and WPR.
@@ -22,10 +22,10 @@ Launch the Windows Performance Recorder and ensure that **More options** toggle 
 ## 3. Record the scenario
 Click **Start** to begin recording. The tool will report the size of the buffer it is using to help you anticipate the size of the generated file. Perform the user scenario you want to measure, then click **Save** to stop the recording and save the trace. Saving immediately after finishing your scenario will help minimize the size of the trace file.
 
-![Windows Performance Record Start](../media/wprui-recording.png)
+![Windows Performance Record Start](./../media/wprui-recording.png)
 
 The WPR tool will indicate that your trace information was saved successfully:
-![Windows Performance Record Start](../media/wprui-savecomplete.png)
+![Windows Performance Record Start](./../media/wprui-savecomplete.png)
 
 ## 4. Analyze the trace
-Now that you've gathered your performance data, you can [analyze the trace using Windows Performance Analyzer](../1-analyzing-a-trace) to see what optimizations can be made.
+Now that you've gathered your performance data, you can [analyze the trace using Windows Performance Analyzer](./1-analyzing-a-trace.md) to see what optimizations can be made.

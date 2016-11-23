@@ -76,9 +76,9 @@ Method | Description
 [Fetch (or the undeniable limitations of XHR)](https://blogs.windows.com/msedgedev/2016/05/24/fetch-and-xhr-limitations/)
 
 
-[Streams API](../streams-API/)
+[Streams API](./streams-API.md)
 
-[XMLHttpRequest](../XMLHttpRequest)
+[XMLHttpRequest](./XMLHttpRequest.md)
 
 ## Specification
 [Fetch](https://fetch.spec.whatwg.org/)

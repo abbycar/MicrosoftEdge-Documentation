@@ -7,7 +7,7 @@ The [Animation Timing API](https://msdn.microsoft.com/library/hh772738(v=vs.85).
 
 When an animation uses a JavaScript timer resolution of 10ms to draw animations, you get a timing mismatch as shown here.
 
-![A diagram showing the frequency difference between a display frequency and a JavaScript timer resolution](../media/ie10devguide_ppb4_9perf_image1.png)
+![A diagram showing the frequency difference between a display frequency and a JavaScript timer resolution](./../media/ie10devguide_ppb4_9perf_image1.png)
 
 The top row represents the 16.7ms display frequency displayed on most monitors and the bottom row represents a typical [`setTimeout`](http://go.microsoft.com/fwlink/p/?LinkID=233102) of 10ms. Every third draw cannot be painted (indicated by the red arrow) because another draw request occurs before the display refresh interval. This overdrawing results in choppy animations because every third frame is lost. This timer resolution reduction can also negatively impact battery life, and reduce performance of other apps.
 

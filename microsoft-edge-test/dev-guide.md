@@ -9,7 +9,7 @@ Feature | Build Number
 :----------| :-------------
 [Beacon API](./dev-guide/performance/beacon-API.md) | 14393
 [Fetch API](./dev-guide/performance/fetch-API.md) | 14393
-[Microsoft Edge Extensions](../extensions) | 14393
+[Microsoft Edge Extensions](./extensions.md) | 14393
 Updates to the [Selection  API](./dev-guide/HTML5/selection-API.md) | 14393
 [Speech Synthesis API](./dev-guide/multimedia/web-speech-api.md) | 14393
 [Streams API](./dev-guide/performance/streams-API.md) | 14393

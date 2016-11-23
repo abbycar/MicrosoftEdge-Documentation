@@ -16,9 +16,9 @@ Web authors can now wrap text so that it completely surrounds elements, thereby 
 
 Support for CSS Exclusions enables scenarios like the one illustrated in the following image, where the app shown is laid out similarly to the way in which you might design a page in a desktop publishing application like *Microsoft Word* or *Adobe InDesign*.
 
-![CSS Exclusions Example](../media/exclusions_example.png)
+![CSS Exclusions Example](./../media/exclusions_example.png)
 
-Furthermore, you can combine *CSS Exclusions* with other layout features, such as [CSS Grid](./grid-layout.md), [CSS Multi-column](../multi-column), and [CSS Flexbox](../flexbox). The following subsections provide a brief overview of *CSS Exclusions* and how to implement them.
+Furthermore, you can combine *CSS Exclusions* with other layout features, such as [CSS Grid](./grid-layout.md), [CSS Multi-column](./multi-column.md), and [CSS Flexbox](./flexbox.md). The following subsections provide a brief overview of *CSS Exclusions* and how to implement them.
 
 ## Exclusion terms defined
 
@@ -54,10 +54,10 @@ The `-ms-wrap-flow` property makes an element an exclusion element. The followin
 
 Value | Description
 :------------ | :-------------
-auto | Initial value. For floated elements, an exclusion is created; for all other elements, an exclusion is not created. <br> ![Example of -ms-wrap-side:auto](../media/ms-wrap-flow-auto.png)
-both | Inline flow content can flow on all sides of the exclusion. <br> ![Example of -ms-wrap-side:both](../media/ms-wrap-flow-both.png)
-start | Inline flow content can wrap on the start edge of the exclusion area but must leave the area after the end edge of the exclusion area empty. <br> ![Example of -ms-wrap-side:left](../media/ms-wrap-flow-start.png)
-end | Inline flow content can wrap after the end edge of the exclusion area but must leave the area before the start edge of the exclusion area empty. <br> ![Example of -ms-wrap-side:right](../media/ms-wrap-flow-end.png)
+auto | Initial value. For floated elements, an exclusion is created; for all other elements, an exclusion is not created. <br> ![Example of -ms-wrap-side:auto](./../media/ms-wrap-flow-auto.png)
+both | Inline flow content can flow on all sides of the exclusion. <br> ![Example of -ms-wrap-side:both](./../media/ms-wrap-flow-both.png)
+start | Inline flow content can wrap on the start edge of the exclusion area but must leave the area after the end edge of the exclusion area empty. <br> ![Example of -ms-wrap-side:left](./../media/ms-wrap-flow-start.png)
+end | Inline flow content can wrap after the end edge of the exclusion area but must leave the area before the start edge of the exclusion area empty. <br> ![Example of -ms-wrap-side:right](./../media/ms-wrap-flow-end.png)
 maximum | Inline flow content can wrap on the side of the exclusion with the largest available space for the given line, and must leave the other side of the exclusion empty.
 clear | Inline flow content can only wrap on top and bottom of the exclusion and must leave the areas to the start and end edges of the exclusion box empty.
 
@@ -73,13 +73,13 @@ wrap | Initial value. The element inherits its parent node's wrapping context. I
 none | The element does not inherit its parent node's wrapping context. Its descendants are only subject to exclusion shapes defined inside the element.
 
 ## Offsetting the inner wrap shape
-The [`-ms-wrap-margin`](https://msdn.microsoft.com/library/hh772042(v=vs.85).aspx) property specifies a margin that is used to offset the inner wrap shape from other shapes. This property can be set to [any supported length value](../length-units-relative-and-absolute).
+The [`-ms-wrap-margin`](https://msdn.microsoft.com/library/hh772042(v=vs.85).aspx) property specifies a margin that is used to offset the inner wrap shape from other shapes. This property can be set to [any supported length value](./length-units-relative-and-absolute.md).
 
 ## Example of CSS Exclusions and CSS Grid
 
-Using *CSS Exclusions* with [CSS Grid](../grid-layout) in the following code sample illustrates an exclusion inside a 3×3 grid. The grid contains one div element with inline content that spans all three rows and all three columns. The exclusion has been placed in the grid cell at row 2, column 2. The content flows around the exclusion, utilizing `-ms-wrap-margin` to specify a 15 pixel margin for the offset.
+Using *CSS Exclusions* with [CSS Grid](./grid-layout.md) in the following code sample illustrates an exclusion inside a 3×3 grid. The grid contains one div element with inline content that spans all three rows and all three columns. The exclusion has been placed in the grid cell at row 2, column 2. The content flows around the exclusion, utilizing `-ms-wrap-margin` to specify a 15 pixel margin for the offset.
 
-[![CSS Exclusions with CSS Grid Sample](../media/exclusions_example2.png)](http://go.microsoft.com/fwlink/p/?LinkId=233659)
+[![CSS Exclusions with CSS Grid Sample](./../media/exclusions_example2.png)](http://go.microsoft.com/fwlink/p/?LinkId=233659)
 
 *[View this page](http://go.microsoft.com/fwlink/p/?LinkId=233659) with Microsoft Edge to see CSS Exclusions in action.*
 
@@ -146,9 +146,9 @@ p {
 
 ## Example of CSS Exclusions and -ms-wrap-through
 
-Using *CSS Exclusions* [`-ms-wrap-through`](https://msdn.microsoft.com/library/hh771900(v=vs.85).aspx) property with [CSS Grid](../grid-layout) in the following code sample illustrates an exclusion inside a 3×3 grid with #p2 (the blue text paragraph) wrapping through the exclusion (using `-ms-wrap-through: none;`).
+Using *CSS Exclusions* [`-ms-wrap-through`](https://msdn.microsoft.com/library/hh771900(v=vs.85).aspx) property with [CSS Grid](./grid-layout.md) in the following code sample illustrates an exclusion inside a 3×3 grid with #p2 (the blue text paragraph) wrapping through the exclusion (using `-ms-wrap-through: none;`).
 
-![CSS Exclusions wrap-through example](../media/exclusions-wrap-through.png)
+![CSS Exclusions wrap-through example](./../media/exclusions-wrap-through.png)
 
 ```HTML
 <div class="body">

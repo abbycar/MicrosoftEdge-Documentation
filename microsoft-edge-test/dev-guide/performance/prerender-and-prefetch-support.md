@@ -15,7 +15,7 @@ You can use the link element with the [rel attribute](https://msdn.microsoft.com
 
 ### prerender
 
-Prerender identifies a webpage to preemptively load in the background, like opening a new page in a hidden tab with all resources downloaded, DOM created, JS executed and CSS applied, ready to be viewed in case the user wants to navigate to it next. Because all of the page resources are loaded, confidence should be high that the user will navigate to this page next (for example, a log-in page followed by the page being logged in to).The [Page Visibility API](../page-Visibility-API) can be used to ensure that certain scripts fire only once the user is viewing the page.
+Prerender identifies a webpage to preemptively load in the background, like opening a new page in a hidden tab with all resources downloaded, DOM created, JS executed and CSS applied, ready to be viewed in case the user wants to navigate to it next. Because all of the page resources are loaded, confidence should be high that the user will navigate to this page next (for example, a log-in page followed by the page being logged in to).The [Page Visibility API](./page-Visibility-API.md) can be used to ensure that certain scripts fire only once the user is viewing the page.
 
 ```HTML
 <link rel="prerender" href="http://example.com/nextpage.html" />
@@ -81,9 +81,9 @@ When a prerendered page is discarded and then requested later, it's loaded from 
 Loading a page in the background may lead to certain side-effects. Specifically, for activities run during a [load](https://msdn.microsoft.com/library/cc197055(v=vs.85).aspx) event, you might find:
 -  Certain animations may not appear when the page is displayed. This is likely because they've already run while the page was loaded in the background.
 -  Timers may give unexpected results.
--  Cookies, cached content, and changes made by asynchronous operations (such as [IndexedDB](../../storage/IndexedDB) and [web storage](https://msdn.microsoft.com/library/hh781511(v=vs.85).aspx)) are retained.
+-  Cookies, cached content, and changes made by asynchronous operations (such as [IndexedDB](./../storage/IndexedDB.md) and [web storage](https://msdn.microsoft.com/library/hh781511(v=vs.85).aspx)) are retained.
 
-If you run into these or other related side effects, use the [Page Visibility API](../page-Visibility-API) to determine when the page is visible. Animations, for example, should be delayed until the page is visible. To learn more, see [Effective use of prerender and prefetch](https://msdn.microsoft.com/library/dn384048(v=vs.85).aspx).
+If you run into these or other related side effects, use the [Page Visibility API](./page-Visibility-API.md) to determine when the page is visible. Animations, for example, should be delayed until the page is visible. To learn more, see [Effective use of prerender and prefetch](https://msdn.microsoft.com/library/dn384048(v=vs.85).aspx).
 
 ## Specification
 

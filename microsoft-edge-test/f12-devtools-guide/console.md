@@ -26,7 +26,7 @@ The Console has three categories:
 
 These messages can be filtered out of the Console output. The icons for each message type at the top of the Console pane act as toggles. Click one to remove its associated message type, then again to return it. You can also right-click in the Console output and find check boxes for each type in the context menu.
 
-When you click the file name that follows a message, you open the **[Debugger](../debugger/)** tool and load the file in the script pane.
+When you click the file name that follows a message, you open the **[Debugger](./debugger.md)** tool and load the file in the script pane.
 
 When the **Clear on navigate** icon is highlighted, the console clears every time the browser navigates to a new webpage. When it isn't highlighted, the browser preserves the contents of the **Console**, but messages from prior webpages are grayed out to better visually indicate they are not from the current page.
 
@@ -44,7 +44,7 @@ The console not only displays output from code, but provides an interface to exe
 
 Generally, all script entered in the command line executes in the [global scope](https://msdn.microsoft.com/library/bzt2dkta.aspx) of the currently selected window. However, if your script is currently paused (for instance, because you set a breakpoint), script executes in the [local scope](https://msdn.microsoft.com/library/bzt2dkta.aspx) of the current function within the call stack.
 
-![F12 Console Command Line local scope](./media/edge_console_local_scope.png)
+![F12 Console Command Line local scope](./media/Edge_Console_local_scope.png)
 
 If your webpage is built with a **[frameset](https://msdn.microsoft.com/library/ms535251.aspx)** or **[iframes](https://msdn.microsoft.com/library/ms535258.aspx)**, those frames load their own documents in their own windows.
 
@@ -67,7 +67,7 @@ Console selectors provide simple shorthands for quickly selecting elements in yo
    - **$()** is a shorthand for [**`document.querySelector()`**](https://msdn.microsoft.com/library/cc288169.aspx).
    - **$$()** is a shorthand for [**`document.querySelectorAll()`**](https://msdn.microsoft.com/library/cc304115.aspx).
    - **$_()** is a shorthand for the last selected element or object.
-   - **$0, $1, $2, $3, $4** return the last items selected in the [**DOM Explorer tool**](../dom-explorer/).
+   - **$0, $1, $2, $3, $4** return the last items selected in the [**DOM Explorer tool**](./dom-explorer.md).
 
 **Important**  If code in a webpage assigns a function to **$** or **$$**, that function overrides the console selector functions while the console is interacting with that page or its frames.
 

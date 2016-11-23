@@ -4,7 +4,7 @@ undefined
 
 With support for the W3C [Screen Orientation API](https://www.w3.org/TR/2014/WD-screen-orientation-20140220/), you can detect the screen's current orientation, lock the orientation to a specific state, and be informed when it changes.
 
-The Screen Orientation API enables you to prevent or override the browser from automatically reflowing your web app's content during changes to the orientation of your user's device. When using [device orientation events](../device-orientation-and-motion-events/), you can also use the Screen Orientation API to lock the display so that your user's device orientation and motion sensor data is accurate, and not invalidated or complicated by random screen orientation changes made by the user.
+The Screen Orientation API enables you to prevent or override the browser from automatically reflowing your web app's content during changes to the orientation of your user's device. When using [device orientation events](./device-orientation-and-motion-events.md), you can also use the Screen Orientation API to lock the display so that your user's device orientation and motion sensor data is accurate, and not invalidated or complicated by random screen orientation changes made by the user.
 
 > NOTE: This implementation for Screen Orientation API uses the `ms` prefix. Syntax seen in the [latest Screen Orieantation API spec](https://www.w3.org/TR/screen-orientation/)(i.e. `screen.orientation.lock` instead of `screen.lockOrientation`) is not supported.
 
@@ -12,14 +12,14 @@ The Screen Orientation API enables you to prevent or override the browser from a
 
 The Screen Orientation API uses the following concepts to describe the various orientation states across different devices. The example diagrams assume the following normal (default) orientation of the example devices:
 
-![Diagram of a mobile (portrait orientation) device and a tablet (landscape orientation) device. ](../media/screen_orientation_reference.png)
+![Diagram of a mobile (portrait orientation) device and a tablet (landscape orientation) device. ](./../media/screen_orientation_reference.png)
 
 | Orientation value       | Description                                                                                                                                                                                                                         | Example device orientation                                                                                                       |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| portrait-primary    | The screen is in portrait mode, and the host device is right side up (if its normal orientation is in portrait mode), or the host device is rotated 90 degrees clockwise (if its normal orientation is in landscape mode).          | ![Illustration of the mobile device and tablet device orientation in "portrait-primary" mode](../media/portrait-primary.png)       |
-| landscape-primary   | The screen is in landscape mode, and the host device is right side up (if its normal orientation is in landscape mode), or the host device is rotated 90 degrees counter-clockwise (if its normal orientation is in portrait mode). | ![Illustration of the mobile device and tablet device orientation in "landscape-primary" mode](../media/landscape-primary.png)     |
-| portrait-secondary  | The screen is in portrait mode, and the host device is upside down (if its normal orientation is in portrait mode), or the host device is rotated 90 degrees counter-clockwise (if its normal orientation is in landscape mode).    | ![Illustration of the mobile device and tablet device orientation in "portrait-secondary" mode](../media/portrait-secondary.png)   |
-| landscape-secondary | The screen is in landscape mode, and the host device is upside down (if its normal orientation is in landscape mode), or the host device is rotated 90 degrees clockwise (if its normal orientation is in portrait mode).           | ![Illustration of the mobile device and tablet device orientation in "landscape-secondary" mode](../media/landscape-secondary.png) |
+| portrait-primary    | The screen is in portrait mode, and the host device is right side up (if its normal orientation is in portrait mode), or the host device is rotated 90 degrees clockwise (if its normal orientation is in landscape mode).          | ![Illustration of the mobile device and tablet device orientation in "portrait-primary" mode](./../media/portrait-primary.png)       |
+| landscape-primary   | The screen is in landscape mode, and the host device is right side up (if its normal orientation is in landscape mode), or the host device is rotated 90 degrees counter-clockwise (if its normal orientation is in portrait mode). | ![Illustration of the mobile device and tablet device orientation in "landscape-primary" mode](./../media/landscape-primary.png)     |
+| portrait-secondary  | The screen is in portrait mode, and the host device is upside down (if its normal orientation is in portrait mode), or the host device is rotated 90 degrees counter-clockwise (if its normal orientation is in landscape mode).    | ![Illustration of the mobile device and tablet device orientation in "portrait-secondary" mode](./../media/portrait-secondary.png)   |
+| landscape-secondary | The screen is in landscape mode, and the host device is upside down (if its normal orientation is in landscape mode), or the host device is rotated 90 degrees clockwise (if its normal orientation is in portrait mode).           | ![Illustration of the mobile device and tablet device orientation in "landscape-secondary" mode](./../media/landscape-secondary.png) |
 
 
 ## Detecting changes and locking orientation
@@ -47,7 +47,7 @@ Alternatively, you can pass it one of the following "shorthand" values:
 | landscape | Value that represents both landscape-primary and landscape-secondary cases. |
 
 
-Locking the screen orientation is only possible when Microsoft Edge is in full screen mode (by the user pressing F11, or via the [Fullscreen API](../fullscreen-API)).
+Locking the screen orientation is only possible when Microsoft Edge is in full screen mode (by the user pressing F11, or via the [Fullscreen API](./fullscreen-API.md)).
 If the lock is done on only one orientation, the screen stays on the given orientation and never changes until the screen orientation is unlocked. Otherwise, the screen orientation can change between any of the specified orientations it is locked to, as the user rotates the host device.
 
 To unlock, call the [`screen.msUnlockOrientation`](https://msdn.microsoft.com/library/Dn342935) method.

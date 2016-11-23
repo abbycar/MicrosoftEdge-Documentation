@@ -23,7 +23,7 @@ Web Audio consumes several different audio sources by:
 
 After retrieving the audio sources, the web page constructs a Web Audio graph to mix sources together and add effects through processing. The graph must connect to an [`AudioDestinationNode`](https://msdn.microsoft.com/library/dn954820(v=vs.85).aspx) to enable playback. The other nodes in the graph provide audio effects for analysis. For example:
 
-![Diagram of a conceptual Audio Context](../media/webaudio_audiocontext.png)
+![Diagram of a conceptual Audio Context](./../media/webaudio_audiocontext.png)
 
 SourceBufferNodes are typically used to hold small audio fragments.  These get connected to different processing nodes, and eventually to the [`AudioDestinationNode`](https://msdn.microsoft.com/library/dn954876(v=vs.85).aspx), which sends the output stream to the audio stack to play through speakers.
 

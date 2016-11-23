@@ -3,7 +3,7 @@ undefined
 
 Every extension has a JSON-formatted manifest file, named manifest.json. This file provides important information for the extension ranging from its name to its permissions. Unless specified in a note below, the Microsoft Edge manifest properties follow the same implementation as Chrome.
 
-Here is an example of a [Microsoft Edge JSON manifest file](supported-manifest-keys/json-manifest-example.md).
+Here is an example of a [Microsoft Edge JSON manifest file](./supported-manifest-keys/json-manifest-example.md).
 
 ## Required keys
 

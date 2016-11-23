@@ -120,7 +120,7 @@ To use the new modes just specify the desired mode in the `<feBlend>` element. F
 ```
 
 #### Microsoft Edge
-![Expanded feBlend modes in Microsoft Edge](../media/feblend_edge.png)
+![Expanded feBlend modes in Microsoft Edge](./../media/feblend_edge.png)
 
 Try the [Adobe feBlend demo on CodePen](https://codepen.io/adobe/pen/emedOj).
 

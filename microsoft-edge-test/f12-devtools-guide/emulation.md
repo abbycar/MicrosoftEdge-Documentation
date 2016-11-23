@@ -10,7 +10,7 @@ Designing and developing for the modern web means building webpages that work on
 
 The tool is split into three sections, Mode, Display, and Geolocation:
 
-![Edge Emulation](./media/edge_emulation.png)
+![Edge Emulation](./media/Edge_Emulation.png)
 
   - [Mode](#mode): Desktop vs. Windows Phone browser profiles, and use User agent string emulation to debug errors caused by browser sniffing.
   - [Display](#display): Emulate different screen sizes and resolutions to see how webpages render.
@@ -47,7 +47,7 @@ The standard options are available:
 
 #### Resolution
 
-![Edge Emulation Resolutions](./media/f12blueemulationresolution.png)
+![Edge Emulation Resolutions](./media/F12BlueEmulationResolution.png)
 
 A selection of physical dimensions and resolutions is provided. If none of those meet your needs, you can set a custom size and resolution by selecting **Custom** from the menu.
 

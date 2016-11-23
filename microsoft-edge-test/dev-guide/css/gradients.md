@@ -26,9 +26,9 @@ The `linear-gradient()` and `repeating-linear-gradient()` functions have identic
 
 Properties | Description
 :-------------- | :-----------
-&lt;angle&gt; | Optional. The angle that the gradient line should assume, expressed as a number followed by an [angle units designator](../length-units-relative-and-absolute) (for instance, "deg").  "0deg" points upward and positive angles increase in a clockwise direction. Therefore, "90deg" points toward the right, "180deg" points downward, and so on. If no angle is provided, the gradient line starts in the corner or side opposite the corner or side specified by `<side-or-corner>`.
+&lt;angle&gt; | Optional. The angle that the gradient line should assume, expressed as a number followed by an [angle units designator](./length-units-relative-and-absolute.md) (for instance, "deg").  "0deg" points upward and positive angles increase in a clockwise direction. Therefore, "90deg" points toward the right, "180deg" points downward, and so on. If no angle is provided, the gradient line starts in the corner or side opposite the corner or side specified by `<side-or-corner>`.
 &lt;side-or-corner&gt; | Optional value that specifies an ending corner or side for the gradient. This value begins with "to", which is followed by one or two of the following keywords. Including one keyword specifies an ending side, and two keywords specify an ending corner.  The following values can be used as the first value only: `left`  Indicates gradient ends on the left. `right`  Indicates gradient ends on the right.The following values can be used as the second value only:`top` Indicates gradient ends on the top.  `bottom` Indicates gradient ends on the bottom.Not including any keywords or angle is equivalent to `to bottom`. 
-&lt;color-stop&gt; | At least two color stops are required. Each color stop has one or two components—a color component and an optional position component.  The first component defines the color component of a stop point for the gradient. Each stop point has its own designated color, and the area between each point is filled with a continuous color transition from one to the other. This value can be [any supported color value](../length-units-relative-and-absolute).  Each stop point can have an optional percentage or [supported length value](../length-units-relative-and-absolute) that indicates where along the gradient line to place the color stop. "0%" (or "0px", "0em", and so on) indicates the starting point (or side); "100%" indicates the ending point (or side).
+&lt;color-stop&gt; | At least two color stops are required. Each color stop has one or two components—a color component and an optional position component.  The first component defines the color component of a stop point for the gradient. Each stop point has its own designated color, and the area between each point is filled with a continuous color transition from one to the other. This value can be [any supported color value](./length-units-relative-and-absolute.md).  Each stop point can have an optional percentage or [supported length value](./length-units-relative-and-absolute.md) that indicates where along the gradient line to place the color stop. "0%" (or "0px", "0em", and so on) indicates the starting point (or side); "100%" indicates the ending point (or side).
 
 ### Examples
 #### Linear gradients
@@ -45,7 +45,7 @@ The gradient line starts in the top-right corner of the rectangle and ends in th
 background-image: linear-gradient(to bottom left, #FFF133 0%, #16D611 50%, #00A3EF 80%);
 ```
 
-![Example of a linear gradient beginning in the top-right corner](../media/new_linear-gradient.png)
+![Example of a linear gradient beginning in the top-right corner](./../media/new_linear-gradient.png)
 
 
 To replicate this gradient using an angle with the same size box (250px×150px), you would specify the following:
@@ -61,7 +61,7 @@ The following image is an example of a repeating linear gradient. It transitions
 ```
 background-image: repeating-linear-gradient(#00A3EF, #FFF133 30px, #00A3EF 50px);
 ```
-![Image of a two-color repeating linear gradient ](../media/repeating-linear-gradient1.png)
+![Image of a two-color repeating linear gradient ](./../media/repeating-linear-gradient1.png)
 
 
 
@@ -93,7 +93,7 @@ Properties | Description
 &lt;shape&gt; | Optional value that specifies the ending shape of the gradient. If this value is omitted, the ending shape is a circle if the &lt;size&gt; parameter is a single length value, and an ellipse otherwise. `ellipse` Indicates gradient is in the shape of an ellipse.`circle`  Indicates gradient is in the shape of an circle.
 &lt;size&gt; | Optional value that specifies the size of the gradient's ending shape. If this value is omitted, it defaults to `farthest-corner`
 &lt;position&gt; | Optional value that specifies the center of the gradient. This value can take the same values as the [background-position](https://msdn.microsoft.com/en-us/library/ms530718(v=vs.85).aspx) property. If this value is omitted, it defaults to `center`.
-&lt;color-stop&gt; | At least two color stops are required. Each color stop has one or two components—a color component and an optional position component.  The first component defines the color component of a stop point for the gradient. Each stop point has its own designated color, and the area between each point is filled with a continuous color transition from one to the other. This value can be [any supported color value](../length-units-relative-and-absolute).  The second component is an optional percentage or decimal value that indicates where along the gradient ray (similar to a gradient line in a [`linear-gradient`](https://msdn.microsoft.com/en-us/library/jj152126(v=vs.85).aspx), but from the center outward) to place the color stop. "0%" indicates the start of the gradient ray, and "100%" indicates the point where the gradient ray intersects the ending shape. For instance, a value of "20%" indicates the color stop should be placed at a point 20% of the length of the gradient ray, starting from the beginning of the line. Values can be negative, which indicates that the specified color for that value is at mid-transition to the next color at the center of the gradient, so the visible color at the center will be somewhere between the specified color and the next color. Values can be greater than 100%, which specifies a location a correspondingly greater distance from the center of the gradient.
+&lt;color-stop&gt; | At least two color stops are required. Each color stop has one or two components—a color component and an optional position component.  The first component defines the color component of a stop point for the gradient. Each stop point has its own designated color, and the area between each point is filled with a continuous color transition from one to the other. This value can be [any supported color value](./length-units-relative-and-absolute.md).  The second component is an optional percentage or decimal value that indicates where along the gradient ray (similar to a gradient line in a [`linear-gradient`](https://msdn.microsoft.com/en-us/library/jj152126(v=vs.85).aspx), but from the center outward) to place the color stop. "0%" indicates the start of the gradient ray, and "100%" indicates the point where the gradient ray intersects the ending shape. For instance, a value of "20%" indicates the color stop should be placed at a point 20% of the length of the gradient ray, starting from the beginning of the line. Values can be negative, which indicates that the specified color for that value is at mid-transition to the next color at the center of the gradient, so the visible color at the center will be somewhere between the specified color and the next color. Values can be greater than 100%, which specifies a location a correspondingly greater distance from the center of the gradient.
 
 ### Examples
 
@@ -109,7 +109,7 @@ background-image: radial-gradient(ellipse at center, #FFFF00 0%, #0000FF 100%);
 
 background-image: radial-gradient(farthest-corner at 50% 50%, yellow, blue);
 ```
-![Simple elliptical gradient applied to a 250-by-150-pixel rectangle](../media/radial-gradient1.png)
+![Simple elliptical gradient applied to a 250-by-150-pixel rectangle](./../media/radial-gradient1.png)
 
 
 You can also originate the radial gradient in locations other than the center of the gradient box. Use the `closest-side` or `farthest-side` keywords to size the gradient so that the ending shape meets either the closest or farthest side, respectively, of the gradient box.
@@ -124,7 +124,7 @@ The following example sets the center of the gradient at 40px from the left side
 ```css
 background-image: radial-gradient(closest-side at 40px 50px, #FFF133, #16D611, #00A3EF);
 ```
-![Small three-color elliptical gradient contained in the upper-left corner of a gradient box](../media/radial-gradient5.png)
+![Small three-color elliptical gradient contained in the upper-left corner of a gradient box](./../media/radial-gradient5.png)
 
 If you use `closest-side` or `farthest-side` with circular gradients, the size is determined by the closest side of the gradient box.
 
@@ -137,7 +137,7 @@ The following declaration creates a repeating circular gradient.
 background-image: repeating-radial-gradient(closest-side circle at 40px 50px, #FFF133, #16D611, #00A3EF);
 ```
 
-![Image of a three-color repeating circular gradient](../media/repeating-radial-gradient1.png)
+![Image of a three-color repeating circular gradient](./../media/repeating-radial-gradient1.png)
 
 ## Gradient Midpoints
 
@@ -151,7 +151,7 @@ In the following example of a 90 degree, green and yellow linear gradient, a mid
 background: linear-gradient(90deg, rgb(255, 255, 0) 0%, 30%, rgb(0, 128, 0) 100%)
 ```
 
-![A linear gradient with a midpoint at 30%](../media/gradient-midpoint.png)
+![A linear gradient with a midpoint at 30%](./../media/gradient-midpoint.png)
 
 Check out this [CSS Gradient Midpoints demo](http://go.microsoft.com/fwlink/p/?LinkId=529537) to see gradient midpoints in action.
 

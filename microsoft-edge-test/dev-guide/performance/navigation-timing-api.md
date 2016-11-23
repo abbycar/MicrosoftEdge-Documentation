@@ -11,7 +11,7 @@ You can measure navigation timing in many different ways. Let's look at a few, b
 //open the F12 tool and enter the following in the console to expose the PerformanceTiming object
 performance.timing 
 ```
-![PermanceTiming object example](../media/navigationtiming_timestamps.png)
+![PermanceTiming object example](./../media/navigationtiming_timestamps.png)
 
 *The example above displays the `PerformanceTiming` object for the [Navigation Timing API W3C Spec Page](http://go.microsoft.com/fwlink/p/?LinkId=278978).*
 

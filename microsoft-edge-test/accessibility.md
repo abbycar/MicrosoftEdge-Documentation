@@ -16,7 +16,7 @@ Coming with Windows 10 Anniversary Update, Microsoft Edge will have native suppo
 
 The new accessibility system in Microsoft Edge inherently supports modern web standards including ARIA, HTML5, and CSS3. The following diagram of the simplified browser pipeline follows webpage content into an accessible presentation later:
 
-![Flowchart showing the simplified browser pipeline. Figure 1. Content transformed to the engine model is projected into visual and accessibility views that are presented either as visual or accessible presentation.](./media/accessibilityarchitecture.png)
+![Flowchart showing the simplified browser pipeline. Figure 1. Content transformed to the engine model is projected into visual and accessibility views that are presented either as visual or accessible presentation.](./media/accessibilityArchitecture.png)
 
 Check out the blog post [Building a more accessible web platform](https://blogs.windows.com/msedgedev/2016/04/20/building-a-more-accessible-web-platform/) for more information on the accessible architecture in Microsoft Edge.
 

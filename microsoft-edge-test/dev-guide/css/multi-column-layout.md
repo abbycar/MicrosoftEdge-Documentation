@@ -22,7 +22,7 @@ The possible values for the property are:
 Value | Description
 :----------- | :-----------
 auto | Indicates that the optimal column width is determined by the other property values of the multi-column element, such as the `column-count` property. This is the default value.
-\<length\> | A relative or absolute length value, as specified in [CSS Values and Units Reference](../length-units-relative-and-absolute).
+\<length\> | A relative or absolute length value, as specified in [CSS Values and Units Reference](./length-units-relative-and-absolute.md).
 
 In this code snippet, the following selector has added the column-width property and set it to 400 pixels. This means Microsoft Edge will fill the browser window with as many columns that have a width of 400 pixels or more.
 
@@ -96,7 +96,7 @@ The following properties specify column gaps and rules:
 
 Property | Description
 :--------------- | :-----------
-[column-gap](https://msdn.microsoft.com/library/Hh772199) | Specifies the width of the gap between columns in a multi-column element. The possible values for this property are: **normal**: The default width of 1 em. **\<length\>**: A relative or absolute length value, as specified in [CSS Values and Units Reference](../length-units-relative-and-absolute ).
+[column-gap](https://msdn.microsoft.com/library/Hh772199) | Specifies the width of the gap between columns in a multi-column element. The possible values for this property are: **normal**: The default width of 1 em. **\<length\>**: A relative or absolute length value, as specified in [CSS Values and Units Reference](./length-units-relative-and-absolute.md).
 [column-rule-color](https://msdn.microsoft.com/library/Hh772202) | Specifies the color for all column rules in a multi-column element. This property can be set to any [supported color value](http://go.microsoft.com/fwlink/p/?LinkId=10129)
 [column-rule-style](https://msdn.microsoft.com/library/Hh772204) | Specifies the style for all column rules in a multi-column element. This property accepts the same values as the [`border-style`](http://go.microsoft.com/fwlink/p/?LinkID=208168) property.
 [column-rule-width](https://msdn.microsoft.com/library/Hh772206) | Specifies the width of all column rules in a multi-column element. This property accepts the same values as the [`border-width`](http://go.microsoft.com/fwlink/p/?LinkID=215618) property.

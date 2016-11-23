@@ -34,26 +34,26 @@ Examples of computed values:
 
   - **Precise calculations / relative to absolute values:** All properties without hardcoded measures, such as calc() expressions, percentages, em or rem units, are shown with the pixel values calculated for them.
 
-![Edge Computed Sizes](./media/edge_domexplorer_computedstyles.png)
+![Edge Computed Sizes](./media/Edge_DOMExplorer_computedstyles.PNG)
 
-  - **Implied and default values:** The **Computed** styles tab has a **Display user styles only** button ![Display all styles button](./media/f12bluedomexplorerdisplaystyles.png).
+  - **Implied and default values:** The **Computed** styles tab has a **Display user styles only** button ![Display all styles button](./media/F12BlueDOMExplorerDisplayStyles.png).
 
    When turned on, it shows only user-defined styles. When turned off, it shows the Microsoft Edge default styles and any     implied styles that are being applied to the element. The list can be very long, so a Filter properties box is next to it.  Type text in the box and the properties list will be filtered down to only those that match the text.
 
 #### Change Bars
 As you make changes to your properties, **Change Bars** display different colors next to changed (yellow), added (green), and deleted (red) properties.
 
-![Display all styles button](./media/changebars.jpg)
+![Display all styles button](./media/changebars.jpg.md)
 
 ### Layout
 The **Layout** tab shows a box model diagram for the selected element's positioning with colors matching the highlight around a selected element. You can edit any value in the diagram by clicking it.
 
-![Edge Layout Tab](./media/edge_domexplorer_layout.png)
+![Edge Layout Tab](./media/Edge_DOMExplorer_layout.PNG)
 
 ### Events
-The **Events** tab shows the element's DOM events or CSS selectors that have handlers assigned to them in JavaScript. The file names can be clicked to show the file in [the Debugger](../debugger/).
+The **Events** tab shows the element's DOM events or CSS selectors that have handlers assigned to them in JavaScript. The file names can be clicked to show the file in [the Debugger](./debugger.md).
 
-![Events tab](./media/edge_domexplorer_events.png)
+![Events tab](./media/Edge_DOMExplorer_events.PNG)
 
 In the image above, one element's click event is being handled by two functions in two scripts. If you were getting unexpected behavior from clicking that element, it could be because one of the handlers should be listening for events on another element.
 
@@ -65,7 +65,7 @@ As you experiment with different layout and style changes in the **DOM Explorer*
 
 If you decide you don't like one of the changes, right-click it and select **Revert item** to reverse that change. If you'd like to copy the style to paste into your source files, use **Copy** to copy a single style or **Copy All** to copy all the changed styles in the list.
 
-![Changes tab](./media/edge_domexplorer_changes.png)
+![Changes tab](./media/Edge_DOMExplorer_changes.png)
 
 **Note**  The **Changes** tab will clear if you close the F12 developer tools, but the changes you made with DOM Explorer persist until you refresh the webpage. For example, you can change the width of an element, close the F12 tools, reopen them, and the element remains at its new width while the Changes tab shows no changes.
 
@@ -73,7 +73,7 @@ If you decide you don't like one of the changes, right-click it and select **Rev
 
 In the upper-right corner of the **Styles** and **Computed** tabs is an icon resembling **a:**. That's called the "pseudo-class toggle." When turned on, check boxes are shown for the common **:hover** and **:visited** pseudo classes. Checking one of those boxes restyles the element as if that pseudo class is active.
 
-![Changes tab](./media/edge_domexplorer_pseudostate.png)
+![Changes tab](./media/Edge_DOMExplorer_pseudostate.PNG)
 
 If you want to experiment with CSS for a hover effect, turning on pseudo classes and checking Hover makes the element display as if a mouse is hovering over it until the box is cleared or the page is reloaded. This saves you time when fine-tuning a hover effect in **DOM Explorer**.
 

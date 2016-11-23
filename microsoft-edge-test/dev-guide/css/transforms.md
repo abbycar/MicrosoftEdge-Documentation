@@ -57,7 +57,7 @@ div {
 
 Result:
 
-![A square blue div with white text, after having the following transform function applied to it: transform: matrix3d(0.359127, -0.469472, 0.806613, 0, 0.190951, 0.882948, 0.428884, 0, -0.913545, 0, 0.406737, 0, 0, 0, 0, 1);](../media/ie10devguide_ppb4_2css_image9.png)
+![A square blue div with white text, after having the following transform function applied to it: transform: matrix3d(0.359127, -0.469472, 0.806613, 0, 0.190951, 0.882948, 0.428884, 0, -0.913545, 0, 0.406737, 0, 0, 0, 0, 1);](./../media/ie10devguide_ppb4_2css_image9.png)
 
 ### 3-D translate
 
@@ -77,7 +77,7 @@ div {
 
 Result:
 
-![A square blue div with white text, after having the following transform functions applied to it: transform: translate3d(20px, -60px, 50px);](../media/ie10devguide_ppb4_2css_image10.png)
+![A square blue div with white text, after having the following transform functions applied to it: transform: translate3d(20px, -60px, 50px);](./../media/ie10devguide_ppb4_2css_image10.png)
 
 *The light-blue square indicates the original position of the transformed element.*
 
@@ -99,7 +99,7 @@ div {
 
 Result:
 
-![A square blue div with white text, after having the following transform functions applied to it: transform: perspective(500px) translateZ(-60px);](../media/ie10devguide_ppb4_2css_image11.png)
+![A square blue div with white text, after having the following transform functions applied to it: transform: perspective(500px) translateZ(-60px);](./../media/ie10devguide_ppb4_2css_image11.png)
 
 *The light-blue square indicates the original position of the transformed element.*
 
@@ -121,7 +121,7 @@ div {
 
 Result:
 
-![A square blue div with white text, after having the following transform functions applied to it: transform: scale3d(0.5, -0.5, 1.5);](../media/ie10devguide_ppb4_2css_image12.png)
+![A square blue div with white text, after having the following transform functions applied to it: transform: scale3d(0.5, -0.5, 1.5);](./../media/ie10devguide_ppb4_2css_image12.png)
 
 *The light-blue square indicates the original position of the transformed element.*
 
@@ -143,7 +143,7 @@ div {
 
 Result:
 
-![A square blue div with white text, after having the following transform functions applied to it: transform: perspective(500px) scaleZ(2) rotateX(45deg);](../media/ie10devguide_ppb4_2css_image13.png)
+![A square blue div with white text, after having the following transform functions applied to it: transform: perspective(500px) scaleZ(2) rotateX(45deg);](./../media/ie10devguide_ppb4_2css_image13.png)
 
 *The light-blue square indicates the original position of the transformed element.*
 
@@ -165,7 +165,7 @@ div {
 
 Result:
 
-![A square blue div with white text, after having the following transform functions applied to it: transform: rotate3d(0.7, 0.5, 0.7, 45deg);](../media/ie10devguide_ppb4_2css_image14.png)
+![A square blue div with white text, after having the following transform functions applied to it: transform: rotate3d(0.7, 0.5, 0.7, 45deg);](./../media/ie10devguide_ppb4_2css_image14.png)
 
 *The light-blue square indicates the original position of the transformed element.*
 
@@ -187,7 +187,7 @@ div {
 
 Result:
 
-![A square blue div with white text, after having the following transform functions applied to it: transform: perspective(500px) rotateX(45deg);](../media/ie10devguide_ppb4_2css_image15.png)
+![A square blue div with white text, after having the following transform functions applied to it: transform: perspective(500px) rotateX(45deg);](./../media/ie10devguide_ppb4_2css_image15.png)
 
 *The light-blue square indicates the original position of the transformed element.*
 
@@ -209,7 +209,7 @@ div {
 
 Result:
 
-![A square blue div with white text, after having the following transform functions applied to it: transform: perspective (500px) rotateY(70deg);](../media/ie10devguide_ppb4_2css_image16.png)
+![A square blue div with white text, after having the following transform functions applied to it: transform: perspective (500px) rotateY(70deg);](./../media/ie10devguide_ppb4_2css_image16.png)
 
 *The light-blue square indicates the original position of the transformed element.*
 
@@ -231,7 +231,7 @@ div {
 
 Result:
 
-![A square blue div with white text, after having the following transform functions applied to it: transform: rotateZ(65deg);](../media/ie10devguide_ppb4_2css_image17.png)
+![A square blue div with white text, after having the following transform functions applied to it: transform: rotateZ(65deg);](./../media/ie10devguide_ppb4_2css_image17.png)
 
 *The light-blue square indicates the original position of the transformed element.*
 
@@ -243,7 +243,7 @@ For instance, if you specified the [`rotate3d`](https://msdn.microsoft.com/libra
 
 | Property | Description
 |:------------ | :-------------
-| [transform-origin](https://msdn.microsoft.com/library/jj127313(v=vs.85).aspx) | Indicates the origin of transformation for the specified element. This property is set to between one and three length values: <br><br> 1. The first length value specifies the position on the *x*-axis relative to the element's containing box. It can be a length value (in a [supported length unit](../length-units-relative-and-absolute), a percentage, or one of the following three keywords: **left** (indicating 0% of the length along the *x*-axis of the containing box), **center** (indicating the halfway point), or **right** (indicating 100% of the length). <br><br> 2. The second length value specifies the position on the *y*-axis relative to the element's containing box. It can be a length value, a percentage, or one of the three following keywords: **top** (indicating 0% of the length along the *y*-axis of the containing box), **center** (indicating the halfway point), or **bottom** (indicating 100% of the length). <br><br> 3. The third length value specifies the position on the *z*-axis relative to the element's containing box. It must be a length value.
+| [transform-origin](https://msdn.microsoft.com/library/jj127313(v=vs.85).aspx) | Indicates the origin of transformation for the specified element. This property is set to between one and three length values: <br><br> 1. The first length value specifies the position on the *x*-axis relative to the element's containing box. It can be a length value (in a [supported length unit](./length-units-relative-and-absolute.md), a percentage, or one of the following three keywords: **left** (indicating 0% of the length along the *x*-axis of the containing box), **center** (indicating the halfway point), or **right** (indicating 100% of the length). <br><br> 2. The second length value specifies the position on the *y*-axis relative to the element's containing box. It can be a length value, a percentage, or one of the three following keywords: **top** (indicating 0% of the length along the *y*-axis of the containing box), **center** (indicating the halfway point), or **bottom** (indicating 100% of the length). <br><br> 3. The third length value specifies the position on the *z*-axis relative to the element's containing box. It must be a length value.
 
 ## The transform-style property
 
@@ -285,11 +285,11 @@ div {
 </div>
 ```
 
-![transform-style: flat](../media/transform_origin_flat.png)
+![transform-style: flat](./../media/transform_origin_flat.png)
 
 If [`transform-style`](https://msdn.microsoft.com/library/hh772282(v=vs.85).aspx) is set to `preserve-3d` in the same example, the results would look like the following image. The blue element establishes a 3-D rendering context, and the gray element is a member of it. Because both the blue and the grey elements share a common 3-D space, the gray element renders as tilting out from its parent.
 
-![transform-style: preserve-3d](../media/transform_origin_preserve3d.png)
+![transform-style: preserve-3d](./../media/transform_origin_preserve3d.png)
 
 ## The perspective property
 

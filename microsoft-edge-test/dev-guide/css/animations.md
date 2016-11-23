@@ -3,14 +3,14 @@ undefined
 
 CSS Animations enable you to create visually appealing rich applications with smooth, fluid, animated experiences. The animation property is a shorthand CSS property that includes [`animation-name`](https://msdn.microsoft.com/library/hh772236.aspx), [`animation-duration`](https://msdn.microsoft.com/library/hh772219.aspx), [`animation-timing-function`](https://msdn.microsoft.com/library/hh772240.aspx), [`animation-delay`](https://msdn.microsoft.com/library/hh772215.aspx), [`animation-iteration-count`](https://msdn.microsoft.com/library/hh772233.aspx), [`animation-direction`](https://msdn.microsoft.com/library/hh772217.aspx), [`animation-fill-mode`](https://msdn.microsoft.com/library/hh772232.aspx) and [`animation-play-state`](https://msdn.microsoft.com/library/hh772238.aspx). CSS Animations are defined by the World Wide Web Consortium (W3C) in the [CSS Animations](http://go.microsoft.com/fwlink/p/?LinkID=223144) specification.
 
-Animations are similar to [`transitions`](../transitions) in that they animate elements as they change position, size, color, and opacity; and as they rotate, scale, translate, and so on. And just as you can with transitions, you can specify timing functions to control the rate of progression of an animation.
+Animations are similar to [`transitions`](./transitions.md) in that they animate elements as they change position, size, color, and opacity; and as they rotate, scale, translate, and so on. And just as you can with transitions, you can specify timing functions to control the rate of progression of an animation.
 
 However, with CSS Animations, you can also use [`keyframes`](https://msdn.microsoft.com/library/hh772747(v=vs.85).aspx), which specify the values for the animating properties at various points during the animation. This way, you can define the behavior of an animation not only at the beginning and end of the animation, but in between as well. Animations can also have iterations and reverse-direction capability, and can be given the ability to pause and resume. As you might expect, CSS3 Animations provides you with infinite possibilities for creating rich, compelling experiences. 
 
 For a list of CSS properties that you can animate, see [Animation and transition properties](https://msdn.microsoft.com/library/dn254934(v=vs.85).aspx).
 
 
-CSS Animations are also supported for use on [SVG elements](../../graphics/SVG) in Microsoft Edge.
+CSS Animations are also supported for use on [SVG elements](./../graphics/SVG.md) in Microsoft Edge.
 
 
 ## Creating an animation

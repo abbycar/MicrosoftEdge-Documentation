@@ -37,12 +37,12 @@ From left to right, the tools are:
 
 By default, a summary view is displayed, as seen here.
 
-![Edge F12 Network Toolbar](./media/edge_network_files.png)
+![Edge F12 Network Toolbar](./media/Edge_Network_files.png)
 
 ## Reading and interpreting the data
 The **Network** tool includes two views of network traffic. The **Summary** view gives a quick look at all captured info for a tab or webpage, and the **Details** view gives you details of each connection, such as request and response headers and detailed timing info. You can view the details of any file/connection by clicking on it and the summary will expand out from the side.
 
-![Edge F12 Network Summary Details](./media/edge_network_details.png)
+![Edge F12 Network Summary Details](./media/Edge_Network_details.png)
 
 ### Summary view
 The Summary view shows all network traffic for a page in a table. By default, the info is presented chronologically, but you can sort the table differently by clicking the header of any column. This table describes the type of info you can view.

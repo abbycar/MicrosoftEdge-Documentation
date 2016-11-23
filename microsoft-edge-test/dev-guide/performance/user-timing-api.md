@@ -65,7 +65,7 @@ window.performance.measure('measure_load_from_dom', 'domComplete', 'mark_fully_l
 
 In this example, the [`measure`](https://msdn.microsoft.com/library/jj585594(v=vs.85).aspx) method is called on the [`performance`](https://msdn.microsoft.com/library/ff974680(v=vs.85).aspx) object of the [`window`](https://msdn.microsoft.com/library/ms535873(v=vs.85).aspx), passing in a `PerformanceMark` named 'measure_load_from_dom', the `domComplete` property of the [`performanceTiming`](https://msdn.microsoft.com/library/ff975075(v=vs.85).aspx) object, and finally a `PerformanceMark` named 'mark_fully_loaded'. The result will store the DOM completion duration in an independent `PerformanceMeasure` object that can be retrieved later. Storing times as your web application runs allows the application to remain responsive. The data can then be retrieved and analyzed after your application has completed a work task. 
 
-[![User Timing API Demo](../media/usertimingapi_image.png)](https://testdrive-archive.azurewebsites.net/Performance/performanceTiming/Default.html)
+[![User Timing API Demo](./../media/usertimingapi_image.png)](https://testdrive-archive.azurewebsites.net/Performance/performanceTiming/Default.html)
 
 
 

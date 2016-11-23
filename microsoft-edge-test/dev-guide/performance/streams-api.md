@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
 [Fetch (or the undeniable limitations of XHR)](https://blogs.windows.com/msedgedev/2016/05/24/fetch-and-xhr-limitations/#gist36052615)
 
 
-[Fetch API](../fetch-API/)
+[Fetch API](./fetch-API.md)
 
 ## Specification
 

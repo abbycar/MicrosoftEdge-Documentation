@@ -58,7 +58,7 @@ It's also possible to override the value assigned to all the flex items in [`ali
 align-self: auto | flex-start | flex-end | center | baseline | stretch
 ```
 
-![An illustration showing values for align-properties](../media/flexbox_align-items.png)
+![An illustration showing values for align-properties](./../media/flexbox_align-items.png)
 
 You can further adjust alignment using the [`align-content`](https://msdn.microsoft.com/library/jj127304(v=vs.85).aspx) property, which acts similarly to the [`justify-content`](https://msdn.microsoft.com/library/jj127304(v=vs.85).aspx) property. However, the `align-content` property only has an effect when the flexbox has multiple lines. The `align-content` property aligns the flex container's lines within the flex container when there's extra space in the cross axis. This image shows the values for `align-content` and their effects on a flex container with three flex items.
 
@@ -66,7 +66,7 @@ You can further adjust alignment using the [`align-content`](https://msdn.micros
 align-content: stretch | flex-start | flex-end | center | space-between | space-around
 ```
 
-![An illustration showing values for align-items and align-content](../media/flexbox_align-content.png)
+![An illustration showing values for align-items and align-content](./../media/flexbox_align-content.png)
 
 ## Setting the flexibility
 
