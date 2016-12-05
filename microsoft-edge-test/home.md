@@ -4,6 +4,4 @@ title: Microsoft Edge documentation
 author: erikadoyle
 ---
 
-# Welcome to the developer documentation for Microsoft Edge!
-
-## Landing page TBD
+# Landing page TBD
