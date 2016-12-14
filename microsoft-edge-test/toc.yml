@@ -1,13 +1,11 @@
-name: Accessibility
+name: Docs
   tocHref: /
   topicHref: /
   items:
-  - name: Design
-    tocHref: /Accessibility/Design/
-    topicHref: /accessibility/design
-  - name: Build
-    tocHref: /Accessibility/Build/
-    topicHref: /accessibility/Build
-  - name: Test
-    tocHref: /Accessibility/Test/
-    topicHref: /accessibility/test
+  - name: Microsoft Edge developer documentation
+    href: /microsoft-edge-test/
+    homepage: /microsoft-edge-test/index
+    items:
+    - name: Accessibility
+      tocHref: /microsoft-edge-test/accessibility/
+      homepage: /microsoft-edge-test/accessibility
