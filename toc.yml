@@ -1,0 +1,11 @@
+name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Microsoft Edge developer documentation
+    href: /microsoft-edge-test/
+    homepage: /microsoft-edge-test/index
+    items:
+    - name: Accessibility
+      tocHref: /microsoft-edge-test/accessibility/
+      homepage: /microsoft-edge-test/accessibility
