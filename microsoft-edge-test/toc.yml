@@ -1,0 +1,13 @@
+name: Accessibility
+  tocHref: /accessibility/
+  topicHref: /accessibility
+  items:
+  - name: Design
+    tocHref: /accessibility/Design/
+    topicHref: /EM/Solutions/byod-design-considerations-guide
+  - name: Build
+    tocHref: /accessibility/Build
+    topicHref: /accessibility/Build
+  - name: Test
+    tocHref: /accessibility/Test
+    topicHref: /accessibility/test
