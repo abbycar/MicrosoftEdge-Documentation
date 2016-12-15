@@ -8,7 +8,7 @@
 
                 "files": [
 
-                    "**/*.md"
+                    "**/*.md", "**/**.yml"
 
                 ],
 
@@ -56,7 +56,8 @@
 
         "externalReference": [],
 
-        "globalMetadata": {},
+        "globalMetadata": {
+		  },
 
         "fileMetadata": {},
 
