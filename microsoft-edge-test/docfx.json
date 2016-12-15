@@ -57,7 +57,8 @@
         "externalReference": [],
 
         "globalMetadata": {
-		  },
+		"breadcrumb_path": "~/toc.yml"
+	},
 
         "fileMetadata": {},
 
