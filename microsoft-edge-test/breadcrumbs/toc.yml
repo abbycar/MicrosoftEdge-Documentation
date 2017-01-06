@@ -2,10 +2,10 @@
   tocHref: /microsoft-edge-test/
   topicHref: /microsoft-edge-test/index/
   items:
-  - name: Dev Guide
-    tocHref: /microsoft-edge-test/dev-guide/
-    topicHref: /microsoft-edge-test/dev-guide/
+  - name: Accessibility
+  tocHref: /microsoft-edge-test/accessibility/
+  topicHref: /microsoft-edge-test/accessibility/
     items:
-      - name: Accessibility
-        tocHref: /microsoft-edge-test/accessibility/
-        topicHref: /microsoft-edge-test/accessibility/
+    - name: Design
+    tocHref: /microsoft-edge-test/accessibility/design/
+    topicHref: /microsoft-edge-test/accessibility/design/
