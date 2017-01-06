@@ -57,7 +57,7 @@
         "externalReference": [],
 
         "globalMetadata": {
-            "breadcrumb_path": "microsoft-edge-test/breadcrumbs/toc.json"
+            "breadcrumb_path": "~/breadcrumbs/toc.json"
         },
 
         "fileMetadata": {},
