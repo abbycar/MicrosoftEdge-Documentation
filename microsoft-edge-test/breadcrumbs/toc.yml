@@ -3,9 +3,9 @@
   topicHref: /microsoft-edge-test/index/
   items:
   - name: Accessibility
-  tocHref: /microsoft-edge-test/accessibility/
-  topicHref: /microsoft-edge-test/accessibility/
+    tocHref: /microsoft-edge-test/accessibility/
+    topicHref: /microsoft-edge-test/accessibility/
     items:
-    - name: Design
-    tocHref: /microsoft-edge-test/accessibility/design/
-    topicHref: /microsoft-edge-test/accessibility/design/
+      - name: Design
+        tocHref: /microsoft-edge-test/accessibility/design/
+        topicHref: /microsoft-edge-test/accessibility/design/
