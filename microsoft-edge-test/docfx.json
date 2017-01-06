@@ -1,71 +1,37 @@
 {
-
     "build": {
-
         "content": [
-
             {
-
                 "files": [
-
                     "**/*.md", "**/**.yml"
-
                 ],
-
                 "exclude": [
-
                     "**/obj/**",
-
                     "microsoft-edge-test/**",
-
                     "**/includes/**"
-
                 ]
-
             }
-
         ],
-
         "resource": [
-
             {
-
                 "files": [
-
                     "**/*.png",
-
                     "**/*.jpg"
-
                 ],
-
                 "exclude": [
-
                     "**/obj/**",
-
                     "microsoft-edge-test/**",
-
                     "**/includes/**"
-
                 ]
-
             }
-
         ],
-
         "overwrite": [],
-
         "externalReference": [],
-
         "globalMetadata": {
-            "breadcrumb_path": "~/breadcrumbs/toc.json"
+            "breadcrumb_path": "/microsoft-edge-test/breadcrumbs/toc.json"
         },
-
         "fileMetadata": {},
-
-        "template": [],
-
+        "template": ["docs.html"],
         "dest": "microsoft-edge-test"
-
     }
-
 }
