@@ -2,10 +2,26 @@
   tocHref: /microsoft-edge-test/
   topicHref: /microsoft-edge-test/index/
   items:
-  - name: Accessibility
-    tocHref: /microsoft-edge-test/accessibility/
-    topicHref: /microsoft-edge-test/accessibility/
+  - name: extensions
+    tocHref: /microsoft-edge-test/extensions/
+    topicHref: /microsoft-edge-test/extensions/
     items:
       - name: Design
-        tocHref: /microsoft-edge-test/accessibility/design/
-        topicHref: /microsoft-edge-test/accessibility/design/
+        tocHref: /microsoft-edge-test/extensions/design/
+        topicHref: /microsoft-edge-test/extensions/design/
+  - name: Extensions
+    tocHref: /microsoft-edge-test/extensions/
+    topicHref: /microsoft-edge-test/extensions/
+    items:
+      - name: API support
+        tocHref: /microsoft-edge-test/extensions/api-support/
+        topicHref: /microsoft-edge-test/extensions/api-support/
+      - name: Guides
+        tocHref: /microsoft-edge-test/extensions/guides/
+        topicHref: /microsoft-edge-test/extensions/guides/
+      - name: Microsoft browser extension policy
+        tocHref: /microsoft-edge-test/extensions/browser-extension-policy/
+        topicHref: /microsoft-edge-test/extensions/browser-extension-policy/
+      - name: Troubleshooting
+        tocHref: /microsoft-edge-test/extensions/troubleshooting/
+        topicHref: /microsoft-edge-test/extensions/troubleshooting/
