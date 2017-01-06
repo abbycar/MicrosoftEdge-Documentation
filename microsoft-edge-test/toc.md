@@ -1,5 +1,8 @@
 # [Microsoft Edge Documentation](index.md)
 ## [Accessibility](accessibility.md)
+### [Design](accessibility/design.md) 
+### [Build](accessibility/build.md)
+### [Test](accessibility/test.md)
 ## [Dev guide](dev-guide.md)
 ### [CSS](dev-guide/CSS.md)
 #### [Animations](dev-guide/CSS/animations.md)
