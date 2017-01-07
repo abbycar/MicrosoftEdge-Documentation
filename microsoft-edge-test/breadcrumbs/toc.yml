@@ -2,13 +2,62 @@
   tocHref: /microsoft-edge-test/
   topicHref: /microsoft-edge-test/index/
   items:
-  - name: extensions
-    tocHref: /microsoft-edge-test/extensions/
-    topicHref: /microsoft-edge-test/extensions/
+  - name: Accessibility
+    tocHref: /microsoft-edge-test/accessibility/
+    topicHref: /microsoft-edge-test/accessibility/
     items:
       - name: Design
-        tocHref: /microsoft-edge-test/extensions/design/
-        topicHref: /microsoft-edge-test/extensions/design/
+        tocHref: /microsoft-edge-test/accessibility/design/
+        topicHref: /microsoft-edge-test/accessibility/design/
+      - name: Build
+        tocHref: /microsoft-edge-test/accessibility/build/
+        topicHref: /microsoft-edge-test/accessibility/build/
+      - name: Test
+        tocHref: /microsoft-edge-test/accessibility/test/
+        topicHref: /microsoft-edge-test/accessibility/test/
+  - name: Dev Guide
+    tocHref: /microsoft-edge-test/dev-guide/
+    topicHref: /microsoft-edge-test/dev-guide/
+    items:
+      - name: Browser
+        tocHref: /microsoft-edge-test/dev-guide/browser/
+        topicHref: /microsoft-edge-test/dev-guide/browser/
+      - name: CSS
+        tocHref: /microsoft-edge-test/dev-guide/browser/
+        topicHref: /microsoft-edge-test/dev-guide/browser/
+      - name: Device
+        tocHref: /microsoft-edge-test/dev-guide/device/
+        topicHref: /microsoft-edge-test/dev-guide/device/
+      - name: DOM
+        tocHref: /microsoft-edge-test/dev-guide/dom/
+        topicHref: /microsoft-edge-test/dev-guide/dom/
+      - name: Graphics
+        tocHref: /microsoft-edge-test/dev-guide/graphics/
+        topicHref: /microsoft-edge-test/dev-guide/graphics/
+      - name: HTML5
+        tocHref: /microsoft-edge-test/dev-guide/html5/
+        topicHref: /microsoft-edge-test/dev-guide/html5/
+      - name: Multimedia
+        tocHref: /microsoft-edge-test/dev-guide/multimedia/
+        topicHref: /microsoft-edge-test/dev-guide/multimedia/
+      - name: Netwokring and connectivity
+        tocHref: /microsoft-edge-test/dev-guide/networking-and-communications/
+        topicHref: /microsoft-edge-test/dev-guide/networking-and-communications/
+      - name: Performance
+        tocHref: /microsoft-edge-test/dev-guide/performance/
+        topicHref: /microsoft-edge-test/dev-guide/performance/
+      - name: Realtime communication
+        tocHref: /microsoft-edge-test/dev-guide/realtime-communications/
+        topicHref: /microsoft-edge-test/dev-guide/realtime-communications/
+      - name: Security
+        tocHref: /microsoft-edge-test/dev-guide/security/
+        topicHref: /microsoft-edge-test/dev-guide/security/
+      - name: Storage
+        tocHref: /microsoft-edge-test/dev-guide/storage/
+        topicHref: /microsoft-edge-test/dev-guide/storage/
+      - name: Tools
+        tocHref: /microsoft-edge-test/dev-guide/tools/
+        topicHref: /microsoft-edge-test/dev-guide/tools/
   - name: Extensions
     tocHref: /microsoft-edge-test/extensions/
     topicHref: /microsoft-edge-test/extensions/
@@ -16,6 +65,10 @@
       - name: API support
         tocHref: /microsoft-edge-test/extensions/api-support/
         topicHref: /microsoft-edge-test/extensions/api-support/
+        items:
+           - name: Supported manifest keys
+             tocHref: /microsoft-edge-test/extensions/api-support/supported-manifest-keys/
+             topicHref: /microsoft-edge-test/extensions/api-support/supported-manifest-keys/
       - name: Guides
         tocHref: /microsoft-edge-test/extensions/guides/
         topicHref: /microsoft-edge-test/extensions/guides/
