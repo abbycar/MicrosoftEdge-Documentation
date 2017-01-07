@@ -37,6 +37,13 @@
       - name: HTML5
         tocHref: /microsoft-edge-test/dev-guide/html5/
         topicHref: /microsoft-edge-test/dev-guide/html5/
+        items:
+          - name: File API
+            tocHref: /microsoft-edge-test/dev-guide/html5/file-api/
+            topicHref: /microsoft-edge-test/dev-guide/html5/file-api/
+          - name: Video
+            tocHref: /microsoft-edge-test/dev-guide/html5/video/
+            topicHref: /microsoft-edge-test/dev-guide/html5/video/
       - name: Multimedia
         tocHref: /microsoft-edge-test/dev-guide/multimedia/
         topicHref: /microsoft-edge-test/dev-guide/multimedia/
@@ -55,6 +62,9 @@
       - name: Storage
         tocHref: /microsoft-edge-test/dev-guide/storage/
         topicHref: /microsoft-edge-test/dev-guide/storage/
+          - name: IndexedDB
+            tocHref: /microsoft-edge-test/dev-guide/storage/indexeddb/
+            topicHref: /microsoft-edge-test/dev-guide/storage/indexeddb/
       - name: Tools
         tocHref: /microsoft-edge-test/dev-guide/tools/
         topicHref: /microsoft-edge-test/dev-guide/tools/
