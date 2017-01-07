@@ -23,8 +23,8 @@
         tocHref: /microsoft-edge-test/dev-guide/browser/
         topicHref: /microsoft-edge-test/dev-guide/browser/
       - name: CSS
-        tocHref: /microsoft-edge-test/dev-guide/browser/
-        topicHref: /microsoft-edge-test/dev-guide/browser/
+        tocHref: /microsoft-edge-test/dev-guide/css/
+        topicHref: /microsoft-edge-test/dev-guide/css/
       - name: Device
         tocHref: /microsoft-edge-test/dev-guide/device/
         topicHref: /microsoft-edge-test/dev-guide/device/
@@ -41,14 +41,14 @@
         tocHref: /microsoft-edge-test/dev-guide/multimedia/
         topicHref: /microsoft-edge-test/dev-guide/multimedia/
       - name: Netwokring and connectivity
-        tocHref: /microsoft-edge-test/dev-guide/networking-and-communications/
-        topicHref: /microsoft-edge-test/dev-guide/networking-and-communications/
+        tocHref: /microsoft-edge-test/dev-guide/networking-and-connectivity/
+        topicHref: /microsoft-edge-test/dev-guide/networking-and-connectivity/
       - name: Performance
         tocHref: /microsoft-edge-test/dev-guide/performance/
         topicHref: /microsoft-edge-test/dev-guide/performance/
       - name: Realtime communication
-        tocHref: /microsoft-edge-test/dev-guide/realtime-communications/
-        topicHref: /microsoft-edge-test/dev-guide/realtime-communications/
+        tocHref: /microsoft-edge-test/dev-guide/realtime-communication/
+        topicHref: /microsoft-edge-test/dev-guide/realtime-communication/
       - name: Security
         tocHref: /microsoft-edge-test/dev-guide/security/
         topicHref: /microsoft-edge-test/dev-guide/security/
