@@ -1,5 +1,0 @@
-# [Extensions](..)
-## [API Support](extensions/api-support.md)
-## [Guides](extensions/guides.md)
-## [Microsoft browser extension policy](extensions/microsoft-browser-extension-policy.md)
-## [Troubleshooting](troubleshooting.md)

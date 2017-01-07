@@ -62,6 +62,7 @@
       - name: Storage
         tocHref: /microsoft-edge-test/dev-guide/storage/
         topicHref: /microsoft-edge-test/dev-guide/storage/
+        items:
           - name: IndexedDB
             tocHref: /microsoft-edge-test/dev-guide/storage/indexeddb/
             topicHref: /microsoft-edge-test/dev-guide/storage/indexeddb/
@@ -88,3 +89,26 @@
       - name: Troubleshooting
         tocHref: /microsoft-edge-test/extensions/troubleshooting/
         topicHref: /microsoft-edge-test/extensions/troubleshooting/
+  - name: F12 DevTools guide
+    tocHref: /microsoft-edge-test/f12-devtools-guide/
+    topicHref: /microsoft-edge-test/f12-devtools-guide/
+    items:
+        - name: Console
+          tocHref: /microsoft-edge-test/f12-devtools-guide/console/
+          topicHref: /microsoft-edge-test/f12-devtools-guide/
+        - name: Debugger
+          tocHref: /microsoft-edge-test/f12-devtools-guide/debugger/
+          topicHref: /microsoft-edge-test/f12-devtools-guide/
+        - name: DOM explorer
+          tocHref: /microsoft-edge-test/f12-devtools-guide/dom-explorer/
+          topicHref: /microsoft-edge-test/f12-devtools-guide/
+  - name: Performance analysis
+    tocHref: /microsoft-edge-test/performance-analysis/
+    topicHref: /microsoft-edge-test/performance-analysis/
+    items:
+        - name: Windows Performance Toolkit
+          tocHref: /microsoft-edge-test/windows-performance-toolkit/
+          topicHref: /microsoft-edge-test/windows-performance-toolkit/
+  - name: WebDriver commands
+    tocHref: /microsoft-edge-test/webdriver-commands/
+    topicHref: /microsoft-edge-test/webdriver-commands/
