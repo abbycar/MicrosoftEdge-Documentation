@@ -5,16 +5,6 @@
   - name: Accessibility
     tocHref: /microsoft-edge-test/accessibility/
     topicHref: /microsoft-edge-test/accessibility/
-    items:
-      - name: Design
-        tocHref: /microsoft-edge-test/accessibility/design/
-        topicHref: /microsoft-edge-test/accessibility/design/
-      - name: Build
-        tocHref: /microsoft-edge-test/accessibility/build/
-        topicHref: /microsoft-edge-test/accessibility/build/
-      - name: Test
-        tocHref: /microsoft-edge-test/accessibility/test/
-        topicHref: /microsoft-edge-test/accessibility/test/
   - name: Dev Guide
     tocHref: /microsoft-edge-test/dev-guide/
     topicHref: /microsoft-edge-test/dev-guide/
@@ -80,15 +70,6 @@
            - name: Supported manifest keys
              tocHref: /microsoft-edge-test/extensions/api-support/supported-manifest-keys/
              topicHref: /microsoft-edge-test/extensions/api-support/supported-manifest-keys/
-      - name: Guides
-        tocHref: /microsoft-edge-test/extensions/guides/
-        topicHref: /microsoft-edge-test/extensions/guides/
-      - name: Microsoft browser extension policy
-        tocHref: /microsoft-edge-test/extensions/browser-extension-policy/
-        topicHref: /microsoft-edge-test/extensions/browser-extension-policy/
-      - name: Troubleshooting
-        tocHref: /microsoft-edge-test/extensions/troubleshooting/
-        topicHref: /microsoft-edge-test/extensions/troubleshooting/
   - name: F12 DevTools guide
     tocHref: /microsoft-edge-test/f12-devtools-guide/
     topicHref: /microsoft-edge-test/f12-devtools-guide/
@@ -107,8 +88,8 @@
     topicHref: /microsoft-edge-test/performance-analysis/
     items:
         - name: Windows Performance Toolkit
-          tocHref: /microsoft-edge-test/windows-performance-toolkit/
-          topicHref: /microsoft-edge-test/windows-performance-toolkit/
+          tocHref: /microsoft-edge-test/performance-analysis/windows-performance-toolkit/
+          topicHref: /microsoft-edge-test/performance-analysis/windows-performance-toolkit/
   - name: WebDriver commands
     tocHref: /microsoft-edge-test/webdriver-commands/
     topicHref: /microsoft-edge-test/webdriver-commands/
